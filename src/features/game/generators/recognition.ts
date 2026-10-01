@@ -164,10 +164,15 @@ export const readAloud: Generator = (ctx, p) =>
 export const memory: Generator = (ctx, p): Exercise[] => {
   const all = take(ctx, pool(ctx, p).filter((i) => p.variant !== 'upper' || (isGlyph(i) && i.upper)), 4)
   if (all.length < 2) return []
+  // embaralha as cartas até que nenhum par fique lado a lado
+  const keys = all.flatMap((i) => [`${i.id}:a`, `${i.id}:b`])
+  const pairOf = (k: string) => k.slice(0, -2)
+  let order = ctx.rng.shuffle(keys)
+  for (let tries = 0; tries < 50 && order.some((k, n) => n > 0 && pairOf(k) === pairOf(order[n - 1])); tries++) order = ctx.rng.shuffle(keys)
   const ex: MemoryExercise = {
     kind: 'memory', id: exId('memory'), generator: 'memory', languageId: ctx.index.bundle.language.id,
     targets: all.map((i) => ({ itemId: i.id, dimension: isGlyph(i) ? 'form' : 'meaning' })),
-    instruction: 'Encontre os pares.',
+    instruction: 'Encontre os pares.', order,
     pairs: all.map((i) => ({
       id: i.id, itemId: i.id,
       a: { text: script(i), script: true, audio: audioOf(i) },

@@ -97,6 +97,32 @@ describe.each(LANGUAGES.map((l) => l.id))('geradores de exercício: %s', (lang) 
   })
 })
 
+describe('jogo de pares', () => {
+  it('as cartas vêm embaralhadas: nenhum par fica lado a lado', async () => {
+    for (const lang of ['hebrew', 'greek'] as const) {
+      const idx = await index(lang)
+      const letters = idx.bundle.glyphs.filter((g) => g.kind === 'letter').slice(0, 5).map((g) => g.id)
+      for (let seed = 1; seed <= 40; seed++) {
+        const [ex] = generate(ctx(idx, seed), 'memory', { itemIds: letters })
+        if (ex.kind !== 'memory') throw new Error('esperava jogo de pares')
+        expect(ex.order).toHaveLength(ex.pairs.length * 2)
+        const pairs = ex.order.map((k) => k.slice(0, -2))
+        expect(pairs.some((p, n) => n > 0 && p === pairs[n - 1]), `semente ${seed}: ${ex.order.join(' ')}`).toBe(false)
+      }
+    }
+  })
+})
+
+describe('jogo de pares: o que conta como erro', () => {
+  it('abrir cartas ainda desconhecidas não é erro; ignorar um par já visto é', async () => {
+    const { isMemoryMiss } = await import('../src/features/game/ExerciseView')
+    expect(isMemoryMiss(new Set(), 'x:a')).toBe(false)
+    expect(isMemoryMiss(new Set(['y:a', 'z:b']), 'x:a')).toBe(false)
+    expect(isMemoryMiss(new Set(['x:b']), 'x:a')).toBe(true)
+    expect(isMemoryMiss(new Set(['x:a']), 'x:b')).toBe(true)
+  })
+})
+
 describe('antifrustração', () => {
   it('a segunda chance de múltipla escolha fica só com a certa e a que foi marcada', async () => {
     const idx = await index('hebrew')

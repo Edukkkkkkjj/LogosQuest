@@ -39,6 +39,8 @@ export function checkExercise(ex: Exercise): string[] {
     }
     case 'memory':
       if (ex.pairs.length < 2) out.push('menos de 2 pares')
+      if (ex.order.length !== ex.pairs.length * 2 || new Set(ex.order).size !== ex.order.length) out.push('ordem das cartas incompleta')
+      if (ex.order.every((k, n) => n % 2 === 0 || k.slice(0, -2) === ex.order[n - 1].slice(0, -2))) out.push('pares não embaralhados')
       break
     case 'tapWord':
       if (!ex.correctIndexes.length) out.push('nenhuma palavra correta')

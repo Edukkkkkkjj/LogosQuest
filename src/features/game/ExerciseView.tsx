@@ -141,15 +141,27 @@ function Assemble({ ex, answered, onDone }: { ex: AssembleExercise; answered: bo
   )
 }
 
+/**
+ * Virar cartas às cegas não é erro: faz parte de procurar. Só conta como erro
+ * quando o jogador já tinha visto onde estava o par da primeira carta e, mesmo
+ * assim, abriu outra.
+ */
+export function isMemoryMiss(seen: ReadonlySet<string>, firstKey: string): boolean {
+  const partner = firstKey.endsWith(':a') ? `${firstKey.slice(0, -2)}:b` : `${firstKey.slice(0, -2)}:a`
+  return seen.has(partner)
+}
+
 function Memory({ ex, answered, onDone }: { ex: MemoryExercise; answered: boolean; onDone: Done }) {
   const cards = useMemo(() => {
     const all = ex.pairs.flatMap((p) => [{ key: `${p.id}:a`, pair: p.id, d: p.a }, { key: `${p.id}:b`, pair: p.id, d: p.b }])
-    // embaralhamento estável por exercício (não muda a cada renderização)
-    return all.map((c, i) => ({ c, k: (i * 7919 + ex.id.length * 31) % all.length + i / 100 })).sort((x, y) => x.k - y.k).map((x) => x.c)
+    // a ordem vem embaralhada do gerador (estável: não muda a cada renderização)
+    return ex.order.map((key) => all.find((c) => c.key === key)!)
   }, [ex])
   const [open, setOpen] = useState<string[]>([])
   const [matched, setMatched] = useState<Set<string>>(new Set())
   const missed = useRef<Set<string>>(new Set())
+  // cartas que o jogador já viu abertas alguma vez
+  const seen = useRef<Set<string>>(new Set())
 
   const flip = (key: string) => {
     if (answered || open.includes(key) || open.length === 2) return
@@ -163,12 +175,13 @@ function Memory({ ex, answered, onDone }: { ex: MemoryExercise; answered: boolea
       setOpen([])
       if (m.size === ex.pairs.length) {
         const perItem = Object.fromEntries(ex.pairs.map((p) => [p.itemId, !missed.current.has(p.id)]))
-        onDone({ correct: missed.current.size <= 1, perItem })
+        onDone({ correct: missed.current.size === 0, perItem })
       }
     } else {
-      missed.current.add(a.pair).add(b.pair)
+      if (isMemoryMiss(seen.current, a.key)) missed.current.add(a.pair)
       setTimeout(() => setOpen([]), 900)
     }
+    seen.current.add(a.key).add(b.key)
   }
 
   return (

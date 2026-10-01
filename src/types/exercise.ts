@@ -67,6 +67,8 @@ export interface AssembleExercise extends ExerciseBase {
 export interface MemoryExercise extends ExerciseBase {
   kind: 'memory'
   pairs: { id: string; itemId: string; a: Display; b: Display }[]
+  /** ordem das cartas na mesa: chaves `${id}:a` / `${id}:b`, já embaralhadas */
+  order: string[]
 }
 
 export interface TapWordExercise extends ExerciseBase {
