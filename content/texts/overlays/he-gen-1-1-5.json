@@ -1,0 +1,31 @@
+{
+  "title": "No princípio",
+  "genre": "narrative",
+  "tier": 1,
+  "isPrayer": false,
+  "unlockAfterUnitId": "he-u4",
+  "intro": "As primeiras palavras da Bíblia Hebraica. Frases curtas, vocabulário repetido e verbos que voltam várias vezes: um ótimo primeiro texto.",
+  "sourceIds": ["oshb", "wlc"],
+  "secretIds": ["he-sec-bereshit-bara", "he-sec-tohu-bohu", "he-sec-or-repetition"],
+  "windowIds": ["he-win-ruach", "he-win-dia"],
+  "translations": [
+    "No princípio Deus criou os céus e a terra.",
+    "E a terra estava informe e vazia, e havia escuridão sobre a face do abismo, e o sopro de Deus pairava sobre a face das águas.",
+    "E Deus disse: \"Haja luz\". E houve luz.",
+    "E Deus viu que a luz era boa, e Deus separou a luz da escuridão.",
+    "E Deus chamou à luz \"dia\", e à escuridão chamou \"noite\". E houve tarde e houve manhã: dia um."
+  ],
+  "glosses": [
+    ["no princípio", "criou", "Deus", "(objeto)", "os céus", "e (objeto)", "a terra"],
+    ["e a terra", "estava", "informe", "e vazia", "e escuridão", "sobre", "a face de", "o abismo", "e o sopro / espírito de", "Deus", "pairava", "sobre", "a face de", "as águas"],
+    ["e disse", "Deus", "haja", "luz", "e houve", "luz"],
+    ["e viu", "Deus", "(objeto)", "a luz", "que", "era boa", "e separou", "Deus", "entre", "a luz", "e entre", "a escuridão"],
+    ["e chamou", "Deus", "à luz", "dia", "e à escuridão", "chamou", "noite", "e houve", "tarde", "e houve", "manhã", "dia", "um"]
+  ],
+  "notes": [
+    { "verse": "Gen.1.1", "title": "Como traduzir a primeira palavra?", "epistemic": "debated", "body": "בְּרֵאשִׁית não tem artigo. Por isso há duas leituras defendidas por hebraístas: uma frase independente (\"No princípio Deus criou…\") ou uma oração temporal (\"Quando Deus começou a criar…\"). A tradução acima segue a leitura tradicional; a outra é gramaticalmente possível." },
+    { "verse": "Gen.1.2", "title": "Vento, sopro ou espírito?", "epistemic": "debated", "body": "רוּחַ אֱלֹהִים pode ser lido como \"espírito de Deus\", \"sopro de Deus\" ou \"vento de Deus\". As três traduções aparecem em versões respeitadas. A palavra hebraica não obriga a escolher; o português obriga." },
+    { "verse": "Gen.1.3", "title": "Verbo antes do sujeito", "epistemic": "fact", "body": "Na narrativa hebraica a ordem comum é verbo → sujeito: וַיֹּאמֶר אֱלֹהִים, literalmente \"e-disse Deus\". Você verá isso o tempo todo." },
+    { "verse": "Gen.1.5", "title": "\"Dia um\"", "epistemic": "fact", "body": "O texto usa o numeral cardinal אֶחָד (\"um\"), não o ordinal \"primeiro\". Nos dias seguintes aparecem ordinais (\"segundo\", \"terceiro\")." }
+  ]
+}

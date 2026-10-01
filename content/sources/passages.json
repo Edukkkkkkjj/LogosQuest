@@ -1,0 +1,31 @@
+{
+  "$comment": "Configuração do extrator (npm run build-texts). Para adicionar um texto: acrescente uma entrada aqui, rode o script e crie o overlay correspondente em content/texts/overlays/.",
+  "texts": [
+    { "id": "he-gen-1-1-5", "languageId": "hebrew", "book": "Gen", "chapter": 1, "from": 1, "to": 5 },
+    { "id": "he-deut-6-4-5", "languageId": "hebrew", "book": "Deut", "chapter": 6, "from": 4, "to": 5 },
+    { "id": "he-num-6-24-26", "languageId": "hebrew", "book": "Num", "chapter": 6, "from": 24, "to": 26 },
+    { "id": "he-ps-23", "languageId": "hebrew", "book": "Ps", "chapter": 23, "from": 1, "to": 6 },
+    { "id": "gr-john-1-1-5", "languageId": "greek", "book": "Jn", "chapter": 1, "from": 1, "to": 5 },
+    { "id": "gr-matt-6-9-13", "languageId": "greek", "book": "Mt", "chapter": 6, "from": 9, "to": 13 },
+    { "id": "gr-matt-5-3-10", "languageId": "greek", "book": "Mt", "chapter": 5, "from": 3, "to": 10 }
+  ],
+  "extraLexemes": {
+    "hebrew": ["H7965", "H4428", "H4436", "H4467", "H4427a", "H6944", "H6942", "H6918", "H1004b", "H1121a", "H0001", "H0517", "H5971a", "H1697", "H3117", "H5892b", "H0376", "H0802"],
+    "greek": ["λέγω", "βασιλεύς", "βασιλεύω", "ἅγιος", "ἁγιασμός", "δίκαιος", "δικαιόω", "ἄνθρωπος", "κύριος", "υἱός", "ἀγάπη", "ἀγαπάω", "φιλέω", "πνεῦμα", "Ἰησοῦς", "Χριστός", "κόσμος"]
+  },
+  "contexts": [
+    { "id": "he-ruach-gen-1-2", "languageId": "hebrew", "lexemeId": "he:lex:H7307", "book": "Gen", "chapter": 1, "verse": 2 },
+    { "id": "he-ruach-gen-8-1", "languageId": "hebrew", "lexemeId": "he:lex:H7307", "book": "Gen", "chapter": 8, "verse": 1 },
+    { "id": "he-ruach-gen-45-27", "languageId": "hebrew", "lexemeId": "he:lex:H7307", "book": "Gen", "chapter": 45, "verse": 27 },
+    { "id": "he-erets-gen-1-1", "languageId": "hebrew", "lexemeId": "he:lex:H0776", "book": "Gen", "chapter": 1, "verse": 1 },
+    { "id": "he-erets-gen-12-1", "languageId": "hebrew", "lexemeId": "he:lex:H0776", "book": "Gen", "chapter": 12, "verse": 1 },
+    { "id": "he-erets-gen-18-2", "languageId": "hebrew", "lexemeId": "he:lex:H0776", "book": "Gen", "chapter": 18, "verse": 2 },
+    { "id": "gr-pneuma-john-3-8a", "languageId": "greek", "lexemeId": "gr:lex:πνεῦμα", "book": "Jn", "chapter": 3, "verse": 8 },
+    { "id": "gr-pneuma-john-4-24", "languageId": "greek", "lexemeId": "gr:lex:πνεῦμα", "book": "Jn", "chapter": 4, "verse": 24 },
+    { "id": "gr-logos-john-1-1", "languageId": "greek", "lexemeId": "gr:lex:λόγος", "book": "Jn", "chapter": 1, "verse": 1 },
+    { "id": "gr-logos-matt-5-37", "languageId": "greek", "lexemeId": "gr:lex:λόγος", "book": "Mt", "chapter": 5, "verse": 37 },
+    { "id": "gr-logos-matt-12-36", "languageId": "greek", "lexemeId": "gr:lex:λόγος", "book": "Mt", "chapter": 12, "verse": 36 },
+    { "id": "gr-kosmos-john-3-16", "languageId": "greek", "lexemeId": "gr:lex:κόσμος", "book": "Jn", "chapter": 3, "verse": 16 },
+    { "id": "gr-kosmos-john-1-10", "languageId": "greek", "lexemeId": "gr:lex:κόσμος", "book": "Jn", "chapter": 1, "verse": 10 }
+  ]
+}

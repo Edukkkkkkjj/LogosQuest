@@ -1,0 +1,15 @@
+[
+  { "id": "first-lesson", "icon": "✦", "title": "Primeiro passo", "description": "Concluir a primeira lição.", "message": "Você reconheceu suas primeiras palavras em um idioma bíblico.", "rule": { "type": "lessons", "count": 1 } },
+  { "id": "ten-lessons", "icon": "❖", "title": "Dez lições", "description": "Concluir dez lições.", "message": "Dez lições concluídas: o hábito está formado.", "rule": { "type": "lessons", "count": 10 } },
+  { "id": "he-letters", "icon": "א", "title": "Alef-Bet", "description": "Tornar familiares 22 letras hebraicas.", "message": "Você reconhece o alfabeto hebraico inteiro.", "rule": { "type": "itemsFamiliar", "kind": "letter", "languageId": "hebrew", "count": 22 } },
+  { "id": "gr-letters", "icon": "α", "title": "Alfa a Ômega", "description": "Tornar familiares 24 letras gregas.", "message": "Você reconhece o alfabeto grego inteiro.", "rule": { "type": "itemsFamiliar", "kind": "letter", "languageId": "greek", "count": 24 } },
+  { "id": "words-12", "icon": "✎", "title": "Doze palavras", "description": "Tornar familiares 12 palavras.", "message": "Você conquistou 12 palavras do texto bíblico.", "rule": { "type": "itemsFamiliar", "kind": "lexeme", "count": 12 } },
+  { "id": "words-40", "icon": "✒", "title": "Quarenta palavras", "description": "Tornar familiares 40 palavras.", "message": "Quarenta palavras: você já reconhece a maior parte de vários versículos.", "rule": { "type": "itemsFamiliar", "kind": "lexeme", "count": 40 } },
+  { "id": "first-text", "icon": "❧", "title": "Eu consigo ler", "description": "Ler uma passagem bíblica até o fim.", "message": "Você leu uma passagem da Bíblia no idioma original.", "rule": { "type": "textsRead", "count": 1 } },
+  { "id": "first-prayer", "icon": "☙", "title": "Uma oração inteira", "description": "Ler uma oração inteira no original.", "message": "Você leu uma oração inteira no idioma em que foi escrita.", "rule": { "type": "textsRead", "count": 1, "prayer": true } },
+  { "id": "no-translit", "icon": "◈", "title": "Sem rodinhas", "description": "Ler uma passagem com a transliteração desligada.", "message": "Você leu seu primeiro texto sem transliteração.", "rule": { "type": "noTranslitRead" } },
+  { "id": "streak-3", "icon": "☀", "title": "Três dias", "description": "Estudar três dias seguidos.", "message": "Três dias seguidos de estudo.", "rule": { "type": "streak", "days": 3 } },
+  { "id": "streak-7", "icon": "☼", "title": "Uma semana", "description": "Estudar sete dias seguidos.", "message": "Uma semana inteira de estudo.", "rule": { "type": "streak", "days": 7 } },
+  { "id": "reviews-50", "icon": "↻", "title": "Memória em dia", "description": "Responder 50 exercícios.", "message": "Cinquenta exercícios respondidos: é a repetição que fixa o vocabulário.", "rule": { "type": "reviews", "count": 50 } },
+  { "id": "both", "icon": "⚭", "title": "Duas línguas", "description": "Concluir uma lição em cada idioma.", "message": "Você começou a ler as duas línguas das Escrituras.", "rule": { "type": "bothLanguages" } }
+]

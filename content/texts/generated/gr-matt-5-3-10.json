@@ -1,0 +1,1573 @@
+{
+ "id": "gr-matt-5-3-10",
+ "languageId": "greek",
+ "ref": "Mateus 5:3–10",
+ "verses": [
+  {
+   "osis": "Mt.5.3",
+   "ref": "Mateus 5:3",
+   "words": [
+    {
+     "id": "gr:w:010503.1",
+     "surface": "Μακάριοι",
+     "plain": "Μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "Μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.3",
+     "surface": "πτωχοὶ",
+     "plain": "πτωχοὶ",
+     "translit": "ptōchoi",
+     "segments": [
+      {
+       "text": "πτωχοὶ",
+       "lexemeId": "gr:lex:πτωχός",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.4",
+     "surface": "τῷ",
+     "plain": "τῷ",
+     "translit": "tō",
+     "segments": [
+      {
+       "text": "τῷ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----DSN-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "dative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.5",
+     "surface": "πνεύματι,",
+     "plain": "πνεύματι",
+     "translit": "pneumati",
+     "segments": [
+      {
+       "text": "πνεύματι",
+       "lexemeId": "gr:lex:πνεῦμα",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----DSN-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "dative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.6",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.7",
+     "surface": "αὐτῶν",
+     "plain": "αὐτῶν",
+     "translit": "autōn",
+     "segments": [
+      {
+       "text": "αὐτῶν",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.8",
+     "surface": "ἐστιν",
+     "plain": "ἐστιν",
+     "translit": "estin",
+     "segments": [
+      {
+       "text": "ἐστιν",
+       "lexemeId": "gr:lex:εἰμί",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3PAI-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "present",
+        "voice": "active",
+        "mood": "indicative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.9",
+     "surface": "ἡ",
+     "plain": "ἡ",
+     "translit": "hē",
+     "segments": [
+      {
+       "text": "ἡ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.10",
+     "surface": "βασιλεία",
+     "plain": "βασιλεία",
+     "translit": "basileia",
+     "segments": [
+      {
+       "text": "βασιλεία",
+       "lexemeId": "gr:lex:βασιλεία",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.11",
+     "surface": "τῶν",
+     "plain": "τῶν",
+     "translit": "tōn",
+     "segments": [
+      {
+       "text": "τῶν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----GPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010503.12",
+     "surface": "οὐρανῶν.",
+     "plain": "οὐρανῶν",
+     "translit": "ouranōn",
+     "segments": [
+      {
+       "text": "οὐρανῶν",
+       "lexemeId": "gr:lex:οὐρανός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----GPM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.4",
+   "ref": "Mateus 5:4",
+   "words": [
+    {
+     "id": "gr:w:010504.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010504.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010504.3",
+     "surface": "πενθοῦντες,",
+     "plain": "πενθοῦντες",
+     "translit": "penthountes",
+     "segments": [
+      {
+       "text": "πενθοῦντες",
+       "lexemeId": "gr:lex:πενθέω",
+       "role": "stem",
+       "morph": {
+        "code": "V- -PAPNPM-",
+        "source": "morphgnt",
+        "pos": "verb",
+        "tense": "present",
+        "voice": "active",
+        "mood": "participle",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010504.4",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010504.5",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010504.6",
+     "surface": "παρακληθήσονται.",
+     "plain": "παρακληθήσονται",
+     "translit": "paraklēthēsontai",
+     "segments": [
+      {
+       "text": "παρακληθήσονται",
+       "lexemeId": "gr:lex:παρακαλέω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FPI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "passive",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.5",
+   "ref": "Mateus 5:5",
+   "words": [
+    {
+     "id": "gr:w:010505.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.3",
+     "surface": "πραεῖς,",
+     "plain": "πραεῖς",
+     "translit": "praeis",
+     "segments": [
+      {
+       "text": "πραεῖς",
+       "lexemeId": "gr:lex:πραΰς",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.4",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.5",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.6",
+     "surface": "κληρονομήσουσι",
+     "plain": "κληρονομήσουσι",
+     "translit": "klēronomēsousi",
+     "segments": [
+      {
+       "text": "κληρονομήσουσι",
+       "lexemeId": "gr:lex:κληρονομέω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FAI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "active",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.7",
+     "surface": "τὴν",
+     "plain": "τὴν",
+     "translit": "tēn",
+     "segments": [
+      {
+       "text": "τὴν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----ASF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010505.8",
+     "surface": "γῆν.",
+     "plain": "γῆν",
+     "translit": "gēn",
+     "segments": [
+      {
+       "text": "γῆν",
+       "lexemeId": "gr:lex:γῆ",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----ASF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.6",
+   "ref": "Mateus 5:6",
+   "words": [
+    {
+     "id": "gr:w:010506.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.3",
+     "surface": "πεινῶντες",
+     "plain": "πεινῶντες",
+     "translit": "peinōntes",
+     "segments": [
+      {
+       "text": "πεινῶντες",
+       "lexemeId": "gr:lex:πεινάω",
+       "role": "stem",
+       "morph": {
+        "code": "V- -PAPNPM-",
+        "source": "morphgnt",
+        "pos": "verb",
+        "tense": "present",
+        "voice": "active",
+        "mood": "participle",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.4",
+     "surface": "καὶ",
+     "plain": "καὶ",
+     "translit": "kai",
+     "segments": [
+      {
+       "text": "καὶ",
+       "lexemeId": "gr:lex:καί",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.5",
+     "surface": "διψῶντες",
+     "plain": "διψῶντες",
+     "translit": "dipsōntes",
+     "segments": [
+      {
+       "text": "διψῶντες",
+       "lexemeId": "gr:lex:διψάω",
+       "role": "stem",
+       "morph": {
+        "code": "V- -PAPNPM-",
+        "source": "morphgnt",
+        "pos": "verb",
+        "tense": "present",
+        "voice": "active",
+        "mood": "participle",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.6",
+     "surface": "τὴν",
+     "plain": "τὴν",
+     "translit": "tēn",
+     "segments": [
+      {
+       "text": "τὴν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----ASF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.7",
+     "surface": "δικαιοσύνην,",
+     "plain": "δικαιοσύνην",
+     "translit": "dikaiosynēn",
+     "segments": [
+      {
+       "text": "δικαιοσύνην",
+       "lexemeId": "gr:lex:δικαιοσύνη",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----ASF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.8",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.9",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010506.10",
+     "surface": "χορτασθήσονται.",
+     "plain": "χορτασθήσονται",
+     "translit": "chortasthēsontai",
+     "segments": [
+      {
+       "text": "χορτασθήσονται",
+       "lexemeId": "gr:lex:χορτάζω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FPI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "passive",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.7",
+   "ref": "Mateus 5:7",
+   "words": [
+    {
+     "id": "gr:w:010507.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010507.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010507.3",
+     "surface": "ἐλεήμονες,",
+     "plain": "ἐλεήμονες",
+     "translit": "eleēmones",
+     "segments": [
+      {
+       "text": "ἐλεήμονες",
+       "lexemeId": "gr:lex:ἐλεήμων",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010507.4",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010507.5",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010507.6",
+     "surface": "ἐλεηθήσονται.",
+     "plain": "ἐλεηθήσονται",
+     "translit": "eleēthēsontai",
+     "segments": [
+      {
+       "text": "ἐλεηθήσονται",
+       "lexemeId": "gr:lex:ἐλεάω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FPI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "passive",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.8",
+   "ref": "Mateus 5:8",
+   "words": [
+    {
+     "id": "gr:w:010508.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.3",
+     "surface": "καθαροὶ",
+     "plain": "καθαροὶ",
+     "translit": "katharoi",
+     "segments": [
+      {
+       "text": "καθαροὶ",
+       "lexemeId": "gr:lex:καθαρός",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.4",
+     "surface": "τῇ",
+     "plain": "τῇ",
+     "translit": "tē",
+     "segments": [
+      {
+       "text": "τῇ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----DSF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "dative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.5",
+     "surface": "καρδίᾳ,",
+     "plain": "καρδίᾳ",
+     "translit": "kardia",
+     "segments": [
+      {
+       "text": "καρδίᾳ",
+       "lexemeId": "gr:lex:καρδία",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----DSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "dative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.6",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.7",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.8",
+     "surface": "τὸν",
+     "plain": "τὸν",
+     "translit": "ton",
+     "segments": [
+      {
+       "text": "τὸν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----ASM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.9",
+     "surface": "θεὸν",
+     "plain": "θεὸν",
+     "translit": "theon",
+     "segments": [
+      {
+       "text": "θεὸν",
+       "lexemeId": "gr:lex:θεός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----ASM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010508.10",
+     "surface": "ὄψονται.",
+     "plain": "ὄψονται",
+     "translit": "opsontai",
+     "segments": [
+      {
+       "text": "ὄψονται",
+       "lexemeId": "gr:lex:ὁράω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FMI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "middle",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.9",
+   "ref": "Mateus 5:9",
+   "words": [
+    {
+     "id": "gr:w:010509.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.3",
+     "surface": "εἰρηνοποιοί,",
+     "plain": "εἰρηνοποιοί",
+     "translit": "eirēnopoioi",
+     "segments": [
+      {
+       "text": "εἰρηνοποιοί",
+       "lexemeId": "gr:lex:εἰρηνοποιός",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.4",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.5",
+     "surface": "αὐτοὶ",
+     "plain": "αὐτοὶ",
+     "translit": "autoi",
+     "segments": [
+      {
+       "text": "αὐτοὶ",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.6",
+     "surface": "υἱοὶ",
+     "plain": "υἱοὶ",
+     "translit": "hyioi",
+     "segments": [
+      {
+       "text": "υἱοὶ",
+       "lexemeId": "gr:lex:υἱός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NPM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.7",
+     "surface": "θεοῦ",
+     "plain": "θεοῦ",
+     "translit": "theou",
+     "segments": [
+      {
+       "text": "θεοῦ",
+       "lexemeId": "gr:lex:θεός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----GSM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "genitive",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010509.8",
+     "surface": "κληθήσονται.",
+     "plain": "κληθήσονται",
+     "translit": "klēthēsontai",
+     "segments": [
+      {
+       "text": "κληθήσονται",
+       "lexemeId": "gr:lex:καλέω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3FPI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "future",
+        "voice": "passive",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.5.10",
+   "ref": "Mateus 5:10",
+   "words": [
+    {
+     "id": "gr:w:010510.1",
+     "surface": "μακάριοι",
+     "plain": "μακάριοι",
+     "translit": "makarioi",
+     "segments": [
+      {
+       "text": "μακάριοι",
+       "lexemeId": "gr:lex:μακάριος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----NPM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.2",
+     "surface": "οἱ",
+     "plain": "οἱ",
+     "translit": "hoi",
+     "segments": [
+      {
+       "text": "οἱ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.3",
+     "surface": "δεδιωγμένοι",
+     "plain": "δεδιωγμένοι",
+     "translit": "dediōgmenoi",
+     "segments": [
+      {
+       "text": "δεδιωγμένοι",
+       "lexemeId": "gr:lex:διώκω",
+       "role": "stem",
+       "morph": {
+        "code": "V- -XPPNPM-",
+        "source": "morphgnt",
+        "pos": "verb",
+        "tense": "perfect",
+        "voice": "passive",
+        "mood": "participle",
+        "case": "nominative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.4",
+     "surface": "ἕνεκεν",
+     "plain": "ἕνεκεν",
+     "translit": "heneken",
+     "segments": [
+      {
+       "text": "ἕνεκεν",
+       "lexemeId": "gr:lex:ἕνεκεν",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.5",
+     "surface": "δικαιοσύνης,",
+     "plain": "δικαιοσύνης",
+     "translit": "dikaiosynēs",
+     "segments": [
+      {
+       "text": "δικαιοσύνης",
+       "lexemeId": "gr:lex:δικαιοσύνη",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----GSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "genitive",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.6",
+     "surface": "ὅτι",
+     "plain": "ὅτι",
+     "translit": "hoti",
+     "segments": [
+      {
+       "text": "ὅτι",
+       "lexemeId": "gr:lex:ὅτι",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.7",
+     "surface": "αὐτῶν",
+     "plain": "αὐτῶν",
+     "translit": "autōn",
+     "segments": [
+      {
+       "text": "αὐτῶν",
+       "lexemeId": "gr:lex:αὐτός",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GPM-",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.8",
+     "surface": "ἐστιν",
+     "plain": "ἐστιν",
+     "translit": "estin",
+     "segments": [
+      {
+       "text": "ἐστιν",
+       "lexemeId": "gr:lex:εἰμί",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3PAI-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "present",
+        "voice": "active",
+        "mood": "indicative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.9",
+     "surface": "ἡ",
+     "plain": "ἡ",
+     "translit": "hē",
+     "segments": [
+      {
+       "text": "ἡ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.10",
+     "surface": "βασιλεία",
+     "plain": "βασιλεία",
+     "translit": "basileia",
+     "segments": [
+      {
+       "text": "βασιλεία",
+       "lexemeId": "gr:lex:βασιλεία",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.11",
+     "surface": "τῶν",
+     "plain": "τῶν",
+     "translit": "tōn",
+     "segments": [
+      {
+       "text": "τῶν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----GPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010510.12",
+     "surface": "οὐρανῶν.",
+     "plain": "οὐρανῶν",
+     "translit": "ouranōn",
+     "segments": [
+      {
+       "text": "οὐρανῶν",
+       "lexemeId": "gr:lex:οὐρανός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----GPM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "genitive",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

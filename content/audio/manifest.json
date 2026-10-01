@@ -1,0 +1,4118 @@
+{
+ "version": 1,
+ "sources": [
+  {
+   "id": "browser-tts",
+   "name": "Síntese de voz do navegador",
+   "kind": "browser-tts",
+   "license": "Recurso do sistema do usuário",
+   "note": "Fallback. Usa vozes de hebraico/grego modernos; só é oferecido para modelos de pronúncia compatíveis."
+  },
+  {
+   "id": "local-espeak",
+   "name": "Áudio gerado localmente (eSpeak NG)",
+   "kind": "generated",
+   "license": "Arquivos gerados por este projeto; o eSpeak NG (ferramenta) é GPL-3.0",
+   "url": "https://github.com/espeak-ng/espeak-ng",
+   "note": "Preenchido por `npm run generate-audio`. Voz sintética por regras; fica abaixo da voz do aparelho."
+  }
+ ],
+ "assets": [
+  {
+   "key": "gr:letter:alpha",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/73919fb0645bda7b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:beta",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/965960cff8da15b5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:chi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/9c54addd2554234b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:delta",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/0bae1be9cb9368b8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:epsilon",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/d43135f287948da4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:eta",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/904bbc4b916fa4f7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:gamma",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/bdd633a15425eab3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:iota",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/23ef1424c9800272.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:kappa",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/ef7432d9a56f0fe1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:lambda",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/5b50188b5fb0c2f5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:mu",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/c849eae18469b290.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:nu",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/d4b1d14d5d00d7b0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:omega",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/e7a7429573ddb3f1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:omicron",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/bc1b7a4b73e8de65.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:phi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/a3ecbddb5116e427.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:pi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/9789aad89422e4bf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:psi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/61e8996fb97b62a1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:rho",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/29666be2458bb64a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:sigma",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/590f94f0be730456.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:sigma-final",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/590f94f0be730456.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:tau",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/1361d0e2ff5c9350.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:theta",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/aaa0cd47185ac6d4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:upsilon",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/7200949a2a10b320.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:xi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/b21c4caf0c2688ba.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:zeta",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/0213639edd8bb6f5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀγαπάω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5272189ea710179d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀγάπη",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/429a385b2623d875.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἁγιάζω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/7100062d6ba65ea8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἁγιασμός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/11b2855c9dd5631e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἅγιος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/9db45646273ce1bc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀλλά",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/48a9947adac7c247.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἄνθρωπος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/52ed14a120a8b4e0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀπό",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/171559392bf802a3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἄρτος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c513632c0473031d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀρχή",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ef206251e0cea4da.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:αὐτός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2451c2f6db3a1f81.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀφίημι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/83b4182e2177940a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεία",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0a44753411ad8118.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεύς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/03b00e1c90a0ab35.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεύω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5f0f77d255b5cc52.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:γῆ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d15190190a7e4a1f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:γίνομαι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/927a02ac9668ac27.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διά",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c214bf5a44d6b521.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δίδωμι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d003129019bcffcd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δίκαιος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d70247e0f5f6efff.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δικαιοσύνη",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/002f326c43e12e4c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δικαιόω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/bb7e3ce818f8bbe9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διψάω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/425e8f3f159113b7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διώκω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/01a641111bf98bd5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐγώ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f8224c2bcce4dfbe.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰμί",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/984d13e340dece7c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰρηνοποιός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fb7100190fd4eb94.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/56056c25e8d0e516.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἷς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/784c0f0beaebc018.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰσφέρω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/37b1ad4bb9fc8e95.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐλεάω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/35b415c57e09ae08.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐλεήμων",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e78aabf7fc40c8a0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/dafbc2e543477078.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἕνεκεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3d2da889bb3e78f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐπί",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d1b74603849adbc4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐπιούσιος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b685a725a735152a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἔρχομαι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fd854357dcb9e529.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ζωή",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5eafa63c7d97e89b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:θέλημα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3f34387843077ba7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:θεός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0ca202700b150219.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:Ἰησοῦς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1ddf319afbb572b9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καθαρός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b70ef5eb4b16bd27.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καί",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3e28122286db45e2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καλέω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/27410cf575434a06.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καρδία",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/04895391a9750003.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καταλαμβάνω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1efb0ca7ce97ec0e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κληρονομέω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/db053870e2b4b691.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κόσμος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e46ab79458e2e63a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κύριος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ca53086ee0fbeb13.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:λέγω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/050640cddfb2eeae.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:λόγος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/8e38cea23d8b8808.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:μακάριος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/784c81f855170651.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:μή",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/aaa29f7a2efb4907.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὁ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/10afc74e1d6fcae0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὄνομα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4f975f5b618f5cfb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὁράω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/11106246521a5ddb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὅς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/7e0d2644e6d6174b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὅτι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/da466554bad9135e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e8a3b10cf68e477e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐδέ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/029d099d0b7aba05.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὖν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3747c39f8dded45c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐρανός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/a7002122c5414805.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὗτος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0e23caabbd2bad04.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὕτως",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f8d9c590876c1c27.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὀφειλέτης",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1d0ebb498af1f77b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὀφείλημα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3a8abdb1701ece95.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:παρακαλέω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3edaf5d07309a5c1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πᾶς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/73181b60305e4d24.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πατήρ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/bf2ea67a069c06cc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πεινάω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/704359309a46aecf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πειρασμός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fa2a07b3349c8aa2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πενθέω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/65d5e8777b8426c3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πνεῦμα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d63fb4de2ea2dcb6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πονηρός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/553774083c88b676.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πραΰς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f7066f31c6cbd0cc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πρός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/daf2d7018df8cc54.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:προσεύχομαι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f808b97b4ed90bfa.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πτωχός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/06709d7b68c5fcf3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ῥύομαι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/af3817d9f6020c9b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σήμερον",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f8276605aad1818a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σκοτία",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2943c2139ce7115f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σύ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/041a767c62591022.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:υἱός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/532b9879efeed146.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φαίνω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1c244d9ea1673eaf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φιλέω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/79719330e41435d2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φῶς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/85709a2226e172e0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:χορτάζω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0f29018840d86bc3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:Χριστός",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b9391c68c4893376.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:χωρίς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/6298adfd0b04eb6e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὡς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c94f3bd86ce62cb1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:acute",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/4d4d159fff13f080.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:circumflex",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/4d4d159fff13f080.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:diaeresis",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/3da75fdf61acc065.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:grave",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/4d4d159fff13f080.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:iota-subscript",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/b6286fb691ce6e05.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:rough",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/b6286fb691ce6e05.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:smooth",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/b6286fb691ce6e05.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ai",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/3e28122286db45e2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:au",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/2451c2f6db3a1f81.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ei",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/56056c25e8d0e516.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:eu",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/e6e4363b24abe687.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:oi",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/99ff046cff2e65d0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ou",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/e8a3b10cf68e477e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ui",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phoneme",
+   "path": "audio/greek/gr-erasmian/532b9879efeed146.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἁγιασθήτω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0df9961ed520f929.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀλλὰ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4383c03333d433cc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀνθρώπων",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/22588189d857228a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀπὸ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/93e04cb586d32eb3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἄρτον",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ab8cd2f00c6725db.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀρχῇ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c93811e1cef15e67.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτὸ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/6bf32a9f7f58fa21.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτοὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/937c70b54ac8ab9c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτοῦ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/08bbdfba85b5a45f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτῷ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/dd5ea705758bdd87.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτῶν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e0d749fdeb2774af.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἄφες",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/a87d88f1cd84e462.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀφήκαμεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fb2a7d6c6e4f6e07.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:βασιλεία",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0a44753411ad8118.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γέγονεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4799eae917071550.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γενηθήτω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/be451ada72fe2464.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γῆν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/82094bdb818adfa7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γῆς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/27e5c81e68a9e545.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δεδιωγμένοι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4e09336f586267c6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δι’",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2e5c9c19fdc96eec.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δικαιοσύνην",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/57539c96eacc46ef.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δικαιοσύνης",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3e5c8de61920aed1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:διψῶντες",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b51bd3072ba29e1a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δὸς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/eb89f909a36bd12a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐγένετο",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ab3472d0f6ce41bb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰρηνοποιοί",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/270b1ad799ab2b0e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/56056c25e8d0e516.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰσενέγκῃς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/17a8dec5ecdebdac.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλεηθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1985baebf65991b2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλεήμονες",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fec19b3a672ba893.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλθέτω",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5ba80f31e0537aaf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλθέτω ἡ βασιλεία σου, γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς·",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/6e31e4f2409a8fdb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/dafbc2e543477078.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Ἐν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e44bef33e8d344f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἕν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5c9a24c63bec3378.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/b977c0a76b24fcfa.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/96dfc115da0a10eb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἕνεκεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3d2da889bb3e78f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐπὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3c8559f171a6e716.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐπιούσιον",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1f49efe28f484961.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐστιν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/40ec4a9039cddef5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ζωὴ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c9945aa497bfdd5f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b68014b7d6aed387.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμᾶς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e899fc999e21ba65.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμεῖς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e60c9dd4d54012ec.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμῖν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2536086453e4f2a4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμῶν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ecf99eb638e1cb6c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἦν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/98cf06b565019fbc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θέλημά",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/eb08f65f7b662728.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεόν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2374bf7c20d970f0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεὸν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/7bdcb6abb98f8ed5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεὸς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5f593ac97e2aea73.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεοῦ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0f8497938bd46c72.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καθαροὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/a3166cd1d0da7596.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ff7b06f90cd9a013.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφήκαμεν τοῖς ὀφειλέταις ἡμῶν·",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/8c5483cd2aef2ce7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/cd0e8bfab0a927d8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/848ed21269b4508b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καρδίᾳ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/40e756932360ebab.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κατέλαβεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/9f0e30558c4e9ce1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κληθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c5d8a21cd1a767ba.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κληρονομήσουσι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5c66a6a7d06fdcea.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:λόγος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/8e38cea23d8b8808.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/a9193a12e106fbfd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Μακάριοι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c79164037d41ffcb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/2b457d84108c6845.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ εἰρηνοποιοί, ὅτι αὐτοὶ υἱοὶ θεοῦ κληθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/5b7c2fc95f53f8e2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ ἐλεήμονες, ὅτι αὐτοὶ ἐλεηθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/ba7b8baa14ad2de8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ καθαροὶ τῇ καρδίᾳ, ὅτι αὐτοὶ τὸν θεὸν ὄψονται.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/ca11d2fdd02e2f2f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πεινῶντες καὶ διψῶντες τὴν δικαιοσύνην, ὅτι αὐτοὶ χορτασθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/1501cb7837f0ef38.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/939b67f4d2e63376.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσι τὴν γῆν.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/7f5687cecf99a0aa.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Μακάριοι οἱ πτωχοὶ τῷ πνεύματι, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/a0303c714f23c539.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μὴ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/7120ac80baf0b6af.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὁ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/10afc74e1d6fcae0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὃ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/671c2e737f70ea81.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οἱ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/99ff046cff2e65d0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὄνομά",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/cbb073180567feb6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὅτι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/da466554bad9135e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e8a3b10cf68e477e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐδὲ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/bc7e9fef09c7b51c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὖν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3747c39f8dded45c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανοῖς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4456c0817009db55.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανῷ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/08b43a75f664d093.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανῶν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4dbdc77373eff325.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὗτος",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/0e23caabbd2bad04.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/d41e676bcb14881c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Οὕτως",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/7ce2070a25c8da82.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Οὕτως οὖν προσεύχεσθε ὑμεῖς· Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς· ἁγιασθήτω τὸ ὄνομά σου,",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/0d16fadf3ecd5ac3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὀφειλέταις",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/9b181871355bb500.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὀφειλήματα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/8db6bb7f2c4f6cde.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὄψονται",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/fca9ac743d3e61cb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πάντα",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/502588a25722e63c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/327ce84a90d99d27.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:παρακληθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/a095be8321221b7b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Πάτερ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ebc7de91aec8c189.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πεινῶντες",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e42ea6accd3e313e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πειρασμόν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/1da551e00997ee65.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πενθοῦντες",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/8faa1896535f8590.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πνεύματι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/97e4d63b68742473.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πονηροῦ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f73892525b1edc0b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πραεῖς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ff90f1541fd0e95d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πρὸς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/eb8f21c32af6909e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:προσεύχεσθε",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/3dc843c799c79817.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πτωχοὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/8292a8183cfad2d6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ῥῦσαι",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/d8c7d8f7ed239ca8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σήμερον",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f8276605aad1818a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σκοτία",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/2943c2139ce7115f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σκοτίᾳ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/ab3e8b1e26da1e76.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σου",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/393e92e8fb430507.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὰ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5cce32a7e4ab678d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῇ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/5471fa85c5eaea3a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὴν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/44f94db902b7f91f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/4c52182532676507.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τοῖς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/f74e3ac3f01fc898.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/e8fbaaf4dae983a5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον·",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "phrase",
+   "path": "audio/greek/gr-erasmian/e24add56b4725856.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τοῦ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/eacf2658d5231623.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῷ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/69168a13aebc5c6d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῶν",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/719185cf2d5a54e6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:υἱοὶ",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/b2d1296b91e553c5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὑμεῖς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/797f46e28afa198c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:φαίνει",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/becca85cba21c52e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:φῶς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/85709a2226e172e0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:χορτασθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/9215098672a6ae20.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:χωρὶς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/76f7882659191e24.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὡς",
+   "languageId": "greek",
+   "modelId": "gr-erasmian",
+   "level": "word",
+   "path": "audio/greek/gr-erasmian/c94f3bd86ce62cb1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:alpha",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/e7fcc6f9884fb307.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:beta",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/9e728ee83d75878d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:chi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/408bf01d6c54b164.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:delta",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/e7268213b2ece325.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:epsilon",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/71abffd2de6a6ce8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:eta",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/8dffdf552e04cab9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:gamma",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/29bd6e521603681d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:iota",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/402eff5eb896637a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:kappa",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/bc4024fbc050937b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:lambda",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/ddd48314d59cb2e5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:mu",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/210b8fcfd3df6605.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:nu",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/c1b87bb2a275f48d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:omega",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/4611574f5eadf597.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:omicron",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/06218e5dd1191bcb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:phi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/7af0de846b669127.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:pi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/87a5b7525ec23d42.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:psi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/8c8caddf6bd429d7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:rho",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/9845c4f180e849d8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:sigma",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/dd6c21f5156bfe45.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:sigma-final",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/dd6c21f5156bfe45.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:tau",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/745c39ce336fc88c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:theta",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/eb0d3df415aaf9b6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:upsilon",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/d4c3dc527cc4d636.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:xi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/a09571dadc79a175.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:letter:zeta",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/d01309f45901b8d5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀγαπάω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d885654a1b255ba2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀγάπη",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4dae93626b19ea0e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἁγιάζω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4d4f14cff370ec7d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἁγιασμός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7a1b4875fe1fc405.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἅγιος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a25a055d97b3d344.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀλλά",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/158e89c7f4006271.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἄνθρωπος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/fd3b6cb8013b143c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀπό",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/19d5aeea00ab20bf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἄρτος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/59c830a09eb1935b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀρχή",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d83767cd57f30d32.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:αὐτός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a6f1d3018f1ea841.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἀφίημι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b4281c791af418ef.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεία",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4c60c95bd80ec93c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεύς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d068ec15b57deee3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:βασιλεύω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c6e67e4015204389.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:γῆ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d72bc3b79d9e02fc.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:γίνομαι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/3bec89d5cf8de342.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διά",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8d2117e5a6104a41.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δίδωμι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/521be1f1d76bab3b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δίκαιος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5c10583fb6d863ff.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δικαιοσύνη",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/dc823d04b7441408.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:δικαιόω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/145725ea2855c4f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διψάω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/3d1cf935af365796.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:διώκω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ee3a0a66ddee43f5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐγώ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a82d4f7e45b49b5d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰμί",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b3294a324a74a7f5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰρηνοποιός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/29dc5aa746f81c5d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/19f19e8330cfedad.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἷς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d5aec9c5148f2975.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:εἰσφέρω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5d3b3d1f140623be.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐλεάω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1b9a8dde6fe40288.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐλεήμων",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a9200bfcd444fc3f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d5431b9c3bc6f4ea.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἕνεκεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c347e7cd2ba3e011.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐπί",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/fd81da2e5ebacce8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἐπιούσιος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/06e1496f2e5d0282.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ἔρχομαι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/64678dcb3ea6038a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ζωή",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/fe6b21e51c865c9c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:θέλημα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/637bbf8e6aa67e82.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:θεός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a71226b38ecba4d6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:Ἰησοῦς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a36147e71181538d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καθαρός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7ff4bc96560dd7e9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καί",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8fef1846c1a5fc1e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καλέω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/52567381b4c7ec08.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καρδία",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1a20af143d1a80c1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:καταλαμβάνω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e783b41801ac7c2b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κληρονομέω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cb98c57e115b1e34.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κόσμος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1f07a8a87f21e01c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:κύριος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/553c5b52471e37f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:λέγω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ba97e919eec7b745.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:λόγος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/59f437e46cbaee4b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:μακάριος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0d7f5debfb1f599a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:μή",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ee2c892dab55af7a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὁ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cb040a2ed0d5bca6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὄνομα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/21db5a6067bd789b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὁράω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/08d21bef764992e4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὅς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d7605f5ecdfe41d7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὅτι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0ba5ad48db42f129.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d73fc94c2d127e24.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐδέ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/326ebdc4d52916fb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὖν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/39ed4225688b9b2d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὐρανός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4d4dc19752cf3880.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὗτος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f3b818840416a2ad.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:οὕτως",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1a70088dad226173.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὀφειλέτης",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/62438688c65811ac.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὀφείλημα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4b7aa86b8b3af8d8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:παρακαλέω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/655e221c1df0d5c5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πᾶς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1e739fd0ddbc210b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πατήρ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/10d42d691cd63c94.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πεινάω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/29bae8d6cad666d5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πειρασμός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0126550258b1a7c6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πενθέω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/6d61cbe90e1686ed.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πνεῦμα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/659f27f09a73889e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πονηρός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1fbbcadd8b49b136.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πραΰς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e3346f0bfecb7306.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πρός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/9ac1f757fb229428.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:προσεύχομαι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0b537ce068550a91.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:πτωχός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/41517aeafab2b3d0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ῥύομαι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d4f63c1bb45b415f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σήμερον",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/40297055d0e8beeb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σκοτία",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5dffc0f7380a6081.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:σύ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/effd6f0959f9e712.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:υἱός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/25159bb052e1f974.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φαίνω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/19cc94dad246b1ec.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φιλέω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7c73e0a43b059461.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:φῶς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ef53617efe6a9abd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:χορτάζω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d2ccd13f524bfff1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:Χριστός",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f1467541568bbe89.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:χωρίς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e78f2321dcdcd962.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:lex:ὡς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a3651a1d3ef19e04.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:acute",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/62aeee28c17c71a8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:circumflex",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/62aeee28c17c71a8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:diaeresis",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/af94d5089592740c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:grave",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/62aeee28c17c71a8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:iota-subscript",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/35e2d7f3fff82b1c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:rough",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/35e2d7f3fff82b1c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:mark:smooth",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/35e2d7f3fff82b1c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ai",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/a0054fa156a794b5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:au",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/4f0d763f98689f68.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ei",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/1bccbf731cef7f8b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:eu",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/f1f9d14f7d1ad1b6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:oi",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/5969c0a5144a4e62.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ou",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/768777ad9beee8d4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "gr:vowel:ui",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phoneme",
+   "path": "audio/greek/gr-koine/aae25b7437b3742a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἁγιασθήτω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ffdfee928f6dbf03.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀλλὰ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/fd8493b4258b337a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀνθρώπων",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/aa1381eae2db4ef6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀπὸ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/2600c7e9f44fb146.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἄρτον",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c0ef7068a605125d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀρχῇ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c3eff0ec0602b1bb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτὸ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/628285b513348dd9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτοὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f41f73493c19d7f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτοῦ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/2a0a7dd4576c9194.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτῷ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/316e9993d13eac89.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:αὐτῶν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1a7cf5501a55cbae.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἄφες",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/261f84d5459bb07b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἀφήκαμεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/acc673aeae1d51a5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:βασιλεία",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4c60c95bd80ec93c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γέγονεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a4cb31d9e7e8d900.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γενηθήτω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/466fcd7904b8d436.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γῆν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b57af534fc823880.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:γῆς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f7422497c9644b7b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δεδιωγμένοι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0fc80c512fd567a5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δι’",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0b60f444dc206812.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δικαιοσύνην",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/df0f06a3a35faf5d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δικαιοσύνης",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/4a26930e9edd04d5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:διψῶντες",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b0cf577caaf619eb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:δὸς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/43a910ca5e82d07b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐγένετο",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a368e349cd1e3531.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰρηνοποιοί",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e4f143bb87aa88a4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/19f19e8330cfedad.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:εἰσενέγκῃς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cafa1124d705f9c3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλεηθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c9e8be7677b459ff.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλεήμονες",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7d51c8cac41a0713.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλθέτω",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8f664651eed644a0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐλθέτω ἡ βασιλεία σου, γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς·",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/893c0d5a65e2f867.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d5431b9c3bc6f4ea.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Ἐν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/15558427ad03e14d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἕν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/28ff7b08c2c03ff6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/ce6ef95ebf5453af.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/dc5c2ecd6f6d19ca.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἕνεκεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/c347e7cd2ba3e011.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐπὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/2b9d9deac9043673.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐπιούσιον",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/09d984af59eacdab.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἐστιν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b290ac2cb8e8aa32.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ζωὴ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7f0022b67ebb8a5d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/295dc0140b0c1167.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμᾶς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/797dc109ca5d3779.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμεῖς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/76b877dc22f01618.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμῖν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f6578fe0e2d4de01.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἡμῶν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8ddb6147f3461645.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ἦν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/21b4467bee295774.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θέλημά",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cf7d43d7205f6f81.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεόν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/31d4c70a28781e15.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεὸν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8ca9bdf66a53503d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεὸς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/3a66baffe3c38c54.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:θεοῦ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b235dd85a90b5915.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καθαροὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/1373a2c84cf46b97.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8b10c90b857cef03.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφήκαμεν τοῖς ὀφειλέταις ἡμῶν·",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/8d73486a7c295f2c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/a53713eb1b11ebf3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/44fc8aea96ef0d36.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:καρδίᾳ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5a40f315a3d6e548.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κατέλαβεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/6c99cf2cc01c07d1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κληθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7925b29e7f0459d0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:κληρονομήσουσι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f076d4051de88744.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:λόγος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/59f437e46cbaee4b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/2dbadff86bc3a271.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Μακάριοι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e4f9f1d42c338cdf.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/b4479533d7d1d2c4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ εἰρηνοποιοί, ὅτι αὐτοὶ υἱοὶ θεοῦ κληθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/9ec699567599eb93.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ ἐλεήμονες, ὅτι αὐτοὶ ἐλεηθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/99e6b2dde7a1ea1f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ καθαροὶ τῇ καρδίᾳ, ὅτι αὐτοὶ τὸν θεὸν ὄψονται.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/2103c4f4eb14b5db.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πεινῶντες καὶ διψῶντες τὴν δικαιοσύνην, ὅτι αὐτοὶ χορτασθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/17a7d76a70c4d1f6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/3e0240be741440de.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσι τὴν γῆν.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/33a193fb37d4cab2.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Μακάριοι οἱ πτωχοὶ τῷ πνεύματι, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/03bf77d666482146.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:μὴ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0c33ef4503c18248.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὁ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cb040a2ed0d5bca6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὃ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/9bb39cc6bc458565.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οἱ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/fc087278a349b48f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὄνομά",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/11eb7921046c3167.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὅτι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0ba5ad48db42f129.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d73fc94c2d127e24.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐδὲ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/925945da3b48d15d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὖν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/39ed4225688b9b2d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανοῖς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/189f50e180c441ff.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανῷ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b7d7718938fead02.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὐρανῶν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/25f743265d1cf98c.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὗτος",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f3b818840416a2ad.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/8f8f3700df7d3bb0.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Οὕτως",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/739cc5860c937f3f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Οὕτως οὖν προσεύχεσθε ὑμεῖς· Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς· ἁγιασθήτω τὸ ὄνομά σου,",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/0bb63646160661d7.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὀφειλέταις",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/849565e873db8229.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὀφειλήματα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/309081dd2121a3d4.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὄψονται",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/968ef459c31a58a1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πάντα",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/781023937711a819.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/57b1eea0907caca6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:παρακληθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/f7a2624e7a456bb5.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:Πάτερ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5e8078cca37d3e4d.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πεινῶντες",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/bfe2684cb2f8bba3.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πειρασμόν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/8105313c964c4d1e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πενθοῦντες",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/3fc3233b6e4250a8.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πνεύματι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ce7191f22a0bf509.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πονηροῦ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/05554fa55de4c990.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πραεῖς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7ccf58ffc69b8366.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πρὸς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/687ebd64f6dff60e.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:προσεύχεσθε",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/2278ceedb36ffabd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:πτωχοὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/74ccee1354e0913f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ῥῦσαι",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/cdea3c149047cb12.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σήμερον",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/40297055d0e8beeb.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σκοτία",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/5dffc0f7380a6081.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σκοτίᾳ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0ceb3d77c9162d1a.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:σου",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/b70b337932aaaf2b.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὰ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/dcd38f60e689f84f.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῇ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a257fee8435cac26.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὴν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/bd57edcfddddf392.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/857665456ebd1694.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τοῖς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/6d29260eb3a3c9e9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/bb5deca6a83d9dcd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον·",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "phrase",
+   "path": "audio/greek/gr-koine/87a6f639b5763910.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τοῦ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7fe9dfdeccc6fafe.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῷ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/82859ede63c6ed46.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:τῶν",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/d7670275c46435c6.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:υἱοὶ",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/7854e998ce0759ca.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὑμεῖς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/0a9e7a3217b09fe9.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:φαίνει",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/6e15fee78b3d15a1.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:φῶς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/ef53617efe6a9abd.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:χορτασθήσονται",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/e2d16fad1894f512.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:χωρὶς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/eba74320b4e14607.mp3",
+   "sourceId": "local-espeak"
+  },
+  {
+   "key": "text:ὡς",
+   "languageId": "greek",
+   "modelId": "gr-koine",
+   "level": "word",
+   "path": "audio/greek/gr-koine/a3651a1d3ef19e04.mp3",
+   "sourceId": "local-espeak"
+  }
+ ]
+}

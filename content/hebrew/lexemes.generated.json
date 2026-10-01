@@ -1,0 +1,761 @@
+[
+ {
+  "id": "he:lex:b",
+  "lemma": "בְּ",
+  "translit": "bə",
+  "pos": "preposition"
+ },
+ {
+  "id": "he:lex:c",
+  "lemma": "וְ",
+  "translit": "və",
+  "pos": "conjunction"
+ },
+ {
+  "id": "he:lex:d",
+  "lemma": "הַ",
+  "translit": "ha",
+  "pos": "article"
+ },
+ {
+  "id": "he:lex:H0001",
+  "lemma": "אָב",
+  "translit": "ʾav",
+  "pos": "noun",
+  "strong": "H0001"
+ },
+ {
+  "id": "he:lex:H0157",
+  "lemma": "אָהֵב",
+  "translit": "ʾahev",
+  "pos": "verb",
+  "strong": "H0157"
+ },
+ {
+  "id": "he:lex:H0215",
+  "lemma": "אוֹר",
+  "translit": "or",
+  "pos": "verb",
+  "strong": "H0215"
+ },
+ {
+  "id": "he:lex:H0216",
+  "lemma": "אוֹר",
+  "translit": "or",
+  "pos": "noun",
+  "strong": "H0216"
+ },
+ {
+  "id": "he:lex:H0259",
+  "lemma": "אֶחָד",
+  "translit": "ʾeḥad",
+  "pos": "adjective",
+  "strong": "H0259"
+ },
+ {
+  "id": "he:lex:H0376",
+  "lemma": "אִישׁ",
+  "translit": "ʾish",
+  "pos": "noun",
+  "strong": "H0376"
+ },
+ {
+  "id": "he:lex:H0389",
+  "lemma": "אַךְ",
+  "translit": "ʾakh",
+  "pos": "particle",
+  "strong": "H0389"
+ },
+ {
+  "id": "he:lex:H0413",
+  "lemma": "אֶל",
+  "translit": "ʾel",
+  "pos": "preposition",
+  "strong": "H0413"
+ },
+ {
+  "id": "he:lex:H0430",
+  "lemma": "אֱלֹהִים",
+  "translit": "ʾelohim",
+  "pos": "noun",
+  "strong": "H0430"
+ },
+ {
+  "id": "he:lex:H0517",
+  "lemma": "אֵם",
+  "translit": "ʾem",
+  "pos": "noun",
+  "strong": "H0517"
+ },
+ {
+  "id": "he:lex:H0559",
+  "lemma": "אָמַר",
+  "translit": "ʾamar",
+  "pos": "verb",
+  "strong": "H0559"
+ },
+ {
+  "id": "he:lex:H0753",
+  "lemma": "אֹרֶךְ",
+  "translit": "ʾorekh",
+  "pos": "noun",
+  "strong": "H0753"
+ },
+ {
+  "id": "he:lex:H0776",
+  "lemma": "אֶרֶץ",
+  "translit": "ʾerets",
+  "pos": "noun",
+  "strong": "H0776"
+ },
+ {
+  "id": "he:lex:H0802",
+  "lemma": "אִשָּׁה",
+  "translit": "ʾisha",
+  "pos": "noun",
+  "strong": "H0802"
+ },
+ {
+  "id": "he:lex:H0853",
+  "lemma": "אֵת",
+  "translit": "ʾet",
+  "pos": "particle",
+  "strong": "H0853"
+ },
+ {
+  "id": "he:lex:H0859a",
+  "lemma": "אַתָּה",
+  "translit": "ʾata",
+  "pos": "pronoun",
+  "strong": "H0859a"
+ },
+ {
+  "id": "he:lex:H0914",
+  "lemma": "בָּדַל",
+  "translit": "badal",
+  "pos": "verb",
+  "strong": "H0914"
+ },
+ {
+  "id": "he:lex:H0922",
+  "lemma": "בֹּהוּ",
+  "translit": "bohu",
+  "pos": "noun",
+  "strong": "H0922"
+ },
+ {
+  "id": "he:lex:H0996",
+  "lemma": "בַּיִן",
+  "translit": "bayin",
+  "pos": "preposition",
+  "strong": "H0996"
+ },
+ {
+  "id": "he:lex:H1004b",
+  "lemma": "בַּיִת",
+  "translit": "bayit",
+  "pos": "noun",
+  "strong": "H1004b"
+ },
+ {
+  "id": "he:lex:H1121a",
+  "lemma": "בֵּן",
+  "translit": "ben",
+  "pos": "noun",
+  "strong": "H1121a"
+ },
+ {
+  "id": "he:lex:H1242",
+  "lemma": "בֹּקֶר",
+  "translit": "boqer",
+  "pos": "noun",
+  "strong": "H1242"
+ },
+ {
+  "id": "he:lex:H1254a",
+  "lemma": "בָּרָא",
+  "translit": "bara",
+  "pos": "verb",
+  "strong": "H1254a"
+ },
+ {
+  "id": "he:lex:H1288",
+  "lemma": "בָּרַךְ",
+  "translit": "barakh",
+  "pos": "verb",
+  "strong": "H1288"
+ },
+ {
+  "id": "he:lex:H1516",
+  "lemma": "גַּיְא",
+  "translit": "gay",
+  "pos": "noun",
+  "strong": "H1516"
+ },
+ {
+  "id": "he:lex:H1571",
+  "lemma": "גַּם",
+  "translit": "gam",
+  "pos": "particle",
+  "strong": "H1571"
+ },
+ {
+  "id": "he:lex:H1697",
+  "lemma": "דָּבָר",
+  "translit": "davar",
+  "pos": "noun",
+  "strong": "H1697"
+ },
+ {
+  "id": "he:lex:H1732",
+  "lemma": "דָּוִד",
+  "translit": "david",
+  "pos": "noun",
+  "strong": "H1732"
+ },
+ {
+  "id": "he:lex:H1877",
+  "lemma": "דֶּשֶׁא",
+  "translit": "deshe",
+  "pos": "noun",
+  "strong": "H1877"
+ },
+ {
+  "id": "he:lex:H1878",
+  "lemma": "דָּשֵׁן",
+  "translit": "dashen",
+  "pos": "verb",
+  "strong": "H1878"
+ },
+ {
+  "id": "he:lex:H1961",
+  "lemma": "הָיָה",
+  "translit": "haya",
+  "pos": "verb",
+  "strong": "H1961"
+ },
+ {
+  "id": "he:lex:H1992",
+  "lemma": "הֵמָּה",
+  "translit": "hema",
+  "pos": "pronoun",
+  "strong": "H1992"
+ },
+ {
+  "id": "he:lex:H2416e",
+  "lemma": "חַיִּים",
+  "translit": "ḥayim",
+  "pos": "noun",
+  "strong": "H2416e"
+ },
+ {
+  "id": "he:lex:H2603a",
+  "lemma": "חָנַן",
+  "translit": "ḥanan",
+  "pos": "verb",
+  "strong": "H2603a"
+ },
+ {
+  "id": "he:lex:H2617a",
+  "lemma": "חֶסֶד",
+  "translit": "ḥesed",
+  "pos": "noun",
+  "strong": "H2617a"
+ },
+ {
+  "id": "he:lex:H2637",
+  "lemma": "חָסֵר",
+  "translit": "ḥaser",
+  "pos": "verb",
+  "strong": "H2637"
+ },
+ {
+  "id": "he:lex:H2822",
+  "lemma": "חֹשֶׁךְ",
+  "translit": "ḥoshekh",
+  "pos": "noun",
+  "strong": "H2822"
+ },
+ {
+  "id": "he:lex:H2896a",
+  "lemma": "טוֹב",
+  "translit": "ṭov",
+  "pos": "adjective",
+  "strong": "H2896a"
+ },
+ {
+  "id": "he:lex:H2896b",
+  "lemma": "טוֹב",
+  "translit": "ṭov",
+  "pos": "adjective",
+  "strong": "H2896b"
+ },
+ {
+  "id": "he:lex:H3068",
+  "lemma": "יְהֹוָה",
+  "translit": "YHWH",
+  "pos": "noun",
+  "strong": "H3068"
+ },
+ {
+  "id": "he:lex:H3117",
+  "lemma": "יוֹם",
+  "translit": "yom",
+  "pos": "noun",
+  "strong": "H3117"
+ },
+ {
+  "id": "he:lex:H3212",
+  "lemma": "יָלַךְ",
+  "translit": "yalakh",
+  "pos": "verb",
+  "strong": "H3212"
+ },
+ {
+  "id": "he:lex:H3372",
+  "lemma": "יָרֵא",
+  "translit": "yare",
+  "pos": "verb",
+  "strong": "H3372"
+ },
+ {
+  "id": "he:lex:H3427",
+  "lemma": "יָשַׁב",
+  "translit": "yashav",
+  "pos": "verb",
+  "strong": "H3427"
+ },
+ {
+  "id": "he:lex:H3478",
+  "lemma": "יִשְׂרָאֵל",
+  "translit": "yisraʾel",
+  "pos": "noun",
+  "strong": "H3478"
+ },
+ {
+  "id": "he:lex:H3563a",
+  "lemma": "כּוֹס",
+  "translit": "kos",
+  "pos": "noun",
+  "strong": "H3563a"
+ },
+ {
+  "id": "he:lex:H3588a",
+  "lemma": "כִּי",
+  "translit": "ki",
+  "pos": "conjunction",
+  "strong": "H3588a"
+ },
+ {
+  "id": "he:lex:H3605",
+  "lemma": "כֹּל",
+  "translit": "kol",
+  "pos": "noun",
+  "strong": "H3605"
+ },
+ {
+  "id": "he:lex:H3808",
+  "lemma": "לֹא",
+  "translit": "lo",
+  "pos": "particle",
+  "strong": "H3808"
+ },
+ {
+  "id": "he:lex:H3824",
+  "lemma": "לֵבָב",
+  "translit": "levav",
+  "pos": "noun",
+  "strong": "H3824"
+ },
+ {
+  "id": "he:lex:H3915",
+  "lemma": "לַיְלָה",
+  "translit": "layla",
+  "pos": "noun",
+  "strong": "H3915"
+ },
+ {
+  "id": "he:lex:H3966",
+  "lemma": "מְאֹד",
+  "translit": "məʾod",
+  "pos": "noun",
+  "strong": "H3966"
+ },
+ {
+  "id": "he:lex:H4210",
+  "lemma": "מִזְמוֹר",
+  "translit": "mizmor",
+  "pos": "noun",
+  "strong": "H4210"
+ },
+ {
+  "id": "he:lex:H4325",
+  "lemma": "מַי",
+  "translit": "may",
+  "pos": "noun",
+  "strong": "H4325"
+ },
+ {
+  "id": "he:lex:H4427a",
+  "lemma": "מָלַךְ",
+  "translit": "malakh",
+  "pos": "verb",
+  "strong": "H4427a"
+ },
+ {
+  "id": "he:lex:H4428",
+  "lemma": "מֶלֶךְ",
+  "translit": "melekh",
+  "pos": "noun",
+  "strong": "H4428"
+ },
+ {
+  "id": "he:lex:H4436",
+  "lemma": "מַלְכָּה",
+  "translit": "malka",
+  "pos": "noun",
+  "strong": "H4436"
+ },
+ {
+  "id": "he:lex:H4467",
+  "lemma": "מַמְלָכָה",
+  "translit": "mamlakha",
+  "pos": "noun",
+  "strong": "H4467"
+ },
+ {
+  "id": "he:lex:H4496",
+  "lemma": "מְנוּחָה",
+  "translit": "mənuḥa",
+  "pos": "noun",
+  "strong": "H4496"
+ },
+ {
+  "id": "he:lex:H4570",
+  "lemma": "מַעְגָּל",
+  "translit": "maʿgal",
+  "pos": "noun",
+  "strong": "H4570"
+ },
+ {
+  "id": "he:lex:H4616",
+  "lemma": "מַעַן",
+  "translit": "maʿan",
+  "pos": "preposition",
+  "strong": "H4616"
+ },
+ {
+  "id": "he:lex:H4938b",
+  "lemma": "מִשְׁעֶנֶת",
+  "translit": "mishʿenet",
+  "pos": "noun",
+  "strong": "H4938b"
+ },
+ {
+  "id": "he:lex:H4999",
+  "lemma": "נָוָה",
+  "translit": "nava",
+  "pos": "noun",
+  "strong": "H4999"
+ },
+ {
+  "id": "he:lex:H5048",
+  "lemma": "נֶגֶד",
+  "translit": "neged",
+  "pos": "preposition",
+  "strong": "H5048"
+ },
+ {
+  "id": "he:lex:H5095",
+  "lemma": "נָהַל",
+  "translit": "nahal",
+  "pos": "verb",
+  "strong": "H5095"
+ },
+ {
+  "id": "he:lex:H5148",
+  "lemma": "נָחָה",
+  "translit": "naḥa",
+  "pos": "verb",
+  "strong": "H5148"
+ },
+ {
+  "id": "he:lex:H5162",
+  "lemma": "נָחַם",
+  "translit": "naḥam",
+  "pos": "verb",
+  "strong": "H5162"
+ },
+ {
+  "id": "he:lex:H5315",
+  "lemma": "נֶפֶשׁ",
+  "translit": "nefesh",
+  "pos": "noun",
+  "strong": "H5315"
+ },
+ {
+  "id": "he:lex:H5375",
+  "lemma": "נָשָׂא",
+  "translit": "nasa",
+  "pos": "verb",
+  "strong": "H5375"
+ },
+ {
+  "id": "he:lex:H5892b",
+  "lemma": "עִיר",
+  "translit": "ʿir",
+  "pos": "noun",
+  "strong": "H5892b"
+ },
+ {
+  "id": "he:lex:H5921a",
+  "lemma": "עַל",
+  "translit": "ʿal",
+  "pos": "preposition",
+  "strong": "H5921a"
+ },
+ {
+  "id": "he:lex:H5971a",
+  "lemma": "עַם",
+  "translit": "ʿam",
+  "pos": "noun",
+  "strong": "H5971a"
+ },
+ {
+  "id": "he:lex:H5978",
+  "lemma": "עִמָּדִי",
+  "translit": "ʿimadi",
+  "pos": "preposition",
+  "strong": "H5978"
+ },
+ {
+  "id": "he:lex:H6153",
+  "lemma": "עֶרֶב",
+  "translit": "ʿerev",
+  "pos": "noun",
+  "strong": "H6153"
+ },
+ {
+  "id": "he:lex:H6186a",
+  "lemma": "עָרַךְ",
+  "translit": "ʿarakh",
+  "pos": "verb",
+  "strong": "H6186a"
+ },
+ {
+  "id": "he:lex:H6440",
+  "lemma": "פָּנֶה",
+  "translit": "pane",
+  "pos": "noun",
+  "strong": "H6440"
+ },
+ {
+  "id": "he:lex:H6664",
+  "lemma": "צֶדֶק",
+  "translit": "tsedeq",
+  "pos": "noun",
+  "strong": "H6664"
+ },
+ {
+  "id": "he:lex:H6757",
+  "lemma": "צַלְמָוֶת",
+  "translit": "tsalmavet",
+  "pos": "noun",
+  "strong": "H6757"
+ },
+ {
+  "id": "he:lex:H6887d",
+  "lemma": "צָרַר",
+  "translit": "tsarar",
+  "pos": "verb",
+  "strong": "H6887d"
+ },
+ {
+  "id": "he:lex:H6918",
+  "lemma": "קָדוֹשׁ",
+  "translit": "qadosh",
+  "pos": "adjective",
+  "strong": "H6918"
+ },
+ {
+  "id": "he:lex:H6942",
+  "lemma": "קָדַשׁ",
+  "translit": "qadash",
+  "pos": "verb",
+  "strong": "H6942"
+ },
+ {
+  "id": "he:lex:H6944",
+  "lemma": "קֹדֶשׁ",
+  "translit": "qodesh",
+  "pos": "noun",
+  "strong": "H6944"
+ },
+ {
+  "id": "he:lex:H7121",
+  "lemma": "קָרָא",
+  "translit": "qara",
+  "pos": "verb",
+  "strong": "H7121"
+ },
+ {
+  "id": "he:lex:H7200",
+  "lemma": "רָאָה",
+  "translit": "raʾa",
+  "pos": "verb",
+  "strong": "H7200"
+ },
+ {
+  "id": "he:lex:H7218a",
+  "lemma": "רֹאשׁ",
+  "translit": "rosh",
+  "pos": "noun",
+  "strong": "H7218a"
+ },
+ {
+  "id": "he:lex:H7225",
+  "lemma": "רֵאשִׁית",
+  "translit": "reshit",
+  "pos": "noun",
+  "strong": "H7225"
+ },
+ {
+  "id": "he:lex:H7257",
+  "lemma": "רָבַץ",
+  "translit": "ravats",
+  "pos": "verb",
+  "strong": "H7257"
+ },
+ {
+  "id": "he:lex:H7291",
+  "lemma": "רָדַף",
+  "translit": "radaf",
+  "pos": "verb",
+  "strong": "H7291"
+ },
+ {
+  "id": "he:lex:H7307",
+  "lemma": "רוּחַ",
+  "translit": "ruaḥ",
+  "pos": "noun",
+  "strong": "H7307"
+ },
+ {
+  "id": "he:lex:H7310",
+  "lemma": "רְוָיָה",
+  "translit": "rəvaya",
+  "pos": "noun",
+  "strong": "H7310"
+ },
+ {
+  "id": "he:lex:H7363b",
+  "lemma": "רָחַף",
+  "translit": "raḥaf",
+  "pos": "verb",
+  "strong": "H7363b"
+ },
+ {
+  "id": "he:lex:H7451b",
+  "lemma": "רַע",
+  "translit": "raʿ",
+  "pos": "adjective",
+  "strong": "H7451b"
+ },
+ {
+  "id": "he:lex:H7462b",
+  "lemma": "רָעָה",
+  "translit": "raʿa",
+  "pos": "verb",
+  "strong": "H7462b"
+ },
+ {
+  "id": "he:lex:H7626",
+  "lemma": "שֵׁבֶט",
+  "translit": "sheveṭ",
+  "pos": "noun",
+  "strong": "H7626"
+ },
+ {
+  "id": "he:lex:H7725",
+  "lemma": "שׁוּב",
+  "translit": "shuv",
+  "pos": "verb",
+  "strong": "H7725"
+ },
+ {
+  "id": "he:lex:H7760a",
+  "lemma": "שׂוּם",
+  "translit": "sum",
+  "pos": "verb",
+  "strong": "H7760a"
+ },
+ {
+  "id": "he:lex:H7965",
+  "lemma": "שָׁלוֹם",
+  "translit": "shalom",
+  "pos": "noun",
+  "strong": "H7965"
+ },
+ {
+  "id": "he:lex:H7979",
+  "lemma": "שֻׁלְחָן",
+  "translit": "shulḥan",
+  "pos": "noun",
+  "strong": "H7979"
+ },
+ {
+  "id": "he:lex:H8034",
+  "lemma": "שֵׁם",
+  "translit": "shem",
+  "pos": "noun",
+  "strong": "H8034"
+ },
+ {
+  "id": "he:lex:H8064",
+  "lemma": "שָׁמַיִם",
+  "translit": "shamayim",
+  "pos": "noun",
+  "strong": "H8064"
+ },
+ {
+  "id": "he:lex:H8081",
+  "lemma": "שֶׁמֶן",
+  "translit": "shemen",
+  "pos": "noun",
+  "strong": "H8081"
+ },
+ {
+  "id": "he:lex:H8085",
+  "lemma": "שָׁמַע",
+  "translit": "shamaʿ",
+  "pos": "verb",
+  "strong": "H8085"
+ },
+ {
+  "id": "he:lex:H8104",
+  "lemma": "שָׁמַר",
+  "translit": "shamar",
+  "pos": "verb",
+  "strong": "H8104"
+ },
+ {
+  "id": "he:lex:H8414",
+  "lemma": "תֹּהוּ",
+  "translit": "tohu",
+  "pos": "noun",
+  "strong": "H8414"
+ },
+ {
+  "id": "he:lex:H8415",
+  "lemma": "תְּהוֹם",
+  "translit": "təhom",
+  "pos": "noun",
+  "strong": "H8415"
+ },
+ {
+  "id": "he:lex:l",
+  "lemma": "לְ",
+  "translit": "lə",
+  "pos": "preposition"
+ }
+]

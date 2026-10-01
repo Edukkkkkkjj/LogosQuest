@@ -1,0 +1,10 @@
+node_modules
+dist
+dev-dist
+data-sources
+*.local
+.env*
+
+# arquivos pessoais: nunca vão para o repositório
+*.txt
+LogosQuest_prompt_direcao_visual.md

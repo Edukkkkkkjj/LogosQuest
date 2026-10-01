@@ -1,0 +1,36 @@
+{
+  "title": "As bem-aventuranças",
+  "genre": "discourse",
+  "tier": 3,
+  "isPrayer": false,
+  "unlockAfterUnitId": "gr-u6",
+  "intro": "Oito frases com a mesma estrutura: μακάριοι οἱ… ὅτι… Depois da primeira, você já sabe ler metade de cada uma das outras.",
+  "sourceIds": ["sblgnt", "morphgnt"],
+  "secretIds": ["gr-sec-inclusio", "gr-sec-makarioi-p"],
+  "windowIds": ["gr-win-makarios"],
+  "translations": [
+    "Felizes os pobres em espírito, porque deles é o reino dos céus.",
+    "Felizes os que choram, porque eles serão consolados.",
+    "Felizes os mansos, porque eles herdarão a terra.",
+    "Felizes os que têm fome e sede da justiça, porque eles serão saciados.",
+    "Felizes os misericordiosos, porque eles receberão misericórdia.",
+    "Felizes os puros de coração, porque eles verão a Deus.",
+    "Felizes os pacificadores, porque eles serão chamados filhos de Deus.",
+    "Felizes os que têm sido perseguidos por causa da justiça, porque deles é o reino dos céus."
+  ],
+  "glosses": [
+    ["felizes", "os", "pobres", "no (quanto ao)", "espírito", "porque", "deles", "é", "o", "reino", "dos", "céus"],
+    ["felizes", "os", "que choram", "porque", "eles", "serão consolados"],
+    ["felizes", "os", "mansos", "porque", "eles", "herdarão", "a", "terra"],
+    ["felizes", "os", "que têm fome", "e", "que têm sede", "da", "justiça", "porque", "eles", "serão saciados"],
+    ["felizes", "os", "misericordiosos", "porque", "eles", "receberão misericórdia"],
+    ["felizes", "os", "puros", "no", "coração", "porque", "eles", "a", "Deus", "verão"],
+    ["felizes", "os", "pacificadores", "porque", "eles", "filhos", "de Deus", "serão chamados"],
+    ["felizes", "os", "que têm sido perseguidos", "por causa de", "justiça", "porque", "deles", "é", "o", "reino", "dos", "céus"]
+  ],
+  "notes": [
+    { "verse": "Mt.5.3", "title": "Sem verbo", "epistemic": "fact", "body": "μακάριοι οἱ πτωχοί não tem verbo: \"felizes os pobres\". O grego, como o hebraico, dispensa o \"são\" neste tipo de frase." },
+    { "verse": "Mt.5.4", "title": "Passivos sem agente", "epistemic": "consensus", "body": "παρακληθήσονται (\"serão consolados\") é futuro passivo e não diz por quem. Muitos estudiosos entendem esse tipo de construção como modo reverente de indicar Deus como agente (\"passivo divino\"); é uma inferência do contexto, não uma marca gramatical." },
+    { "verse": "Mt.5.3", "title": "Presente e futuro", "epistemic": "fact", "body": "A primeira e a última bem-aventurança usam ἐστιν (\"é\", presente). As seis do meio usam o futuro." }
+  ]
+}

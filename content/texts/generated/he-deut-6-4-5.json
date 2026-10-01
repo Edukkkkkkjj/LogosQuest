@@ -1,0 +1,488 @@
+{
+ "id": "he-deut-6-4-5",
+ "languageId": "hebrew",
+ "ref": "Deuteronômio 6:4–5",
+ "verses": [
+  {
+   "osis": "Deut.6.4",
+   "ref": "Deuteronômio 6:4",
+   "words": [
+    {
+     "id": "he:w:05WH5",
+     "surface": "שְׁמַע",
+     "plain": "שְׁמַע",
+     "translit": "shəmaʿ",
+     "segments": [
+      {
+       "text": "שְׁמַע",
+       "lexemeId": "he:lex:H8085",
+       "role": "stem",
+       "morph": {
+        "code": "Vqv2ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "imperative",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05Wu9",
+     "surface": "יִשְׂרָאֵל",
+     "plain": "יִשְׂרָאֵל",
+     "translit": "yisraʾel",
+     "segments": [
+      {
+       "text": "יִשְׂרָאֵל",
+       "lexemeId": "he:lex:H3478",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05Wfj",
+     "surface": "יְהוָה",
+     "plain": "יְהוָה",
+     "translit": "YHWH",
+     "segments": [
+      {
+       "text": "יְהוָה",
+       "lexemeId": "he:lex:H3068",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05MRr",
+     "surface": "אֱלֹהֵינוּ",
+     "plain": "אֱלֹהֵינוּ",
+     "translit": "ʾelohenu",
+     "segments": [
+      {
+       "text": "אֱלֹהֵי",
+       "lexemeId": "he:lex:H0430",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "נוּ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cp",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05d46",
+     "surface": "יְהוָה",
+     "plain": "יְהוָה",
+     "translit": "YHWH",
+     "segments": [
+      {
+       "text": "יְהוָה",
+       "lexemeId": "he:lex:H3068",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05vGY",
+     "surface": "אֶחָד",
+     "plain": "אֶחָד",
+     "translit": "ʾeḥad",
+     "segments": [
+      {
+       "text": "אֶחָד",
+       "lexemeId": "he:lex:H0259",
+       "role": "stem",
+       "morph": {
+        "code": "Acmsa",
+        "source": "oshb",
+        "pos": "adjective",
+        "subtype": "cardinal",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Deut.6.5",
+   "ref": "Deuteronômio 6:5",
+   "words": [
+    {
+     "id": "he:w:05MDm",
+     "surface": "וְאָהַבְתָּ",
+     "plain": "וְאָהַבְתָּ",
+     "translit": "vəʾahavta",
+     "segments": [
+      {
+       "text": "וְ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "אָהַבְתָּ",
+       "lexemeId": "he:lex:H0157",
+       "role": "stem",
+       "morph": {
+        "code": "Vqq2ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "weqatal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05dCq",
+     "surface": "אֵת",
+     "plain": "אֵת",
+     "translit": "ʾet",
+     "segments": [
+      {
+       "text": "אֵת",
+       "lexemeId": "he:lex:H0853",
+       "role": "stem",
+       "morph": {
+        "code": "To",
+        "source": "oshb",
+        "pos": "particle",
+        "subtype": "object-marker"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05cAA",
+     "surface": "יְהוָה",
+     "plain": "יְהוָה",
+     "translit": "YHWH",
+     "segments": [
+      {
+       "text": "יְהוָה",
+       "lexemeId": "he:lex:H3068",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05UYM",
+     "surface": "אֱלֹהֶיךָ",
+     "plain": "אֱלֹהֶיךָ",
+     "translit": "ʾelohekha",
+     "segments": [
+      {
+       "text": "אֱלֹהֶי",
+       "lexemeId": "he:lex:H0430",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05NZQ",
+     "surface": "בְּכָל־",
+     "plain": "בְּכָל",
+     "translit": "bəkhol",
+     "segments": [
+      {
+       "text": "בְּ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "כָל",
+       "lexemeId": "he:lex:H3605",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05afe",
+     "surface": "לְבָבְךָ",
+     "plain": "לְבָבְךָ",
+     "translit": "ləvavkha",
+     "segments": [
+      {
+       "text": "לְבָבְ",
+       "lexemeId": "he:lex:H3824",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05jFT",
+     "surface": "וּבְכָל־",
+     "plain": "וּבְכָל",
+     "translit": "uvkhol",
+     "segments": [
+      {
+       "text": "וּ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "בְ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "כָל",
+       "lexemeId": "he:lex:H3605",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05VEv",
+     "surface": "נַפְשְׁךָ",
+     "plain": "נַפְשְׁךָ",
+     "translit": "nafshəkha",
+     "segments": [
+      {
+       "text": "נַפְשְׁ",
+       "lexemeId": "he:lex:H5315",
+       "role": "stem",
+       "morph": {
+        "code": "Ncbsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "c",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05dWK",
+     "surface": "וּבְכָל־",
+     "plain": "וּבְכָל",
+     "translit": "uvkhol",
+     "segments": [
+      {
+       "text": "וּ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "בְ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "כָל",
+       "lexemeId": "he:lex:H3605",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:05MeB",
+     "surface": "מְאֹדֶךָ",
+     "plain": "מְאֹדֶךָ",
+     "translit": "məʾodekha",
+     "segments": [
+      {
+       "text": "מְאֹדֶ",
+       "lexemeId": "he:lex:H3966",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

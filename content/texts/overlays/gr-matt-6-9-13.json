@@ -1,0 +1,31 @@
+{
+  "title": "O Pai Nosso",
+  "genre": "prayer",
+  "tier": 2,
+  "isPrayer": true,
+  "unlockAfterUnitId": "gr-u5",
+  "intro": "Uma oração inteira no idioma original. Você provavelmente a conhece de cor em português — isso ajuda a perceber o que cada palavra grega está fazendo.",
+  "sourceIds": ["sblgnt", "morphgnt"],
+  "secretIds": ["gr-sec-opheil"],
+  "windowIds": ["gr-win-artos", "gr-win-divida"],
+  "translations": [
+    "Vós, portanto, orai assim: Pai nosso, que estás nos céus, seja santificado o teu nome;",
+    "venha o teu reino; seja feita a tua vontade, como no céu, também sobre a terra.",
+    "O nosso pão de cada dia dá-nos hoje;",
+    "e perdoa-nos as nossas dívidas, como também nós perdoamos aos nossos devedores;",
+    "e não nos leves para dentro da provação, mas livra-nos do mal."
+  ],
+  "glosses": [
+    ["assim", "portanto", "orai", "vós", "Pai", "nosso", "o (que estás)", "em", "os", "céus", "seja santificado", "o", "nome", "teu"],
+    ["venha", "o", "reino", "teu", "aconteça", "a", "vontade", "tua", "como", "em", "céu", "também", "sobre", "terra"],
+    ["o", "pão", "nosso", "o", "de cada dia (?)", "dá", "a nós", "hoje"],
+    ["e", "perdoa", "a nós", "as", "dívidas", "nossas", "como", "também", "nós", "perdoamos", "aos", "devedores", "nossos"],
+    ["e", "não", "leves", "a nós", "para dentro de", "provação / tentação", "mas", "livra", "a nós", "de", "o", "mal / Maligno"]
+  ],
+  "notes": [
+    { "verse": "Mt.6.9", "title": "Pedidos na 3ª pessoa", "epistemic": "fact", "body": "ἁγιασθήτω, ἐλθέτω e γενηθήτω são imperativos de 3ª pessoa: \"seja santificado\", \"venha\", \"aconteça\". O português não tem essa forma e usa o subjuntivo." },
+    { "verse": "Mt.6.11", "title": "Uma palavra que ninguém sabe traduzir com certeza", "epistemic": "debated", "body": "ἐπιούσιος praticamente não aparece fora desta oração. Propostas: \"para o dia de hoje\", \"para o dia que vem\", \"necessário para existir\". Já Orígenes (século III) dizia não encontrá-la em outros autores." },
+    { "verse": "Mt.6.13", "title": "\"Do mal\" ou \"do Maligno\"?", "epistemic": "debated", "body": "τοῦ πονηροῦ está no genitivo, onde masculino e neutro têm a mesma forma. Pode ser \"o mal\" (neutro) ou \"o Maligno\" (masculino). A forma não decide." },
+    { "verse": "Mt.6.13", "title": "E a doxologia?", "epistemic": "consensus", "body": "\"Pois teu é o reino, o poder e a glória…\" não consta dos manuscritos gregos mais antigos de Mateus e, por isso, não está no texto do SBLGNT. É uma conclusão litúrgica muito antiga, presente em manuscritos posteriores." }
+  ]
+}

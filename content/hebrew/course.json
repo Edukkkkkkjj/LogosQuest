@@ -1,0 +1,280 @@
+{
+  "title": "Hebraico Bíblico",
+  "tagline": "Do alef à leitura do Salmo 23",
+  "levels": [
+    {
+      "id": "he-lv0", "number": 0, "title": "Primeiro contato", "status": "available",
+      "summary": "Ouvir, ver e reconhecer três palavras antes de qualquer regra.",
+      "units": [
+        {
+          "id": "he-u0", "title": "Três palavras", "masteryThreshold": 0.6,
+          "summary": "Sua primeira leitura da direita para a esquerda.",
+          "why": "Antes de estudar letras, vale sentir que o idioma é feito de palavras que você consegue reconhecer.",
+          "skills": [
+            { "id": "he-sk-first", "title": "Primeiras palavras", "description": "Reconhecer três palavras hebraicas pelo som e pela forma.", "dimensions": ["meaning"], "itemIds": ["he:lex:H7965", "he:lex:H0001", "he:lex:H4428"] }
+          ],
+          "lessons": [
+            {
+              "id": "he-l0-1", "title": "Da direita para a esquerda", "kind": "lesson",
+              "goal": "Hoje você vai reconhecer 3 palavras hebraicas.",
+              "newItems": ["he:lex:H7965", "he:lex:H0001", "he:lex:H4428"], "reviewItems": [],
+              "steps": [
+                { "type": "note", "style": "why", "title": "Por onde começamos", "body": "Você não precisa saber o alfabeto para dar o primeiro passo. Vamos ouvir e olhar três palavras muito comuns. As letras vêm logo depois — e você vai reencontrar estas palavras lá." },
+                { "type": "note", "style": "observe", "title": "Observe a direção", "body": "O hebraico é escrito da direita para a esquerda. A primeira letra de cada palavra é a que está mais à direita. Os pontinhos e traços em volta das letras são as vogais.", "example": "שָׁלוֹם" },
+                { "type": "teach", "itemIds": ["he:lex:H7965", "he:lex:H0001", "he:lex:H4428"] },
+                { "type": "exercise", "generator": "listenChoose" },
+                { "type": "exercise", "generator": "meaningChoose" },
+                { "type": "exercise", "generator": "memory" },
+                { "type": "exercise", "generator": "meaningChoose" },
+                { "type": "note", "style": "rule", "title": "Você acabou de ler hebraico", "body": "Você reconheceu palavras inteiras pelo formato, como uma criança reconhece o próprio nome antes de saber soletrar. Agora vamos às letras, uma por uma." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-lv1", "number": 1, "title": "Alfabeto", "status": "available",
+      "summary": "As 22 consoantes, seus sons e as cinco formas finais.",
+      "units": [
+        {
+          "id": "he-u1", "title": "De Alef a Lamed", "masteryThreshold": 0.8,
+          "summary": "As doze primeiras letras.",
+          "why": "Todo texto hebraico é feito com estas 22 letras. Reconhecê-las de relance é o que torna a leitura possível.",
+          "skills": [
+            { "id": "he-sk-letters-1", "title": "Letras: Alef a Lamed", "description": "Reconhecer a forma e o som das doze primeiras letras.", "dimensions": ["form"],
+              "itemIds": ["he:letter:alef", "he:letter:bet", "he:letter:gimel", "he:letter:dalet", "he:letter:he", "he:letter:vav", "he:letter:zayin", "he:letter:het", "he:letter:tet", "he:letter:yod", "he:letter:kaf", "he:letter:lamed"] }
+          ],
+          "lessons": [
+            { "id": "he-l1-1", "title": "Alef, Bet, Gimel, Dalet", "kind": "lesson", "template": "glyphs",
+              "goal": "Hoje você vai aprender 4 letras.",
+              "newItems": ["he:letter:alef", "he:letter:bet", "he:letter:gimel", "he:letter:dalet"], "reviewItems": [],
+              "observe": { "title": "Só consoantes", "body": "O alfabeto hebraico tem 22 letras, e todas são consoantes. As vogais são sinais menores escritos em volta delas — você as aprenderá no próximo nível. Não há maiúsculas e minúsculas.", "example": "א ב ג ד" },
+              "rule": { "title": "O ponto do Bet", "body": "Você notou que o Bet apareceu com um ponto dentro (בּ)? Esse ponto chama-se dagesh. Com ele, a letra soa b; sem ele (ב), soa v. É a mesma letra." } },
+            { "id": "he-l1-2", "title": "He, Vav, Zayin, Ḥet", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 4 letras — duas delas fáceis de confundir.",
+              "newItems": ["he:letter:he", "he:letter:vav", "he:letter:zayin", "he:letter:het"],
+              "reviewItems": ["he:letter:alef", "he:letter:bet", "he:letter:gimel", "he:letter:dalet"],
+              "observe": { "title": "Procure a fresta", "body": "Compare ה e ח. No He há uma pequena abertura no canto superior esquerdo; no Ḥet o teto é fechado. Compare também ו e ז: o Zayin tem um \"chapéu\" que passa para os dois lados.", "example": "ה ח  ו ז" } },
+            { "id": "he-l1-3", "title": "Ṭet, Yod, Kaf, Lamed", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 4 letras: a menor e a mais alta do alfabeto.",
+              "newItems": ["he:letter:tet", "he:letter:yod", "he:letter:kaf", "he:letter:lamed"],
+              "reviewItems": ["he:letter:he", "he:letter:vav", "he:letter:zayin", "he:letter:het", "he:letter:bet", "he:letter:dalet"],
+              "observe": { "title": "Bet ou Kaf?", "body": "ב tem um cantinho quadrado embaixo, à direita, com a base passando do traço vertical. כ é todo arredondado. Olhe o canto de baixo.", "example": "ב כ" } },
+            { "id": "he-l1-boss-1", "title": "Desafio: de Alef a Lamed", "kind": "boss", "template": "boss",
+              "goal": "Mostre que reconhece as doze primeiras letras.",
+              "newItems": [], "reviewItems": ["he:letter:alef", "he:letter:bet", "he:letter:gimel", "he:letter:dalet", "he:letter:he", "he:letter:vav", "he:letter:zayin", "he:letter:het", "he:letter:tet", "he:letter:yod", "he:letter:kaf", "he:letter:lamed"] }
+          ]
+        },
+        {
+          "id": "he-u2", "title": "De Mem a Tav", "masteryThreshold": 0.8,
+          "summary": "As dez letras restantes e as formas finais.",
+          "why": "Com esta unidade você terá o alfabeto inteiro — e poderá soletrar qualquer palavra da Bíblia Hebraica.",
+          "skills": [
+            { "id": "he-sk-letters-2", "title": "Letras: Mem a Tav", "description": "Reconhecer a forma e o som das letras de Mem a Tav.", "dimensions": ["form"],
+              "itemIds": ["he:letter:mem", "he:letter:nun", "he:letter:samekh", "he:letter:ayin", "he:letter:pe", "he:letter:tsade", "he:letter:qof", "he:letter:resh", "he:letter:shin", "he:letter:sin", "he:letter:tav"] },
+            { "id": "he-sk-finals", "title": "Formas finais", "description": "Reconhecer as cinco letras que mudam de forma no fim da palavra.", "dimensions": ["form"],
+              "itemIds": ["he:letter:kaf-final", "he:letter:mem-final", "he:letter:nun-final", "he:letter:pe-final", "he:letter:tsade-final"] }
+          ],
+          "lessons": [
+            { "id": "he-l1-4", "title": "Mem, Nun, Samekh, Ayin", "kind": "lesson", "template": "glyphs",
+              "goal": "Hoje você vai aprender 4 letras.",
+              "newItems": ["he:letter:mem", "he:letter:nun", "he:letter:samekh", "he:letter:ayin"],
+              "reviewItems": ["he:letter:tet", "he:letter:kaf", "he:letter:gimel", "he:letter:alef"],
+              "observe": { "title": "Duas letras \"mudas\"", "body": "Você já conhece o Alef (א). O Ayin (ע) também não tem som próprio na leitura acadêmica comum. São letras diferentes, com história diferente — e trocar uma pela outra muda a palavra.", "example": "א ע" } },
+            { "id": "he-l1-5", "title": "Pe, Tsade, Qof, Resh", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 4 letras.",
+              "newItems": ["he:letter:pe", "he:letter:tsade", "he:letter:qof", "he:letter:resh"],
+              "reviewItems": ["he:letter:mem", "he:letter:nun", "he:letter:samekh", "he:letter:ayin", "he:letter:dalet"],
+              "observe": { "title": "Dalet ou Resh?", "body": "ד tem um canto reto, com o teto passando um pouco para a direita. ר é uma curva suave. É a confusão mais comum de quem começa — e também de escribas antigos.", "example": "ד ר" } },
+            { "id": "he-l1-6", "title": "Shin, Sin, Tav", "kind": "lesson", "template": "glyphs",
+              "goal": "As últimas letras do alfabeto.",
+              "newItems": ["he:letter:shin", "he:letter:sin", "he:letter:tav"],
+              "reviewItems": ["he:letter:pe", "he:letter:tsade", "he:letter:qof", "he:letter:resh", "he:letter:het", "he:letter:he"],
+              "observe": { "title": "Um ponto, dois sons", "body": "ש é uma letra só. Com o ponto à direita (שׁ) soa \"sh\"; com o ponto à esquerda (שׂ) soa \"s\". Olhe de que lado está o ponto.", "example": "שׁ שׂ" } },
+            { "id": "he-l1-7", "title": "As formas finais", "kind": "lesson", "template": "glyphs",
+              "goal": "Cinco letras mudam de forma no fim da palavra.",
+              "newItems": ["he:letter:kaf-final", "he:letter:mem-final", "he:letter:nun-final", "he:letter:pe-final", "he:letter:tsade-final"],
+              "reviewItems": ["he:letter:kaf", "he:letter:mem", "he:letter:nun", "he:letter:pe", "he:letter:tsade"],
+              "observe": { "title": "Observe o fim das palavras", "body": "Veja a última letra de מֶלֶךְ (rei) e de שָׁלוֹם (paz), palavras que você já conhece. Cinco letras têm uma forma especial quando são a última da palavra. O som não muda.", "example": "כ ← ך   מ ← ם   נ ← ן   פ ← ף   צ ← ץ" } },
+            { "id": "he-l1-boss-2", "title": "Desafio: o alfabeto inteiro", "kind": "boss", "template": "boss",
+              "goal": "Todas as letras, misturadas.",
+              "newItems": [], "reviewItems": ["he:letter:mem", "he:letter:nun", "he:letter:samekh", "he:letter:ayin", "he:letter:pe", "he:letter:tsade", "he:letter:qof", "he:letter:resh", "he:letter:shin", "he:letter:sin", "he:letter:tav", "he:letter:kaf-final", "he:letter:mem-final", "he:letter:nun-final", "he:letter:pe-final", "he:letter:tsade-final", "he:letter:dalet", "he:letter:het", "he:letter:bet"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-lv2", "number": 2, "title": "Vogais e niqqud", "status": "available",
+      "summary": "Os sinais que os massoretas acrescentaram ao texto para registrar as vogais.",
+      "units": [
+        {
+          "id": "he-u3", "title": "Os sinais vocálicos", "masteryThreshold": 0.8,
+          "summary": "Pataḥ, qamats, segol, tsere, ḥiriq, ḥolam, qibbuts, shureq, shewa e dagesh.",
+          "why": "Com consoantes e vogais você passa a ler qualquer palavra em voz alta, mesmo sem saber o que significa.",
+          "skills": [
+            { "id": "he-sk-vowels", "title": "Vogais", "description": "Reconhecer cada sinal vocálico e o som que ele indica.", "dimensions": ["form"],
+              "itemIds": ["he:vowel:patah", "he:vowel:qamats", "he:vowel:hatef-patah", "he:vowel:segol", "he:vowel:tsere", "he:vowel:hiriq", "he:vowel:hatef-segol", "he:vowel:holam", "he:vowel:holam-male", "he:vowel:qibbuts", "he:vowel:shureq", "he:vowel:hatef-qamats", "he:vowel:shewa", "he:mark:dagesh"] }
+          ],
+          "lessons": [
+            { "id": "he-l2-1", "title": "As vogais de som \"a\"", "kind": "lesson", "template": "glyphs",
+              "goal": "Hoje você vai aprender 3 sinais vocálicos.",
+              "newItems": ["he:vowel:patah", "he:vowel:qamats", "he:vowel:hatef-patah"], "reviewItems": ["he:letter:mem", "he:letter:alef"],
+              "observe": { "title": "As vogais ficam embaixo", "body": "Os sinais vocálicos (niqqud) foram acrescentados ao texto por estudiosos judeus, os massoretas, entre os séculos VI e X d.C., para registrar a leitura tradicional. A maioria fica sob a consoante e é lida depois dela: מַ = \"ma\".", "example": "מַ מָ אֲ" } },
+            { "id": "he-l2-2", "title": "As vogais de som \"e\" e \"i\"", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 4 sinais vocálicos.",
+              "newItems": ["he:vowel:segol", "he:vowel:tsere", "he:vowel:hiriq", "he:vowel:hatef-segol"], "reviewItems": ["he:vowel:patah", "he:vowel:qamats", "he:vowel:hatef-patah"],
+              "observe": { "title": "Conte os pontos", "body": "Um ponto: i. Dois pontos lado a lado: ê. Três pontos em triângulo: é.", "example": "מִ מֵ מֶ" } },
+            { "id": "he-l2-3", "title": "As vogais de som \"o\" e \"u\"", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 5 sinais — dois deles usam a letra Vav.",
+              "newItems": ["he:vowel:holam", "he:vowel:holam-male", "he:vowel:qibbuts", "he:vowel:shureq", "he:vowel:hatef-qamats"], "reviewItems": ["he:vowel:segol", "he:vowel:tsere", "he:vowel:hiriq", "he:letter:vav"],
+              "observe": { "title": "Quando o Vav vira vogal", "body": "Muito antes dos massoretas, os escribas já usavam algumas consoantes para indicar vogais. Com um ponto em cima (וֹ) o Vav é \"o\"; com um ponto no meio (וּ) é \"u\". Nesses casos ele não soa como consoante.", "example": "מוֹ מוּ" } },
+            { "id": "he-l2-4", "title": "Shewa e dagesh", "kind": "lesson", "template": "glyphs",
+              "goal": "Os dois sinais que mais aparecem no texto.",
+              "newItems": ["he:vowel:shewa", "he:mark:dagesh"], "reviewItems": ["he:vowel:tsere", "he:vowel:hiriq", "he:vowel:holam", "he:vowel:qibbuts", "he:vowel:shureq", "he:letter:bet", "he:letter:kaf", "he:letter:pe"],
+              "observe": { "title": "A vogal que às vezes não é vogal", "body": "O shewa (dois pontos na vertical) aparece sob consoantes sem vogal plena. No começo da sílaba soa como um e brevíssimo: בְּרֵאשִׁית = \"bə-re-shit\". No fim da sílaba é mudo. Por enquanto basta reconhecê-lo.", "example": "בְּרֵאשִׁית" } },
+            { "id": "he-l2-boss", "title": "Desafio: todas as vogais", "kind": "boss", "template": "boss",
+              "goal": "Mostre que reconhece cada sinal.",
+              "newItems": [], "reviewItems": ["he:vowel:patah", "he:vowel:qamats", "he:vowel:hatef-patah", "he:vowel:segol", "he:vowel:tsere", "he:vowel:hiriq", "he:vowel:hatef-segol", "he:vowel:holam", "he:vowel:holam-male", "he:vowel:qibbuts", "he:vowel:shureq", "he:vowel:hatef-qamats", "he:vowel:shewa", "he:mark:dagesh"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-lv3", "number": 3, "title": "Leitura inicial", "status": "available",
+      "summary": "Juntar consoantes e vogais em sílabas e palavras.",
+      "units": [
+        {
+          "id": "he-u4", "title": "Primeiras palavras lidas", "masteryThreshold": 0.8,
+          "summary": "Doze palavras curtas e muito frequentes.",
+          "why": "Ler em voz alta, mesmo devagar, é o que transforma sinais em idioma. Estas palavras aparecem milhares de vezes na Bíblia.",
+          "skills": [
+            { "id": "he-sk-reading-1", "title": "Leitura de palavras", "description": "Ler em voz alta palavras pontuadas, sem depender da transliteração.", "dimensions": ["reading"],
+              "itemIds": ["he:lex:H0001", "he:lex:H0517", "he:lex:H1121a", "he:lex:H3117", "he:lex:H8034", "he:lex:H5971a", "he:lex:H7965", "he:lex:H4428", "he:lex:H0776", "he:lex:H1004b", "he:lex:H5892b", "he:lex:H0376"] }
+          ],
+          "lessons": [
+            { "id": "he-l3-1", "title": "Palavras de uma sílaba", "kind": "lesson", "template": "reading",
+              "goal": "Hoje você vai ler 6 palavras sozinho.",
+              "newItems": ["he:lex:H0001", "he:lex:H0517", "he:lex:H1121a", "he:lex:H3117", "he:lex:H8034", "he:lex:H5971a"], "reviewItems": [],
+              "observe": { "title": "Consoante + vogal + consoante", "body": "Leia da direita para a esquerda: consoante, a vogal sob ela, próxima consoante. אָב: Alef (mudo) + a + v = \"av\".", "example": "אָב" } },
+            { "id": "he-l3-2", "title": "Palavras de duas sílabas", "kind": "lesson", "template": "reading",
+              "goal": "Mais 6 palavras — três delas você já viu.",
+              "newItems": ["he:lex:H7965", "he:lex:H4428", "he:lex:H0776", "he:lex:H1004b", "he:lex:H5892b", "he:lex:H0376"],
+              "reviewItems": ["he:lex:H0001", "he:lex:H0517", "he:lex:H1121a", "he:lex:H3117", "he:lex:H8034", "he:lex:H5971a"],
+              "observe": { "title": "Eu já vi isso antes", "body": "Lembra de שָׁלוֹם e מֶלֶךְ, do primeiro contato? Agora você consegue soletrá-las: Shin + a, Lamed + o (com Vav), Mem final.", "example": "שָׁלוֹם" } },
+            { "id": "he-l3-boss", "title": "Desafio: leitura", "kind": "boss", "template": "boss",
+              "goal": "Leia, ouça e monte as doze palavras.",
+              "newItems": [], "reviewItems": ["he:lex:H0001", "he:lex:H0517", "he:lex:H1121a", "he:lex:H3117", "he:lex:H8034", "he:lex:H5971a", "he:lex:H7965", "he:lex:H4428", "he:lex:H0776", "he:lex:H1004b", "he:lex:H5892b", "he:lex:H0376"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-lv4", "number": 4, "title": "Vocabulário básico", "status": "available",
+      "summary": "As palavras de Gênesis 1, do Shemá e da bênção sacerdotal — e os blocos que as compõem.",
+      "units": [
+        {
+          "id": "he-u5", "title": "Palavras de Gênesis 1", "masteryThreshold": 0.8,
+          "summary": "Vocabulário, prefixos e verbos dos cinco primeiros versículos da Bíblia.",
+          "why": "Com cerca de vinte palavras você lê Gênesis 1:1–5 inteiro. Cada lição aproxima você desse texto.",
+          "skills": [
+            { "id": "he-sk-vocab-gen", "title": "Vocabulário de Gênesis 1", "description": "Reconhecer o sentido dos substantivos e adjetivos de Gênesis 1:1–5.", "dimensions": ["meaning"],
+              "itemIds": ["he:lex:H0430", "he:lex:H1254a", "he:lex:H8064", "he:lex:H0776", "he:lex:H7225", "he:lex:H0216", "he:lex:H2822", "he:lex:H3117", "he:lex:H3915", "he:lex:H2896a"] },
+            { "id": "he-sk-particles", "title": "Pequenas palavras", "description": "Reconhecer conjunção, artigo, preposições e o marcador de objeto.", "dimensions": ["meaning"],
+              "itemIds": ["he:lex:c", "he:lex:d", "he:lex:b", "he:lex:l", "he:lex:H0853", "he:lex:H5921a"] },
+            { "id": "he-sk-verbs-gen", "title": "Verbos de Gênesis 1", "description": "Reconhecer o sentido dos verbos mais frequentes da narrativa.", "dimensions": ["meaning"],
+              "itemIds": ["he:lex:H0559", "he:lex:H1961", "he:lex:H7200", "he:lex:H7121", "he:lex:H0914"] }
+          ],
+          "lessons": [
+            { "id": "he-l4-1", "title": "Deus, céus e terra", "kind": "lesson", "template": "vocab", "textId": "he-gen-1-1-5",
+              "goal": "Hoje você vai aprender 5 palavras de Gênesis 1:1.",
+              "newItems": ["he:lex:H0430", "he:lex:H1254a", "he:lex:H8064", "he:lex:H0776", "he:lex:H7225"], "reviewItems": ["he:lex:H7965", "he:lex:H4428", "he:lex:H3117"] },
+            { "id": "he-l4-2", "title": "Luz e escuridão", "kind": "lesson", "template": "vocab", "textId": "he-gen-1-1-5",
+              "goal": "Mais 5 palavras — com elas você entende Gênesis 1:3–5.",
+              "newItems": ["he:lex:H0216", "he:lex:H2822", "he:lex:H3117", "he:lex:H3915", "he:lex:H2896a"], "reviewItems": ["he:lex:H0430", "he:lex:H1254a", "he:lex:H8064", "he:lex:H0776", "he:lex:H7225"] },
+            { "id": "he-l4-3", "title": "Pequenas palavras que grudam", "kind": "lesson", "template": "vocab", "textId": "he-gen-1-1-5",
+              "goal": "6 palavrinhas que aparecem em quase todo versículo.",
+              "newItems": ["he:lex:c", "he:lex:d", "he:lex:b", "he:lex:l", "he:lex:H0853", "he:lex:H5921a"], "reviewItems": ["he:lex:H0216", "he:lex:H2822", "he:lex:H0776", "he:lex:H8064"],
+              "observe": { "title": "Observe o começo das palavras", "body": "Compare אָרֶץ (terra), הָאָרֶץ (a terra) e וְהָאָרֶץ (e a terra). Em hebraico, \"e\", \"o/a\", \"em\" e \"para\" não são palavras soltas: grudam no início da palavra seguinte.", "example": "וְ + הָ + אָרֶץ ← וְהָאָרֶץ" },
+              "rule": { "title": "Leia a palavra por blocos", "body": "Quando uma palavra parecer desconhecida, olhe primeiro o começo: pode haver um וְ (e), um הַ (o/a), um בְּ (em) ou um לְ (para) antes da palavra que você já conhece. No leitor de textos, esses blocos aparecem separados quando você toca na palavra." } },
+            { "id": "he-l4-4", "title": "Disse, viu, chamou", "kind": "lesson", "template": "vocab", "textId": "he-gen-1-1-5",
+              "goal": "5 verbos que movem a narrativa.",
+              "newItems": ["he:lex:H0559", "he:lex:H1961", "he:lex:H7200", "he:lex:H7121", "he:lex:H0914"], "reviewItems": ["he:lex:c", "he:lex:d", "he:lex:H0853", "he:lex:H0430", "he:lex:H0216"],
+              "observe": { "title": "A forma de dicionário não é a forma do texto", "body": "O dicionário registra אָמַר (dizer). No texto você encontrará וַיֹּאמֶר (\"e disse\"). É o mesmo verbo, flexionado. Você vai aprender os padrões aos poucos; por agora, acostume o olho com as três consoantes que se repetem.", "example": "אָמַר ← וַיֹּאמֶר" } },
+            { "id": "he-l4-5", "title": "Blocos de uma palavra", "kind": "lesson",
+              "goal": "Desmontar palavras reais de Gênesis 1.",
+              "newItems": [], "reviewItems": ["he:lex:H0430", "he:lex:H0776", "he:lex:H0216", "he:lex:H0559", "he:lex:H1961", "he:lex:H7200", "he:lex:H7121"],
+              "steps": [
+                { "type": "note", "style": "why", "title": "Por que analisar?", "body": "Cada palavra do texto hebraico carrega informação além do sentido: quem faz a ação, se é singular ou plural, masculino ou feminino. Você não precisa decorar tabelas agora — só começar a perceber que a informação está ali." },
+                { "type": "note", "style": "observe", "title": "Um mesmo começo, muitas vezes", "body": "Olhe estes verbos de Gênesis 1: וַיֹּאמֶר (e disse), וַיַּרְא (e viu), וַיִּקְרָא (e chamou), וַיְהִי (e houve). Todos começam com וַיּ. O que eles têm em comum no sentido?", "example": "וַיֹּאמֶר  וַיַּרְא  וַיִּקְרָא  וַיְהִי" },
+                { "type": "exercise", "generator": "whoAmI", "textId": "he-gen-1-1-5", "count": 4 },
+                { "type": "note", "style": "rule", "title": "A forma narrativa", "body": "וַ + י no começo de um verbo é a marca mais comum da narrativa hebraica: \"e ele [fez]\". Os gramáticos a chamam de wayyiqtol (ou imperfeito consecutivo). Ela encadeia os acontecimentos, um depois do outro. O י indica 3ª pessoa do masculino singular: \"ele\"." },
+                { "type": "exercise", "generator": "morphBoss", "textId": "he-gen-1-1-5", "count": 2 },
+                { "type": "exercise", "generator": "guidedTranslation", "textId": "he-gen-1-1-5", "count": 2 },
+                { "type": "exercise", "generator": "contextDetective", "count": 3 },
+                { "type": "exercise", "generator": "errorHunt", "count": 2 }
+              ] },
+            { "id": "he-l4-boss-1", "title": "Passagem-chefe: Gênesis 1:1–5", "kind": "boss", "template": "boss", "textId": "he-gen-1-1-5",
+              "goal": "Tudo o que você aprendeu, em um texto real.",
+              "newItems": [], "reviewItems": ["he:lex:H0430", "he:lex:H1254a", "he:lex:H8064", "he:lex:H0776", "he:lex:H7225", "he:lex:H0216", "he:lex:H2822", "he:lex:H3117", "he:lex:H3915", "he:lex:H2896a", "he:lex:H0559", "he:lex:H1961", "he:lex:H7200", "he:lex:H7121", "he:lex:H0914", "he:lex:c", "he:lex:d", "he:lex:b", "he:lex:l", "he:lex:H0853", "he:lex:H5921a"] }
+          ]
+        },
+        {
+          "id": "he-u6", "title": "Palavras do Shemá e da bênção", "masteryThreshold": 0.8,
+          "summary": "O vocabulário de Deuteronômio 6:4–5 e Números 6:24–26, e as primeiras famílias de palavras.",
+          "why": "São dois dos textos mais recitados da Bíblia Hebraica. Ao fim desta unidade você os lê no original.",
+          "skills": [
+            { "id": "he-sk-vocab-shema", "title": "Vocabulário do Shemá", "description": "Reconhecer o sentido das palavras de Deuteronômio 6:4–5.", "dimensions": ["meaning"],
+              "itemIds": ["he:lex:H8085", "he:lex:H3478", "he:lex:H3068", "he:lex:H0259", "he:lex:H0157", "he:lex:H3824", "he:lex:H5315", "he:lex:H3966", "he:lex:H3605"] },
+            { "id": "he-sk-vocab-blessing", "title": "Vocabulário da bênção", "description": "Reconhecer o sentido das palavras de Números 6:24–26.", "dimensions": ["meaning"],
+              "itemIds": ["he:lex:H1288", "he:lex:H8104", "he:lex:H6440", "he:lex:H5375", "he:lex:H2603a", "he:lex:H7965"] }
+          ],
+          "lessons": [
+            { "id": "he-l4-6", "title": "Escuta, Israel", "kind": "lesson", "template": "vocab", "textId": "he-deut-6-4-5",
+              "goal": "Hoje você vai aprender 5 palavras do Shemá.",
+              "newItems": ["he:lex:H8085", "he:lex:H3478", "he:lex:H3068", "he:lex:H0259", "he:lex:H0157"], "reviewItems": ["he:lex:H0430", "he:lex:H0559", "he:lex:H1961"],
+              "observe": { "title": "O nome que não se pronuncia", "body": "יהוה é o nome próprio do Deus de Israel. Na tradição judaica ele não é pronunciado: lê-se אֲדֹנָי (\"Senhor\"). As vogais que você vê no texto são um lembrete dessa leitura, não as vogais do nome. Por isso o app escreve YHWH e o áudio não tenta vocalizá-lo.", "example": "יְהוָה" } },
+            { "id": "he-l4-7", "title": "Coração, vida, força", "kind": "lesson", "template": "vocab", "textId": "he-deut-6-4-5",
+              "goal": "Mais 5 palavras: com elas você lê Deuteronômio 6:5.",
+              "newItems": ["he:lex:H3824", "he:lex:H5315", "he:lex:H3966", "he:lex:H3605", "he:lex:H7965"], "reviewItems": ["he:lex:H8085", "he:lex:H3478", "he:lex:H3068", "he:lex:H0259", "he:lex:H0157", "he:lex:b"] },
+            { "id": "he-l4-8", "title": "Abençoar e guardar", "kind": "lesson", "template": "vocab", "textId": "he-num-6-24-26",
+              "goal": "5 palavras da bênção sacerdotal.",
+              "newItems": ["he:lex:H1288", "he:lex:H8104", "he:lex:H6440", "he:lex:H5375", "he:lex:H2603a"], "reviewItems": ["he:lex:H3068", "he:lex:H7965", "he:lex:H3824", "he:lex:H5315"] },
+            { "id": "he-l4-9", "title": "Famílias de palavras", "kind": "lesson",
+              "goal": "Descobrir o que liga rei, rainha e reino.",
+              "newItems": ["he:lex:H4436", "he:lex:H4467", "he:lex:H4427a", "he:lex:H6918", "he:lex:H6944"], "reviewItems": ["he:lex:H4428"],
+              "steps": [
+                { "type": "note", "style": "observe", "title": "Observe estas quatro palavras", "body": "Rei, rainha, reino, reinar. Olhe só as consoantes: há três que aparecem em todas, sempre na mesma ordem. Quais?", "example": "מֶלֶךְ  מַלְכָּה  מַמְלָכָה  מָלַךְ" },
+                { "type": "teach", "itemIds": ["he:lex:H4428", "he:lex:H4436", "he:lex:H4467", "he:lex:H4427a"] },
+                { "type": "exercise", "generator": "rootDetective", "count": 2 },
+                { "type": "note", "style": "rule", "title": "A raiz — e o cuidado com ela", "body": "A maioria das palavras hebraicas se forma em torno de três consoantes, a raiz. Vogais, prefixos e sufixos se encaixam nela conforme padrões. Reconhecer a raiz ajuda muito a lembrar vocabulário.\n\nMas atenção: a raiz não é um \"significado secreto\" que toda palavra da família carrega. Palavras da mesma raiz podem ter sentidos bem distantes, e raízes com as mesmas consoantes podem não ter relação nenhuma. O que define o sentido de uma palavra é o uso dela no contexto." },
+                { "type": "teach", "itemIds": ["he:lex:H6918", "he:lex:H6944"] },
+                { "type": "exercise", "generator": "rootHunt", "count": 2 },
+                { "type": "exercise", "generator": "meaningChoose", "itemIds": ["he:lex:H4428", "he:lex:H4436", "he:lex:H4467", "he:lex:H4427a", "he:lex:H6918", "he:lex:H6944"] },
+                { "type": "exercise", "generator": "memory", "itemIds": ["he:lex:H4428", "he:lex:H4436", "he:lex:H4467", "he:lex:H6918"] }
+              ] },
+            { "id": "he-l4-boss-2", "title": "Passagem-chefe: o Shemá", "kind": "boss", "template": "boss", "textId": "he-deut-6-4-5",
+              "goal": "Leia uma oração inteira no idioma original.",
+              "newItems": [], "reviewItems": ["he:lex:H8085", "he:lex:H3478", "he:lex:H3068", "he:lex:H0259", "he:lex:H0157", "he:lex:H3824", "he:lex:H5315", "he:lex:H3966", "he:lex:H3605", "he:lex:H1288", "he:lex:H8104", "he:lex:H6440", "he:lex:H5375", "he:lex:H2603a", "he:lex:H7965", "he:lex:H0430", "he:lex:b"] }
+          ]
+        }
+      ]
+    },
+    { "id": "he-lv5", "number": 5, "title": "Substantivos e adjetivos", "status": "planned", "summary": "Gênero, número e concordância.", "units": [] },
+    { "id": "he-lv6", "number": 6, "title": "Artigo, preposições, pronomes e partículas", "status": "planned", "summary": "As palavras que organizam a frase.", "units": [] },
+    { "id": "he-lv7", "number": 7, "title": "Estado absoluto e estado construto", "status": "planned", "summary": "Como o hebraico diz \"de\".", "units": [] },
+    { "id": "he-lv8", "number": 8, "title": "Sufixos pronominais", "status": "planned", "summary": "\"Meu\", \"teu\", \"dele\" colados à palavra.", "units": [] },
+    { "id": "he-lv9", "number": 9, "title": "Verbos: os troncos", "status": "planned", "summary": "Qal, Nifal, Piel, Pual, Hitpael, Hifil, Hofal.", "units": [] },
+    { "id": "he-lv10", "number": 10, "title": "Raízes e padrões", "status": "planned", "summary": "Como as palavras se formam.", "units": [] },
+    { "id": "he-lv11", "number": 11, "title": "Verbos fracos e irregularidades", "status": "planned", "summary": "Quando uma consoante da raiz desaparece.", "units": [] },
+    { "id": "he-lv12", "number": 12, "title": "Sintaxe", "status": "planned", "summary": "Orações, ordem das palavras e encadeamento narrativo.", "units": [] },
+    { "id": "he-lv13", "number": 13, "title": "Vocabulário intermediário", "status": "planned", "summary": "As palavras que ocorrem mais de 100 vezes.", "units": [] },
+    { "id": "he-lv14", "number": 14, "title": "Leitura graduada", "status": "planned", "summary": "Narrativas curtas com apoio.", "units": [] },
+    { "id": "he-lv15", "number": 15, "title": "Leitura bíblica real", "status": "planned", "summary": "Capítulos inteiros de narrativa.", "units": [] },
+    { "id": "he-lv16", "number": 16, "title": "Análise morfológica em contexto", "status": "planned", "summary": "Analisar qualquer forma do texto.", "units": [] },
+    { "id": "he-lv17", "number": 17, "title": "Jogos de palavras e recursos literários", "status": "planned", "summary": "Paralelismo, paronomásia, quiasmo.", "units": [] },
+    { "id": "he-lv18", "number": 18, "title": "Hebraico intermediário e avançado", "status": "planned", "summary": "Poesia, formas raras, variação histórica.", "units": [] },
+    { "id": "he-lv19", "number": 19, "title": "Leitura contínua", "status": "planned", "summary": "Livros inteiros com consulta mínima.", "units": [] },
+    { "id": "he-lv20", "number": 20, "title": "Textos longos", "status": "planned", "summary": "Leitura extensa e fluente.", "units": [] }
+  ]
+}

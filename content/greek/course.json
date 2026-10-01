@@ -1,0 +1,289 @@
+{
+  "title": "Grego Koiné",
+  "tagline": "Do alfa à leitura do Pai Nosso",
+  "levels": [
+    {
+      "id": "gr-lv0", "number": 0, "title": "Sons e reconhecimento", "status": "available",
+      "summary": "Três palavras gregas que você quase já sabe ler.",
+      "units": [
+        {
+          "id": "gr-u0", "title": "Três palavras", "masteryThreshold": 0.6,
+          "summary": "Seu primeiro contato com o grego do Novo Testamento.",
+          "why": "Várias letras gregas são parecidas com as nossas. Vale perceber isso antes de estudar o alfabeto.",
+          "skills": [
+            { "id": "gr-sk-first", "title": "Primeiras palavras", "description": "Reconhecer três palavras gregas pelo som e pela forma.", "dimensions": ["meaning"], "itemIds": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς"] }
+          ],
+          "lessons": [
+            {
+              "id": "gr-l0-1", "title": "Quase familiar", "kind": "lesson",
+              "goal": "Hoje você vai reconhecer 3 palavras gregas.",
+              "newItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς"], "reviewItems": [],
+              "steps": [
+                { "type": "note", "style": "why", "title": "Por onde começamos", "body": "O Novo Testamento foi escrito em grego koiné, a língua comum do Mediterrâneo oriental no século I. Antes do alfabeto, vamos ouvir e olhar três palavras." },
+                { "type": "note", "style": "observe", "title": "Observe as letras", "body": "O grego é escrito da esquerda para a direita, como o português. Olhe esta palavra: quantas letras você arriscaria ler? O ο é \"o\". O λ é a origem do nosso L. Você já conhece derivados dela: bio-logia, dia-logo.", "example": "λόγος" },
+                { "type": "teach", "itemIds": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς"] },
+                { "type": "exercise", "generator": "listenChoose" },
+                { "type": "exercise", "generator": "meaningChoose" },
+                { "type": "exercise", "generator": "memory" },
+                { "type": "exercise", "generator": "meaningChoose" },
+                { "type": "note", "style": "rule", "title": "Você acabou de ler grego", "body": "θεός está em \"teologia\"; φῶς, em \"fotografia\". O português guarda centenas de palavras gregas — isso vai ajudar. Mas cuidado: o sentido de uma palavra no Novo Testamento vem do uso dela naquele contexto, não do derivado português." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr-lv1", "number": 1, "title": "Alfabeto", "status": "available",
+      "summary": "As 24 letras, minúsculas e maiúsculas.",
+      "units": [
+        {
+          "id": "gr-u1", "title": "De Alfa a Ômicron", "masteryThreshold": 0.8,
+          "summary": "As quinze primeiras letras.",
+          "why": "São só 24 letras, e você já reconhece boa parte. O trabalho de verdade está nas que enganam: ν parece v, ρ parece p, η parece n.",
+          "skills": [
+            { "id": "gr-sk-letters-1", "title": "Letras: Alfa a Ômicron", "description": "Reconhecer a forma e o som das quinze primeiras letras.", "dimensions": ["form"],
+              "itemIds": ["gr:letter:alpha", "gr:letter:beta", "gr:letter:gamma", "gr:letter:delta", "gr:letter:epsilon", "gr:letter:zeta", "gr:letter:eta", "gr:letter:theta", "gr:letter:iota", "gr:letter:kappa", "gr:letter:lambda", "gr:letter:mu", "gr:letter:nu", "gr:letter:xi", "gr:letter:omicron"] }
+          ],
+          "lessons": [
+            { "id": "gr-l1-1", "title": "Alfa, Beta, Gama, Delta, Épsilon", "kind": "lesson", "template": "glyphs",
+              "goal": "Hoje você vai aprender 5 letras.",
+              "newItems": ["gr:letter:alpha", "gr:letter:beta", "gr:letter:gamma", "gr:letter:delta", "gr:letter:epsilon"], "reviewItems": [],
+              "observe": { "title": "De onde vem a palavra \"alfabeto\"", "body": "Alfa + Beta. O alfabeto grego descende do fenício — o mesmo ancestral do alfabeto hebraico. Por isso Alfa lembra Alef, Beta lembra Bet, Gama lembra Gimel, Delta lembra Dalet.", "example": "α β γ δ ε" } },
+            { "id": "gr-l1-2", "title": "Zeta, Eta, Theta, Iota, Capa", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 5 letras.",
+              "newItems": ["gr:letter:zeta", "gr:letter:eta", "gr:letter:theta", "gr:letter:iota", "gr:letter:kappa"],
+              "reviewItems": ["gr:letter:alpha", "gr:letter:beta", "gr:letter:gamma", "gr:letter:delta", "gr:letter:epsilon"],
+              "observe": { "title": "Não é um n", "body": "η parece o nosso n, mas é uma vogal: o Eta. O grego tem dois \"e\": ε (breve) e η (longo).", "example": "ε η" } },
+            { "id": "gr-l1-3", "title": "Lambda, Mi, Ni, Csi, Ômicron", "kind": "lesson", "template": "glyphs",
+              "goal": "Mais 5 letras — uma delas é uma armadilha.",
+              "newItems": ["gr:letter:lambda", "gr:letter:mu", "gr:letter:nu", "gr:letter:xi", "gr:letter:omicron"],
+              "reviewItems": ["gr:letter:zeta", "gr:letter:eta", "gr:letter:theta", "gr:letter:iota", "gr:letter:kappa", "gr:letter:gamma"],
+              "observe": { "title": "Não é um v", "body": "ν é o Ni: som de n. É provavelmente o erro mais comum de quem começa. Em ἐν (\"em\") você lê \"en\", não \"ev\".", "example": "ν  ἐν" } },
+            { "id": "gr-l1-boss-1", "title": "Desafio: de Alfa a Ômicron", "kind": "boss", "template": "boss",
+              "goal": "Mostre que reconhece as quinze primeiras letras.",
+              "newItems": [], "reviewItems": ["gr:letter:alpha", "gr:letter:beta", "gr:letter:gamma", "gr:letter:delta", "gr:letter:epsilon", "gr:letter:zeta", "gr:letter:eta", "gr:letter:theta", "gr:letter:iota", "gr:letter:kappa", "gr:letter:lambda", "gr:letter:mu", "gr:letter:nu", "gr:letter:xi", "gr:letter:omicron"] }
+          ]
+        },
+        {
+          "id": "gr-u2", "title": "De Pi a Ômega", "masteryThreshold": 0.8,
+          "summary": "As nove letras restantes e as maiúsculas.",
+          "why": "Com esta unidade você soletra qualquer palavra do Novo Testamento.",
+          "skills": [
+            { "id": "gr-sk-letters-2", "title": "Letras: Pi a Ômega", "description": "Reconhecer a forma e o som das letras de Pi a Ômega.", "dimensions": ["form"],
+              "itemIds": ["gr:letter:pi", "gr:letter:rho", "gr:letter:sigma", "gr:letter:sigma-final", "gr:letter:tau", "gr:letter:upsilon", "gr:letter:phi", "gr:letter:chi", "gr:letter:psi", "gr:letter:omega"] }
+          ],
+          "lessons": [
+            { "id": "gr-l1-4", "title": "Pi, Rô, Sigma, Tau, Úpsilon", "kind": "lesson", "template": "glyphs",
+              "goal": "Hoje você vai aprender 5 letras e uma forma final.",
+              "newItems": ["gr:letter:pi", "gr:letter:rho", "gr:letter:sigma", "gr:letter:sigma-final", "gr:letter:tau", "gr:letter:upsilon"],
+              "reviewItems": ["gr:letter:nu", "gr:letter:omicron", "gr:letter:eta"],
+              "observe": { "title": "Não é um p", "body": "ρ é o Rô: som de r. O p grego é π. E repare no fim de λόγος: o sigma tem uma forma só para o fim da palavra (ς).", "example": "ρ π   σ ς" } },
+            { "id": "gr-l1-5", "title": "Fi, Qui, Psi, Ômega", "kind": "lesson", "template": "glyphs",
+              "goal": "As últimas 4 letras.",
+              "newItems": ["gr:letter:phi", "gr:letter:chi", "gr:letter:psi", "gr:letter:omega"],
+              "reviewItems": ["gr:letter:pi", "gr:letter:rho", "gr:letter:sigma", "gr:letter:tau", "gr:letter:upsilon", "gr:letter:kappa"],
+              "observe": { "title": "Não é um x", "body": "χ é o Qui: um som raspado no fundo da boca. O som \"ks\" é do ξ. Χριστός começa com χ.", "example": "χ ξ" } },
+            { "id": "gr-l1-6", "title": "As maiúsculas", "kind": "lesson",
+              "goal": "Reconhecer as maiúsculas que não se parecem com as minúsculas.",
+              "newItems": [], "reviewItems": ["gr:letter:gamma", "gr:letter:delta", "gr:letter:eta", "gr:letter:lambda", "gr:letter:xi", "gr:letter:pi", "gr:letter:rho", "gr:letter:sigma", "gr:letter:upsilon", "gr:letter:omega", "gr:letter:nu", "gr:letter:mu"],
+              "steps": [
+                { "type": "note", "style": "observe", "title": "Onde aparecem maiúsculas", "body": "Nas edições modernas do Novo Testamento, as maiúsculas aparecem em nomes próprios e no começo de parágrafos e citações. Os manuscritos mais antigos, ao contrário, eram escritos só em maiúsculas, sem espaços. Compare cada par.", "example": "Γγ Δδ Ηη Λλ Ξξ Ππ Ρρ Σσ Υυ Ωω" },
+                { "type": "exercise", "generator": "findLetter", "variant": "upper", "count": 6 },
+                { "type": "exercise", "generator": "nameChoose", "variant": "upper", "count": 6 },
+                { "type": "exercise", "generator": "memory", "variant": "upper" },
+                { "type": "note", "style": "rule", "title": "Cuidado com Η, Ρ e Υ", "body": "Η é Eta (ê), não H. Ρ é Rô (r), não P. Υ é Úpsilon, não Y. Elas se parecem com letras latinas por terem o mesmo ancestral, mas os sons seguiram caminhos diferentes." }
+              ] },
+            { "id": "gr-l1-boss-2", "title": "Desafio: o alfabeto inteiro", "kind": "boss", "template": "boss",
+              "goal": "Todas as letras, misturadas.",
+              "newItems": [], "reviewItems": ["gr:letter:pi", "gr:letter:rho", "gr:letter:sigma", "gr:letter:sigma-final", "gr:letter:tau", "gr:letter:upsilon", "gr:letter:phi", "gr:letter:chi", "gr:letter:psi", "gr:letter:omega", "gr:letter:nu", "gr:letter:eta", "gr:letter:xi", "gr:letter:gamma", "gr:letter:zeta"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr-lv2", "number": 2, "title": "Acentos e diacríticos", "status": "available",
+      "summary": "Ditongos, espíritos, acentos e o iota subscrito.",
+      "units": [
+        {
+          "id": "gr-u3", "title": "Os sinais em volta das letras", "masteryThreshold": 0.8,
+          "summary": "O que cada sinal indica — e quais realmente importam para ler.",
+          "why": "Os sinais assustam, mas poucos mudam o sentido. Saber quais são poupa muito esforço.",
+          "skills": [
+            { "id": "gr-sk-diphthongs", "title": "Ditongos", "description": "Reconhecer os sete ditongos e seus sons.", "dimensions": ["form"],
+              "itemIds": ["gr:vowel:ai", "gr:vowel:ei", "gr:vowel:oi", "gr:vowel:ou", "gr:vowel:au", "gr:vowel:eu", "gr:vowel:ui"] },
+            { "id": "gr-sk-marks", "title": "Espíritos e acentos", "description": "Reconhecer espíritos, acentos, iota subscrito e trema.", "dimensions": ["form"],
+              "itemIds": ["gr:mark:smooth", "gr:mark:rough", "gr:mark:iota-subscript", "gr:mark:acute", "gr:mark:grave", "gr:mark:circumflex", "gr:mark:diaeresis"] }
+          ],
+          "lessons": [
+            { "id": "gr-l2-1", "title": "Ditongos", "kind": "lesson", "template": "glyphs",
+              "goal": "Sete pares de vogais que soam como uma só.",
+              "newItems": ["gr:vowel:ai", "gr:vowel:ei", "gr:vowel:oi", "gr:vowel:ou", "gr:vowel:au", "gr:vowel:eu", "gr:vowel:ui"], "reviewItems": ["gr:letter:upsilon", "gr:letter:iota"],
+              "observe": { "title": "A pronúncia depende do modelo", "body": "É nos ditongos que os modelos de pronúncia mais divergem. Na koiné reconstruída do período romano, αι soa como ε e ει soa como ι. Na pronúncia erasmiana de sala de aula, cada ditongo soa como as duas letras juntas. O app mostra a descrição do modelo que você escolheu nas configurações.", "example": "καί  εἰς  οὐ" } },
+            { "id": "gr-l2-2", "title": "Espíritos e iota subscrito", "kind": "lesson", "template": "glyphs",
+              "goal": "3 sinais que podem mudar o sentido da palavra.",
+              "newItems": ["gr:mark:smooth", "gr:mark:rough", "gr:mark:iota-subscript"], "reviewItems": ["gr:vowel:ai", "gr:vowel:ei", "gr:vowel:ou"],
+              "observe": { "title": "Compare estas duas palavras", "body": "ἐν significa \"em\". ἕν significa \"um\". A única diferença está nos sinais sobre a primeira letra. Toda palavra que começa com vogal leva um espírito: a vírgula voltada para a esquerda (᾿) é o suave; a voltada para a direita (῾) é o áspero.", "example": "ἐν  ἕν" } },
+            { "id": "gr-l2-3", "title": "Acentos e trema", "kind": "lesson", "template": "glyphs",
+              "goal": "4 sinais que indicam como pronunciar.",
+              "newItems": ["gr:mark:acute", "gr:mark:grave", "gr:mark:circumflex", "gr:mark:diaeresis"], "reviewItems": ["gr:mark:smooth", "gr:mark:rough", "gr:mark:iota-subscript"],
+              "observe": { "title": "Três acentos, uma função", "body": "Agudo, grave e circunflexo marcavam diferenças de tom no grego clássico. No período do Novo Testamento os três já indicavam simplesmente a sílaba tônica. Para ler, basta saber onde cai a força da palavra.", "example": "θεός  θεὸς  θεοῦ" } },
+            { "id": "gr-l2-boss", "title": "Desafio: ditongos e sinais", "kind": "boss", "template": "boss",
+              "goal": "Mostre que reconhece cada sinal.",
+              "newItems": [], "reviewItems": ["gr:vowel:ai", "gr:vowel:ei", "gr:vowel:oi", "gr:vowel:ou", "gr:vowel:au", "gr:vowel:eu", "gr:vowel:ui", "gr:mark:smooth", "gr:mark:rough", "gr:mark:iota-subscript", "gr:mark:acute", "gr:mark:grave", "gr:mark:circumflex", "gr:mark:diaeresis"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr-lv3", "number": 3, "title": "Leitura inicial", "status": "available",
+      "summary": "Ler palavras inteiras em voz alta.",
+      "units": [
+        {
+          "id": "gr-u4", "title": "Primeiras palavras lidas", "masteryThreshold": 0.8,
+          "summary": "Doze palavras muito frequentes do Novo Testamento.",
+          "why": "Ler em voz alta fixa a ligação entre letra e som. Estas palavras aparecem em quase toda página do NT.",
+          "skills": [
+            { "id": "gr-sk-reading-1", "title": "Leitura de palavras", "description": "Ler em voz alta palavras gregas com acentos e espíritos.", "dimensions": ["reading"],
+              "itemIds": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς", "gr:lex:ζωή", "gr:lex:γῆ", "gr:lex:ἀρχή", "gr:lex:ἄνθρωπος", "gr:lex:οὐρανός", "gr:lex:πατήρ", "gr:lex:ὄνομα", "gr:lex:καρδία", "gr:lex:ἄρτος"] }
+          ],
+          "lessons": [
+            { "id": "gr-l3-1", "title": "Palavras curtas", "kind": "lesson", "template": "reading",
+              "goal": "Hoje você vai ler 6 palavras sozinho.",
+              "newItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς", "gr:lex:ζωή", "gr:lex:γῆ", "gr:lex:ἀρχή"], "reviewItems": [] },
+            { "id": "gr-l3-2", "title": "Palavras mais longas", "kind": "lesson", "template": "reading",
+              "goal": "Mais 6 palavras.",
+              "newItems": ["gr:lex:ἄνθρωπος", "gr:lex:οὐρανός", "gr:lex:πατήρ", "gr:lex:ὄνομα", "gr:lex:καρδία", "gr:lex:ἄρτος"],
+              "reviewItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς", "gr:lex:ζωή", "gr:lex:γῆ", "gr:lex:ἀρχή"] },
+            { "id": "gr-l3-boss", "title": "Desafio: leitura", "kind": "boss", "template": "boss",
+              "goal": "Leia, ouça e monte as doze palavras.",
+              "newItems": [], "reviewItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς", "gr:lex:ζωή", "gr:lex:γῆ", "gr:lex:ἀρχή", "gr:lex:ἄνθρωπος", "gr:lex:οὐρανός", "gr:lex:πατήρ", "gr:lex:ὄνομα", "gr:lex:καρδία", "gr:lex:ἄρτος"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr-lv4", "number": 4, "title": "Vocabulário básico", "status": "available",
+      "summary": "As palavras do prólogo de João.",
+      "units": [
+        {
+          "id": "gr-u5", "title": "Palavras de João 1", "masteryThreshold": 0.8,
+          "summary": "Com dezoito palavras você lê João 1:1–5.",
+          "why": "O prólogo de João repete o mesmo vocabulário várias vezes. Cada palavra aprendida rende muitas ocorrências reconhecidas.",
+          "skills": [
+            { "id": "gr-sk-vocab-john", "title": "Vocabulário de João 1", "description": "Reconhecer o sentido dos substantivos e verbos de João 1:1–5.", "dimensions": ["meaning"],
+              "itemIds": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:ἀρχή", "gr:lex:ζωή", "gr:lex:φῶς", "gr:lex:σκοτία", "gr:lex:πᾶς", "gr:lex:γίνομαι", "gr:lex:ἄνθρωπος", "gr:lex:αὐτός", "gr:lex:οὗτος", "gr:lex:φαίνω"] },
+            { "id": "gr-sk-particles", "title": "Pequenas palavras", "description": "Reconhecer conjunção, preposições, negação e o verbo ser.", "dimensions": ["meaning"],
+              "itemIds": ["gr:lex:καί", "gr:lex:ἐν", "gr:lex:πρός", "gr:lex:διά", "gr:lex:οὐ", "gr:lex:εἰμί"] }
+          ],
+          "lessons": [
+            { "id": "gr-l4-1", "title": "Palavra, vida, luz", "kind": "lesson", "template": "vocab", "textId": "gr-john-1-1-5",
+              "goal": "Hoje você vai aprender 6 palavras de João 1.",
+              "newItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:ἀρχή", "gr:lex:ζωή", "gr:lex:φῶς", "gr:lex:σκοτία"], "reviewItems": ["gr:lex:πατήρ", "gr:lex:οὐρανός"] },
+            { "id": "gr-l4-2", "title": "Pequenas palavras", "kind": "lesson", "template": "vocab", "textId": "gr-john-1-1-5",
+              "goal": "6 palavrinhas que aparecem em quase todo versículo.",
+              "newItems": ["gr:lex:καί", "gr:lex:ἐν", "gr:lex:πρός", "gr:lex:διά", "gr:lex:οὐ", "gr:lex:εἰμί"], "reviewItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:ἀρχή", "gr:lex:ζωή"],
+              "observe": { "title": "O final da palavra muda", "body": "Compare θεός, θεόν e θεοῦ: é a mesma palavra, \"Deus\". Em grego, o final da palavra muda para mostrar o papel dela na frase. As preposições pedem finais específicos: ἐν ἀρχῇ, πρὸς τὸν θεόν. Por enquanto, só perceba a variação.", "example": "θεός  θεόν  θεοῦ" } },
+            { "id": "gr-l4-3", "title": "Tudo, ele, este", "kind": "lesson", "template": "vocab", "textId": "gr-john-1-1-5",
+              "goal": "Mais 6 palavras: com elas João 1:1–5 fica completo.",
+              "newItems": ["gr:lex:πᾶς", "gr:lex:γίνομαι", "gr:lex:ἄνθρωπος", "gr:lex:αὐτός", "gr:lex:οὗτος", "gr:lex:φαίνω"], "reviewItems": ["gr:lex:καί", "gr:lex:ἐν", "gr:lex:πρός", "gr:lex:διά", "gr:lex:οὐ", "gr:lex:εἰμί"] },
+            { "id": "gr-l4-4", "title": "\"Era\" e \"veio a existir\"", "kind": "lesson",
+              "goal": "Desmontar formas reais de João 1.",
+              "newItems": [], "reviewItems": ["gr:lex:εἰμί", "gr:lex:γίνομαι", "gr:lex:λόγος", "gr:lex:θεός", "gr:lex:φῶς"],
+              "steps": [
+                { "type": "note", "style": "why", "title": "Por que analisar?", "body": "Em grego, cada palavra traz no final a informação de quem age, quando e como. Você não precisa decorar tabelas agora — só começar a notar que a informação está ali." },
+                { "type": "note", "style": "observe", "title": "Dois verbos, lado a lado", "body": "Em João 1:1–2, ἦν aparece quatro vezes. No versículo 3, o autor troca para ἐγένετο. Leia de novo a tradução e veja a que cada um se refere.", "example": "ἦν  ·  ἐγένετο" },
+                { "type": "exercise", "generator": "whoAmI", "textId": "gr-john-1-1-5", "count": 4 },
+                { "type": "note", "style": "rule", "title": "Estado e mudança", "body": "ἦν é o imperfeito de εἰμί (\"ser\"): descreve algo em andamento no passado, sem começo à vista. ἐγένετο é o aoristo de γίνομαι (\"vir a ser\"): apresenta um acontecimento, uma mudança. O prólogo usa ἦν para o Verbo e ἐγένετο para a criação. O contraste é um fato do texto; o que ele implica é assunto dos intérpretes." },
+                { "type": "exercise", "generator": "morphBoss", "textId": "gr-john-1-1-5", "count": 2 },
+                { "type": "exercise", "generator": "guidedTranslation", "textId": "gr-john-1-1-5", "count": 2 },
+                { "type": "exercise", "generator": "contextDetective", "count": 3 },
+                { "type": "exercise", "generator": "errorHunt", "count": 2 }
+              ] },
+            { "id": "gr-l4-boss", "title": "Passagem-chefe: João 1:1–5", "kind": "boss", "template": "boss", "textId": "gr-john-1-1-5",
+              "goal": "Tudo o que você aprendeu, em um texto real.",
+              "newItems": [], "reviewItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:ἀρχή", "gr:lex:ζωή", "gr:lex:φῶς", "gr:lex:σκοτία", "gr:lex:καί", "gr:lex:ἐν", "gr:lex:πρός", "gr:lex:διά", "gr:lex:οὐ", "gr:lex:εἰμί", "gr:lex:πᾶς", "gr:lex:γίνομαι", "gr:lex:ἄνθρωπος", "gr:lex:αὐτός", "gr:lex:οὗτος", "gr:lex:φαίνω"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr-lv5", "number": 5, "title": "O artigo", "status": "available",
+      "summary": "A palavra mais frequente do Novo Testamento — e a melhor pista para os casos.",
+      "units": [
+        {
+          "id": "gr-u6", "title": "O artigo e o Pai Nosso", "masteryThreshold": 0.8,
+          "summary": "As formas do artigo, o vocabulário do Pai Nosso e as primeiras famílias de palavras.",
+          "why": "O artigo aparece quase 20 mil vezes no NT. Quem reconhece suas formas descobre o caso, o gênero e o número do substantivo ao lado sem decorar tabela nenhuma.",
+          "skills": [
+            { "id": "gr-sk-article", "title": "O artigo", "description": "Reconhecer as formas do artigo e o que elas indicam.", "dimensions": ["morphology"], "itemIds": ["gr:lex:ὁ"] },
+            { "id": "gr-sk-vocab-pater", "title": "Vocabulário do Pai Nosso", "description": "Reconhecer o sentido das palavras de Mateus 6:9–13.", "dimensions": ["meaning"],
+              "itemIds": ["gr:lex:πατήρ", "gr:lex:οὐρανός", "gr:lex:ὄνομα", "gr:lex:βασιλεία", "gr:lex:θέλημα", "gr:lex:ἄρτος", "gr:lex:δίδωμι", "gr:lex:ἀφίημι", "gr:lex:ὀφείλημα", "gr:lex:πονηρός", "gr:lex:σήμερον"] }
+          ],
+          "lessons": [
+            { "id": "gr-l5-1", "title": "ὁ, ἡ, τό", "kind": "lesson",
+              "goal": "Reconhecer o artigo em qualquer forma.",
+              "newItems": ["gr:lex:ὁ"], "reviewItems": ["gr:lex:λόγος", "gr:lex:θεός", "gr:lex:ζωή", "gr:lex:φῶς"],
+              "steps": [
+                { "type": "note", "style": "observe", "title": "Observe a palavrinha antes do substantivo", "body": "Em João 1 você leu ὁ λόγος, ἡ ζωή, τὸ φῶς, τὸν θεόν, τῶν ἀνθρώπων, τῇ σκοτίᾳ. A palavrinha da frente muda junto com o substantivo. O que será que ela acompanha?", "example": "ὁ λόγος · ἡ ζωή · τὸ φῶς · τὸν θεόν" },
+                { "type": "teach", "itemIds": ["gr:lex:ὁ"] },
+                { "type": "exercise", "generator": "whoAmI", "textId": "gr-john-1-1-5", "itemIds": ["gr:lex:ὁ"], "count": 3 },
+                { "type": "note", "style": "rule", "title": "Caso, gênero e número", "body": "O artigo concorda com o substantivo em três coisas: gênero (masculino, feminino, neutro), número (singular, plural) e caso. O caso mostra o papel da palavra na frase: o nominativo costuma marcar o sujeito; o acusativo, o objeto direto; o genitivo, posse ou origem (\"de\"); o dativo, o destinatário ou o meio (\"a\", \"em\").\n\nPor isso a ordem das palavras em grego é mais livre que em português: quem faz o quê está marcado no final das palavras, não na posição." },
+                { "type": "exercise", "generator": "morphBoss", "textId": "gr-john-1-1-5", "itemIds": ["gr:lex:ὁ"], "count": 3 },
+                { "type": "exercise", "generator": "correctForm", "textId": "gr-matt-6-9-13", "itemIds": ["gr:lex:ὁ"], "count": 4 },
+                { "type": "exercise", "generator": "guidedTranslation", "textId": "gr-john-1-1-5", "count": 2 }
+              ] },
+            { "id": "gr-l5-2", "title": "Pai, nome, reino", "kind": "lesson", "template": "vocab", "textId": "gr-matt-6-9-13",
+              "goal": "Hoje você vai aprender 5 palavras do Pai Nosso.",
+              "newItems": ["gr:lex:πατήρ", "gr:lex:οὐρανός", "gr:lex:ὄνομα", "gr:lex:βασιλεία", "gr:lex:θέλημα"], "reviewItems": ["gr:lex:ὁ", "gr:lex:ἐν", "gr:lex:καί", "gr:lex:γίνομαι"] },
+            { "id": "gr-l5-3", "title": "Pão, dívida, mal", "kind": "lesson", "template": "vocab", "textId": "gr-matt-6-9-13",
+              "goal": "Mais 6 palavras: com elas o Pai Nosso fica completo.",
+              "newItems": ["gr:lex:ἄρτος", "gr:lex:δίδωμι", "gr:lex:ἀφίημι", "gr:lex:ὀφείλημα", "gr:lex:πονηρός", "gr:lex:σήμερον"], "reviewItems": ["gr:lex:πατήρ", "gr:lex:οὐρανός", "gr:lex:ὄνομα", "gr:lex:βασιλεία", "gr:lex:θέλημα"] },
+            { "id": "gr-l5-4", "title": "Famílias de palavras", "kind": "lesson",
+              "goal": "Descobrir o que liga rei, reino e reinar.",
+              "newItems": ["gr:lex:βασιλεύς", "gr:lex:βασιλεύω", "gr:lex:ἅγιος", "gr:lex:ἁγιάζω"], "reviewItems": ["gr:lex:βασιλεία"],
+              "steps": [
+                { "type": "note", "style": "observe", "title": "Observe estas três palavras", "body": "Reino, rei, reinar. Que parte se repete nas três?", "example": "βασιλεία  βασιλεύς  βασιλεύω" },
+                { "type": "teach", "itemIds": ["gr:lex:βασιλεία", "gr:lex:βασιλεύς", "gr:lex:βασιλεύω"] },
+                { "type": "exercise", "generator": "rootDetective", "count": 2 },
+                { "type": "note", "style": "rule", "title": "O radical — e o cuidado com ele", "body": "As palavras gregas se formam a partir de um radical, ao qual se juntam sufixos (-εύς para quem exerce, -εία para a coisa ou o estado, -εύω para o verbo) e, muitas vezes, preposições na frente.\n\nReconhecer o radical ajuda a lembrar vocabulário. Mas a soma das partes nem sempre dá o sentido: o significado de uma palavra é o que ela quer dizer no uso, no contexto — não o que suas partes \"literalmente\" diriam. Estudiosos chamam de falácia da raiz o erro de deduzir o sentido só pela etimologia." },
+                { "type": "teach", "itemIds": ["gr:lex:ἅγιος", "gr:lex:ἁγιάζω"] },
+                { "type": "exercise", "generator": "rootHunt", "count": 2 },
+                { "type": "exercise", "generator": "meaningChoose", "itemIds": ["gr:lex:βασιλεία", "gr:lex:βασιλεύς", "gr:lex:βασιλεύω", "gr:lex:ἅγιος", "gr:lex:ἁγιάζω"] },
+                { "type": "exercise", "generator": "contextDetective", "count": 3 },
+                { "type": "exercise", "generator": "errorHunt", "count": 2 }
+              ] },
+            { "id": "gr-l5-boss", "title": "Passagem-chefe: o Pai Nosso", "kind": "boss", "template": "boss", "textId": "gr-matt-6-9-13",
+              "goal": "Leia uma oração inteira no idioma original.",
+              "newItems": [], "reviewItems": ["gr:lex:πατήρ", "gr:lex:οὐρανός", "gr:lex:ὄνομα", "gr:lex:βασιλεία", "gr:lex:θέλημα", "gr:lex:ἄρτος", "gr:lex:δίδωμι", "gr:lex:ἀφίημι", "gr:lex:ὀφείλημα", "gr:lex:πονηρός", "gr:lex:σήμερον", "gr:lex:ὁ", "gr:lex:καί", "gr:lex:ἐν", "gr:lex:γῆ"] }
+          ]
+        }
+      ]
+    },
+    { "id": "gr-lv6", "number": 6, "title": "Primeira, segunda e terceira declinação", "status": "planned", "summary": "Os padrões de final dos substantivos.", "units": [] },
+    { "id": "gr-lv7", "number": 7, "title": "Casos", "status": "planned", "summary": "Nominativo, genitivo, dativo, acusativo, vocativo em uso.", "units": [] },
+    { "id": "gr-lv8", "number": 8, "title": "Pronomes", "status": "planned", "summary": "Pessoais, demonstrativos, relativos.", "units": [] },
+    { "id": "gr-lv9", "number": 9, "title": "Adjetivos", "status": "planned", "summary": "Concordância e posição.", "units": [] },
+    { "id": "gr-lv10", "number": 10, "title": "Preposições", "status": "planned", "summary": "Cada preposição e os casos que ela pede.", "units": [] },
+    { "id": "gr-lv11", "number": 11, "title": "Presente", "status": "planned", "summary": "O verbo em andamento.", "units": [] },
+    { "id": "gr-lv12", "number": 12, "title": "Imperfeito", "status": "planned", "summary": "Andamento no passado.", "units": [] },
+    { "id": "gr-lv13", "number": 13, "title": "Futuro", "status": "planned", "summary": "O sigma que anuncia o futuro.", "units": [] },
+    { "id": "gr-lv14", "number": 14, "title": "Aoristo", "status": "planned", "summary": "A ação vista por inteiro.", "units": [] },
+    { "id": "gr-lv15", "number": 15, "title": "Perfeito", "status": "planned", "summary": "Estado que resulta de uma ação.", "units": [] },
+    { "id": "gr-lv16", "number": 16, "title": "Mais-que-perfeito", "status": "planned", "summary": "Raro no NT; só o necessário para reconhecer.", "units": [] },
+    { "id": "gr-lv17", "number": 17, "title": "Voz ativa, média e passiva", "status": "planned", "summary": "Quem age e quem é afetado.", "units": [] },
+    { "id": "gr-lv18", "number": 18, "title": "Infinitivo", "status": "planned", "summary": "O verbo como substantivo.", "units": [] },
+    { "id": "gr-lv19", "number": 19, "title": "Particípio", "status": "planned", "summary": "A forma mais versátil do grego.", "units": [] },
+    { "id": "gr-lv20", "number": 20, "title": "Subjuntivo", "status": "planned", "summary": "Possibilidade, propósito, exortação.", "units": [] },
+    { "id": "gr-lv21", "number": 21, "title": "Imperativo", "status": "planned", "summary": "Ordens e pedidos.", "units": [] },
+    { "id": "gr-lv22", "number": 22, "title": "Optativo", "status": "planned", "summary": "Menos de 70 ocorrências no NT: reconhecer basta.", "units": [] },
+    { "id": "gr-lv23", "number": 23, "title": "Sintaxe", "status": "planned", "summary": "Como as palavras se organizam.", "units": [] },
+    { "id": "gr-lv24", "number": 24, "title": "Cláusulas", "status": "planned", "summary": "Orações subordinadas e conectivos.", "units": [] },
+    { "id": "gr-lv25", "number": 25, "title": "Construções recorrentes do NT", "status": "planned", "summary": "Genitivo absoluto, perifrásticas, semitismos.", "units": [] },
+    { "id": "gr-lv26", "number": 26, "title": "Leitura graduada", "status": "planned", "summary": "1 João e trechos de Marcos com apoio.", "units": [] },
+    { "id": "gr-lv27", "number": 27, "title": "Análise morfológica", "status": "planned", "summary": "Analisar qualquer forma do texto.", "units": [] },
+    { "id": "gr-lv28", "number": 28, "title": "Semântica e contexto", "status": "planned", "summary": "Campos de sentido e escolha de tradução.", "units": [] },
+    { "id": "gr-lv29", "number": 29, "title": "Jogos de palavras e recursos literários", "status": "planned", "summary": "Ordem das palavras, ênfase, discurso.", "units": [] },
+    { "id": "gr-lv30", "number": 30, "title": "Leitura contínua do NT", "status": "planned", "summary": "Livros inteiros com consulta mínima.", "units": [] }
+  ]
+}

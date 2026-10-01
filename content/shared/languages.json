@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hebrew", "name": "Hebraico Bíblico", "nativeName": "עִבְרִית", "direction": "rtl", "prefix": "he",
+    "defaultPronunciationId": "he-academic",
+    "pronunciationModels": [
+      { "id": "he-academic", "languageId": "hebrew", "name": "Convenção acadêmica", "kind": "academic-convention", "ttsLang": "he-IL",
+        "description": "A leitura usada na maioria dos cursos e gramáticas de hebraico bíblico, baseada na tradição sefardita e próxima do hebraico israelense.",
+        "caveat": "É uma convenção de sala de aula, não a pronúncia do período bíblico. Várias letras que eram distintas soam iguais (א/ע, ח/כ, ט/ת, כּ/ק)." },
+      { "id": "he-historical", "languageId": "hebrew", "name": "Reconstrução histórica", "kind": "reconstructed", "ttsLang": "",
+        "description": "Descrições baseadas na pesquisa sobre a tradição tiberiense (a dos massoretas que pontuaram o texto) e sobre estágios mais antigos da língua.",
+        "caveat": "É uma reconstrução: os detalhes são discutidos entre especialistas e variaram ao longo de mil anos de história da língua. Ainda não há áudio para este modelo; as descrições por escrito estão disponíveis." }
+    ]
+  },
+  {
+    "id": "greek", "name": "Grego Koiné", "nativeName": "Ἑλληνική", "direction": "ltr", "prefix": "gr",
+    "defaultPronunciationId": "gr-koine",
+    "pronunciationModels": [
+      { "id": "gr-koine", "languageId": "greek", "name": "Koiné reconstruída (período romano)", "kind": "reconstructed", "ttsLang": "el-GR",
+        "description": "Aproximação de como o grego soava no Mediterrâneo oriental no século I, segundo a evidência de papiros e inscrições.",
+        "caveat": "É uma reconstrução; pontos como o valor de η, υ e das consoantes φ θ χ nesse período são discutidos. O áudio de apoio usa uma voz de grego moderno — a do seu aparelho ou, na falta dela, uma voz sintética por regras —, que é próxima deste modelo mas não idêntica (por exemplo, em η e υ)." },
+      { "id": "gr-erasmian", "languageId": "greek", "name": "Erasmiana (convenção escolar)", "kind": "academic-convention", "ttsLang": "",
+        "description": "A pronúncia tradicional das salas de aula ocidentais: cada letra e cada ditongo com um som distinto, o que facilita a ortografia.",
+        "caveat": "É uma convenção didática do século XVI, não uma pronúncia histórica do período do Novo Testamento. O áudio deste modelo é uma voz sintética por regras (eSpeak NG), robótica mas fiel à convenção." }
+    ]
+  }
+]

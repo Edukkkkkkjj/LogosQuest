@@ -1,0 +1,1288 @@
+{
+ "id": "gr-matt-6-9-13",
+ "languageId": "greek",
+ "ref": "Mateus 6:9–13",
+ "verses": [
+  {
+   "osis": "Mt.6.9",
+   "ref": "Mateus 6:9",
+   "words": [
+    {
+     "id": "gr:w:010609.1",
+     "surface": "Οὕτως",
+     "plain": "Οὕτως",
+     "translit": "houtōs",
+     "segments": [
+      {
+       "text": "Οὕτως",
+       "lexemeId": "gr:lex:οὕτως",
+       "role": "stem",
+       "morph": {
+        "code": "D- --------",
+        "source": "morphgnt",
+        "pos": "adverb"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.2",
+     "surface": "οὖν",
+     "plain": "οὖν",
+     "translit": "oun",
+     "segments": [
+      {
+       "text": "οὖν",
+       "lexemeId": "gr:lex:οὖν",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.3",
+     "surface": "προσεύχεσθε",
+     "plain": "προσεύχεσθε",
+     "translit": "proseuchesthe",
+     "segments": [
+      {
+       "text": "προσεύχεσθε",
+       "lexemeId": "gr:lex:προσεύχομαι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 2PMD-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "2",
+        "tense": "present",
+        "voice": "middle",
+        "mood": "imperative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.4",
+     "surface": "ὑμεῖς·",
+     "plain": "ὑμεῖς",
+     "translit": "hymeis",
+     "segments": [
+      {
+       "text": "ὑμεῖς",
+       "lexemeId": "gr:lex:σύ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.5",
+     "surface": "Πάτερ",
+     "plain": "Πάτερ",
+     "translit": "pater",
+     "segments": [
+      {
+       "text": "Πάτερ",
+       "lexemeId": "gr:lex:πατήρ",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----VSM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "vocative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.6",
+     "surface": "ἡμῶν",
+     "plain": "ἡμῶν",
+     "translit": "hēmōn",
+     "segments": [
+      {
+       "text": "ἡμῶν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.7",
+     "surface": "ὁ",
+     "plain": "ὁ",
+     "translit": "ho",
+     "segments": [
+      {
+       "text": "ὁ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.8",
+     "surface": "ἐν",
+     "plain": "ἐν",
+     "translit": "en",
+     "segments": [
+      {
+       "text": "ἐν",
+       "lexemeId": "gr:lex:ἐν",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.9",
+     "surface": "τοῖς",
+     "plain": "τοῖς",
+     "translit": "tois",
+     "segments": [
+      {
+       "text": "τοῖς",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----DPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "dative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.10",
+     "surface": "οὐρανοῖς·",
+     "plain": "οὐρανοῖς",
+     "translit": "ouranois",
+     "segments": [
+      {
+       "text": "οὐρανοῖς",
+       "lexemeId": "gr:lex:οὐρανός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----DPM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "dative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.11",
+     "surface": "ἁγιασθήτω",
+     "plain": "ἁγιασθήτω",
+     "translit": "hagiasthētō",
+     "segments": [
+      {
+       "text": "ἁγιασθήτω",
+       "lexemeId": "gr:lex:ἁγιάζω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3APD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "aorist",
+        "voice": "passive",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.12",
+     "surface": "τὸ",
+     "plain": "τὸ",
+     "translit": "to",
+     "segments": [
+      {
+       "text": "τὸ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSN-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.13",
+     "surface": "ὄνομά",
+     "plain": "ὄνομά",
+     "translit": "onoma",
+     "segments": [
+      {
+       "text": "ὄνομά",
+       "lexemeId": "gr:lex:ὄνομα",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NSN-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010609.14",
+     "surface": "σου,",
+     "plain": "σου",
+     "translit": "sou",
+     "segments": [
+      {
+       "text": "σου",
+       "lexemeId": "gr:lex:σύ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GS--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.6.10",
+   "ref": "Mateus 6:10",
+   "words": [
+    {
+     "id": "gr:w:010610.1",
+     "surface": "ἐλθέτω",
+     "plain": "ἐλθέτω",
+     "translit": "elthetō",
+     "segments": [
+      {
+       "text": "ἐλθέτω",
+       "lexemeId": "gr:lex:ἔρχομαι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3AAD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "aorist",
+        "voice": "active",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.2",
+     "surface": "ἡ",
+     "plain": "ἡ",
+     "translit": "hē",
+     "segments": [
+      {
+       "text": "ἡ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSF-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.3",
+     "surface": "βασιλεία",
+     "plain": "βασιλεία",
+     "translit": "basileia",
+     "segments": [
+      {
+       "text": "βασιλεία",
+       "lexemeId": "gr:lex:βασιλεία",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.4",
+     "surface": "σου,",
+     "plain": "σου",
+     "translit": "sou",
+     "segments": [
+      {
+       "text": "σου",
+       "lexemeId": "gr:lex:σύ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GS--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.5",
+     "surface": "γενηθήτω",
+     "plain": "γενηθήτω",
+     "translit": "genēthētō",
+     "segments": [
+      {
+       "text": "γενηθήτω",
+       "lexemeId": "gr:lex:γίνομαι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 3APD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "3",
+        "tense": "aorist",
+        "voice": "passive",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.6",
+     "surface": "τὸ",
+     "plain": "τὸ",
+     "translit": "to",
+     "segments": [
+      {
+       "text": "τὸ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----NSN-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "nominative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.7",
+     "surface": "θέλημά",
+     "plain": "θέλημά",
+     "translit": "thelēma",
+     "segments": [
+      {
+       "text": "θέλημά",
+       "lexemeId": "gr:lex:θέλημα",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----NSN-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "nominative",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.8",
+     "surface": "σου,",
+     "plain": "σου",
+     "translit": "sou",
+     "segments": [
+      {
+       "text": "σου",
+       "lexemeId": "gr:lex:σύ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GS--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.9",
+     "surface": "ὡς",
+     "plain": "ὡς",
+     "translit": "hōs",
+     "segments": [
+      {
+       "text": "ὡς",
+       "lexemeId": "gr:lex:ὡς",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.10",
+     "surface": "ἐν",
+     "plain": "ἐν",
+     "translit": "en",
+     "segments": [
+      {
+       "text": "ἐν",
+       "lexemeId": "gr:lex:ἐν",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.11",
+     "surface": "οὐρανῷ",
+     "plain": "οὐρανῷ",
+     "translit": "ouranō",
+     "segments": [
+      {
+       "text": "οὐρανῷ",
+       "lexemeId": "gr:lex:οὐρανός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----DSM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "dative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.12",
+     "surface": "καὶ",
+     "plain": "καὶ",
+     "translit": "kai",
+     "segments": [
+      {
+       "text": "καὶ",
+       "lexemeId": "gr:lex:καί",
+       "role": "stem",
+       "morph": {
+        "code": "D- --------",
+        "source": "morphgnt",
+        "pos": "adverb"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.13",
+     "surface": "ἐπὶ",
+     "plain": "ἐπὶ",
+     "translit": "epi",
+     "segments": [
+      {
+       "text": "ἐπὶ",
+       "lexemeId": "gr:lex:ἐπί",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010610.14",
+     "surface": "γῆς·",
+     "plain": "γῆς",
+     "translit": "gēs",
+     "segments": [
+      {
+       "text": "γῆς",
+       "lexemeId": "gr:lex:γῆ",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----GSF-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "genitive",
+        "number": "s",
+        "gender": "f"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.6.11",
+   "ref": "Mateus 6:11",
+   "words": [
+    {
+     "id": "gr:w:010611.1",
+     "surface": "τὸν",
+     "plain": "τὸν",
+     "translit": "ton",
+     "segments": [
+      {
+       "text": "τὸν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----ASM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.2",
+     "surface": "ἄρτον",
+     "plain": "ἄρτον",
+     "translit": "arton",
+     "segments": [
+      {
+       "text": "ἄρτον",
+       "lexemeId": "gr:lex:ἄρτος",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----ASM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.3",
+     "surface": "ἡμῶν",
+     "plain": "ἡμῶν",
+     "translit": "hēmōn",
+     "segments": [
+      {
+       "text": "ἡμῶν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.4",
+     "surface": "τὸν",
+     "plain": "τὸν",
+     "translit": "ton",
+     "segments": [
+      {
+       "text": "τὸν",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----ASM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.5",
+     "surface": "ἐπιούσιον",
+     "plain": "ἐπιούσιον",
+     "translit": "epiousion",
+     "segments": [
+      {
+       "text": "ἐπιούσιον",
+       "lexemeId": "gr:lex:ἐπιούσιος",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----ASM-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.6",
+     "surface": "δὸς",
+     "plain": "δὸς",
+     "translit": "dos",
+     "segments": [
+      {
+       "text": "δὸς",
+       "lexemeId": "gr:lex:δίδωμι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 2AAD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "2",
+        "tense": "aorist",
+        "voice": "active",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.7",
+     "surface": "ἡμῖν",
+     "plain": "ἡμῖν",
+     "translit": "hēmin",
+     "segments": [
+      {
+       "text": "ἡμῖν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----DP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "dative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010611.8",
+     "surface": "σήμερον·",
+     "plain": "σήμερον",
+     "translit": "sēmeron",
+     "segments": [
+      {
+       "text": "σήμερον",
+       "lexemeId": "gr:lex:σήμερον",
+       "role": "stem",
+       "morph": {
+        "code": "D- --------",
+        "source": "morphgnt",
+        "pos": "adverb"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.6.12",
+   "ref": "Mateus 6:12",
+   "words": [
+    {
+     "id": "gr:w:010612.1",
+     "surface": "καὶ",
+     "plain": "καὶ",
+     "translit": "kai",
+     "segments": [
+      {
+       "text": "καὶ",
+       "lexemeId": "gr:lex:καί",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.2",
+     "surface": "ἄφες",
+     "plain": "ἄφες",
+     "translit": "aphes",
+     "segments": [
+      {
+       "text": "ἄφες",
+       "lexemeId": "gr:lex:ἀφίημι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 2AAD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "2",
+        "tense": "aorist",
+        "voice": "active",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.3",
+     "surface": "ἡμῖν",
+     "plain": "ἡμῖν",
+     "translit": "hēmin",
+     "segments": [
+      {
+       "text": "ἡμῖν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----DP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "dative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.4",
+     "surface": "τὰ",
+     "plain": "τὰ",
+     "translit": "ta",
+     "segments": [
+      {
+       "text": "τὰ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----APN-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "accusative",
+        "number": "p",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.5",
+     "surface": "ὀφειλήματα",
+     "plain": "ὀφειλήματα",
+     "translit": "opheilēmata",
+     "segments": [
+      {
+       "text": "ὀφειλήματα",
+       "lexemeId": "gr:lex:ὀφείλημα",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----APN-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "p",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.6",
+     "surface": "ἡμῶν,",
+     "plain": "ἡμῶν",
+     "translit": "hēmōn",
+     "segments": [
+      {
+       "text": "ἡμῶν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.7",
+     "surface": "ὡς",
+     "plain": "ὡς",
+     "translit": "hōs",
+     "segments": [
+      {
+       "text": "ὡς",
+       "lexemeId": "gr:lex:ὡς",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.8",
+     "surface": "καὶ",
+     "plain": "καὶ",
+     "translit": "kai",
+     "segments": [
+      {
+       "text": "καὶ",
+       "lexemeId": "gr:lex:καί",
+       "role": "stem",
+       "morph": {
+        "code": "D- --------",
+        "source": "morphgnt",
+        "pos": "adverb"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.9",
+     "surface": "ἡμεῖς",
+     "plain": "ἡμεῖς",
+     "translit": "hēmeis",
+     "segments": [
+      {
+       "text": "ἡμεῖς",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----NP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "nominative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.10",
+     "surface": "ἀφήκαμεν",
+     "plain": "ἀφήκαμεν",
+     "translit": "aphēkamen",
+     "segments": [
+      {
+       "text": "ἀφήκαμεν",
+       "lexemeId": "gr:lex:ἀφίημι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 1AAI-P--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "1",
+        "tense": "aorist",
+        "voice": "active",
+        "mood": "indicative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.11",
+     "surface": "τοῖς",
+     "plain": "τοῖς",
+     "translit": "tois",
+     "segments": [
+      {
+       "text": "τοῖς",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----DPM-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "dative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.12",
+     "surface": "ὀφειλέταις",
+     "plain": "ὀφειλέταις",
+     "translit": "opheiletais",
+     "segments": [
+      {
+       "text": "ὀφειλέταις",
+       "lexemeId": "gr:lex:ὀφειλέτης",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----DPM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "dative",
+        "number": "p",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010612.13",
+     "surface": "ἡμῶν·",
+     "plain": "ἡμῶν",
+     "translit": "hēmōn",
+     "segments": [
+      {
+       "text": "ἡμῶν",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----GP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "genitive",
+        "number": "p"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Mt.6.13",
+   "ref": "Mateus 6:13",
+   "words": [
+    {
+     "id": "gr:w:010613.1",
+     "surface": "καὶ",
+     "plain": "καὶ",
+     "translit": "kai",
+     "segments": [
+      {
+       "text": "καὶ",
+       "lexemeId": "gr:lex:καί",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.2",
+     "surface": "μὴ",
+     "plain": "μὴ",
+     "translit": "mē",
+     "segments": [
+      {
+       "text": "μὴ",
+       "lexemeId": "gr:lex:μή",
+       "role": "stem",
+       "morph": {
+        "code": "D- --------",
+        "source": "morphgnt",
+        "pos": "adverb"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.3",
+     "surface": "εἰσενέγκῃς",
+     "plain": "εἰσενέγκῃς",
+     "translit": "eisenenkēs",
+     "segments": [
+      {
+       "text": "εἰσενέγκῃς",
+       "lexemeId": "gr:lex:εἰσφέρω",
+       "role": "stem",
+       "morph": {
+        "code": "V- 2AAS-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "2",
+        "tense": "aorist",
+        "voice": "active",
+        "mood": "subjunctive",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.4",
+     "surface": "ἡμᾶς",
+     "plain": "ἡμᾶς",
+     "translit": "hēmas",
+     "segments": [
+      {
+       "text": "ἡμᾶς",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----AP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "accusative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.5",
+     "surface": "εἰς",
+     "plain": "εἰς",
+     "translit": "eis",
+     "segments": [
+      {
+       "text": "εἰς",
+       "lexemeId": "gr:lex:εἰς",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.6",
+     "surface": "πειρασμόν,",
+     "plain": "πειρασμόν",
+     "translit": "peirasmon",
+     "segments": [
+      {
+       "text": "πειρασμόν",
+       "lexemeId": "gr:lex:πειρασμός",
+       "role": "stem",
+       "morph": {
+        "code": "N- ----ASM-",
+        "source": "morphgnt",
+        "pos": "noun",
+        "case": "accusative",
+        "number": "s",
+        "gender": "m"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.7",
+     "surface": "ἀλλὰ",
+     "plain": "ἀλλὰ",
+     "translit": "alla",
+     "segments": [
+      {
+       "text": "ἀλλὰ",
+       "lexemeId": "gr:lex:ἀλλά",
+       "role": "stem",
+       "morph": {
+        "code": "C- --------",
+        "source": "morphgnt",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.8",
+     "surface": "ῥῦσαι",
+     "plain": "ῥῦσαι",
+     "translit": "rhysai",
+     "segments": [
+      {
+       "text": "ῥῦσαι",
+       "lexemeId": "gr:lex:ῥύομαι",
+       "role": "stem",
+       "morph": {
+        "code": "V- 2AMD-S--",
+        "source": "morphgnt",
+        "pos": "verb",
+        "person": "2",
+        "tense": "aorist",
+        "voice": "middle",
+        "mood": "imperative",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.9",
+     "surface": "ἡμᾶς",
+     "plain": "ἡμᾶς",
+     "translit": "hēmas",
+     "segments": [
+      {
+       "text": "ἡμᾶς",
+       "lexemeId": "gr:lex:ἐγώ",
+       "role": "stem",
+       "morph": {
+        "code": "RP ----AP--",
+        "source": "morphgnt",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "case": "accusative",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.10",
+     "surface": "ἀπὸ",
+     "plain": "ἀπὸ",
+     "translit": "apo",
+     "segments": [
+      {
+       "text": "ἀπὸ",
+       "lexemeId": "gr:lex:ἀπό",
+       "role": "stem",
+       "morph": {
+        "code": "P- --------",
+        "source": "morphgnt",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.11",
+     "surface": "τοῦ",
+     "plain": "τοῦ",
+     "translit": "tou",
+     "segments": [
+      {
+       "text": "τοῦ",
+       "lexemeId": "gr:lex:ὁ",
+       "role": "stem",
+       "morph": {
+        "code": "RA ----GSN-",
+        "source": "morphgnt",
+        "pos": "article",
+        "case": "genitive",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    },
+    {
+     "id": "gr:w:010613.12",
+     "surface": "πονηροῦ.",
+     "plain": "πονηροῦ",
+     "translit": "ponērou",
+     "segments": [
+      {
+       "text": "πονηροῦ",
+       "lexemeId": "gr:lex:πονηρός",
+       "role": "stem",
+       "morph": {
+        "code": "A- ----GSN-",
+        "source": "morphgnt",
+        "pos": "adjective",
+        "case": "genitive",
+        "number": "s",
+        "gender": "n"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

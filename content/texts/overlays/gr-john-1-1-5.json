@@ -1,0 +1,30 @@
+{
+  "title": "No princípio era o Verbo",
+  "genre": "discourse",
+  "tier": 1,
+  "isPrayer": false,
+  "unlockAfterUnitId": "gr-u4",
+  "intro": "O prólogo de João usa pouquíssimas palavras diferentes e as repete muitas vezes. É o texto ideal para começar a ler grego de verdade.",
+  "sourceIds": ["sblgnt", "morphgnt"],
+  "secretIds": ["gr-sec-en-egeneto", "gr-sec-katalambano"],
+  "windowIds": ["gr-win-logos"],
+  "translations": [
+    "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
+    "Este estava no princípio com Deus.",
+    "Todas as coisas vieram a existir por meio dele, e sem ele nem uma só coisa veio a existir do que existe.",
+    "Nele estava a vida, e a vida era a luz dos seres humanos.",
+    "E a luz brilha na escuridão, e a escuridão não a venceu."
+  ],
+  "glosses": [
+    ["em", "princípio", "era", "o", "Verbo (palavra)", "e", "o", "Verbo", "estava", "com / junto a", "o", "Deus", "e", "Deus", "era", "o", "Verbo"],
+    ["este", "estava", "em", "princípio", "com", "o", "Deus"],
+    ["todas as coisas", "por meio", "dele", "vieram a existir", "e", "sem", "ele", "veio a existir", "nem", "uma só coisa", "que", "veio a existir"],
+    ["em", "ele", "vida", "estava", "e", "a", "vida", "era", "a", "luz", "dos", "seres humanos"],
+    ["e", "a", "luz", "em", "a", "escuridão", "brilha", "e", "a", "escuridão", "a ela", "não", "venceu / compreendeu"]
+  ],
+  "notes": [
+    { "verse": "Jn.1.1", "title": "θεὸς ἦν ὁ λόγος", "epistemic": "consensus", "body": "Na terceira oração, ὁ λόγος tem artigo e θεός não. Em grego, quando dois nominativos são ligados pelo verbo \"ser\", o que tem artigo costuma ser o sujeito: \"o Verbo era Deus\", e não \"Deus era o Verbo\". O valor exato de θεός sem artigo nesta posição é discutido há séculos por gramáticos e teólogos; a gramática sozinha não encerra a questão." },
+    { "verse": "Jn.1.1", "title": "Eco de Gênesis", "epistemic": "consensus", "body": "Ἐν ἀρχῇ são exatamente as duas primeiras palavras de Gênesis 1:1 na tradução grega antiga (Septuaginta). Um leitor do século I reconheceria a alusão de imediato." },
+    { "verse": "Jn.1.3", "title": "Onde termina a frase?", "epistemic": "debated", "body": "Os manuscritos mais antigos não têm pontuação. ὃ γέγονεν pode fechar o versículo 3 (\"…do que existe\") ou abrir o 4 (\"O que veio a existir, nele era vida\"). Edições críticas e traduções divergem." }
+  ]
+}

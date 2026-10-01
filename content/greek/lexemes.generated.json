@@ -1,0 +1,631 @@
+[
+ {
+  "id": "gr:lex:ἀγαπάω",
+  "lemma": "ἀγαπάω",
+  "translit": "agapaō",
+  "pos": "verb",
+  "strong": "G0025"
+ },
+ {
+  "id": "gr:lex:ἀγάπη",
+  "lemma": "ἀγάπη",
+  "translit": "agapē",
+  "pos": "noun",
+  "strong": "G0026"
+ },
+ {
+  "id": "gr:lex:ἁγιάζω",
+  "lemma": "ἁγιάζω",
+  "translit": "hagiazō",
+  "pos": "verb",
+  "strong": "G0037"
+ },
+ {
+  "id": "gr:lex:ἁγιασμός",
+  "lemma": "ἁγιασμός",
+  "translit": "hagiasmos",
+  "pos": "noun",
+  "strong": "G0038"
+ },
+ {
+  "id": "gr:lex:ἅγιος",
+  "lemma": "ἅγιος",
+  "translit": "hagios",
+  "pos": "adjective",
+  "strong": "G0040"
+ },
+ {
+  "id": "gr:lex:ἀλλά",
+  "lemma": "ἀλλά",
+  "translit": "alla",
+  "pos": "conjunction",
+  "strong": "G0235"
+ },
+ {
+  "id": "gr:lex:ἄνθρωπος",
+  "lemma": "ἄνθρωπος",
+  "translit": "anthrōpos",
+  "pos": "noun",
+  "strong": "G0444"
+ },
+ {
+  "id": "gr:lex:ἀπό",
+  "lemma": "ἀπό",
+  "translit": "apo",
+  "pos": "preposition",
+  "strong": "G0575"
+ },
+ {
+  "id": "gr:lex:ἄρτος",
+  "lemma": "ἄρτος",
+  "translit": "artos",
+  "pos": "noun",
+  "strong": "G0740"
+ },
+ {
+  "id": "gr:lex:ἀρχή",
+  "lemma": "ἀρχή",
+  "translit": "archē",
+  "pos": "noun",
+  "strong": "G0746"
+ },
+ {
+  "id": "gr:lex:αὐτός",
+  "lemma": "αὐτός",
+  "translit": "autos",
+  "pos": "pronoun",
+  "strong": "G0846"
+ },
+ {
+  "id": "gr:lex:ἀφίημι",
+  "lemma": "ἀφίημι",
+  "translit": "aphiēmi",
+  "pos": "verb",
+  "strong": "G0863"
+ },
+ {
+  "id": "gr:lex:βασιλεία",
+  "lemma": "βασιλεία",
+  "translit": "basileia",
+  "pos": "noun",
+  "strong": "G0932"
+ },
+ {
+  "id": "gr:lex:βασιλεύς",
+  "lemma": "βασιλεύς",
+  "translit": "basileus",
+  "pos": "noun",
+  "strong": "G0935"
+ },
+ {
+  "id": "gr:lex:βασιλεύω",
+  "lemma": "βασιλεύω",
+  "translit": "basileuō",
+  "pos": "verb",
+  "strong": "G0936"
+ },
+ {
+  "id": "gr:lex:γῆ",
+  "lemma": "γῆ",
+  "translit": "gē",
+  "pos": "noun",
+  "strong": "G1093"
+ },
+ {
+  "id": "gr:lex:γίνομαι",
+  "lemma": "γίνομαι",
+  "translit": "ginomai",
+  "pos": "verb",
+  "strong": "G1096"
+ },
+ {
+  "id": "gr:lex:διά",
+  "lemma": "διά",
+  "translit": "dia",
+  "pos": "preposition",
+  "strong": "G1223"
+ },
+ {
+  "id": "gr:lex:δίδωμι",
+  "lemma": "δίδωμι",
+  "translit": "didōmi",
+  "pos": "verb",
+  "strong": "G1325"
+ },
+ {
+  "id": "gr:lex:δίκαιος",
+  "lemma": "δίκαιος",
+  "translit": "dikaios",
+  "pos": "adjective",
+  "strong": "G1342"
+ },
+ {
+  "id": "gr:lex:δικαιοσύνη",
+  "lemma": "δικαιοσύνη",
+  "translit": "dikaiosynē",
+  "pos": "noun",
+  "strong": "G1343"
+ },
+ {
+  "id": "gr:lex:δικαιόω",
+  "lemma": "δικαιόω",
+  "translit": "dikaioō",
+  "pos": "verb",
+  "strong": "G1344"
+ },
+ {
+  "id": "gr:lex:διψάω",
+  "lemma": "διψάω",
+  "translit": "dipsaō",
+  "pos": "verb",
+  "strong": "G1372"
+ },
+ {
+  "id": "gr:lex:διώκω",
+  "lemma": "διώκω",
+  "translit": "diōkō",
+  "pos": "verb",
+  "strong": "G1377"
+ },
+ {
+  "id": "gr:lex:ἐγώ",
+  "lemma": "ἐγώ",
+  "translit": "egō",
+  "pos": "pronoun",
+  "strong": "G1473"
+ },
+ {
+  "id": "gr:lex:εἰμί",
+  "lemma": "εἰμί",
+  "translit": "eimi",
+  "pos": "verb",
+  "strong": "G1510"
+ },
+ {
+  "id": "gr:lex:εἰρηνοποιός",
+  "lemma": "εἰρηνοποιός",
+  "translit": "eirēnopoios",
+  "pos": "adjective",
+  "strong": "G1518"
+ },
+ {
+  "id": "gr:lex:εἰς",
+  "lemma": "εἰς",
+  "translit": "eis",
+  "pos": "preposition",
+  "strong": "G1519"
+ },
+ {
+  "id": "gr:lex:εἷς",
+  "lemma": "εἷς",
+  "translit": "heis",
+  "pos": "adjective",
+  "strong": "G1520"
+ },
+ {
+  "id": "gr:lex:εἰσφέρω",
+  "lemma": "εἰσφέρω",
+  "translit": "eispherō",
+  "pos": "verb",
+  "strong": "G1533"
+ },
+ {
+  "id": "gr:lex:ἐλεάω",
+  "lemma": "ἐλεάω",
+  "translit": "eleaō",
+  "pos": "verb",
+  "strong": "G20329"
+ },
+ {
+  "id": "gr:lex:ἐλεήμων",
+  "lemma": "ἐλεήμων",
+  "translit": "eleēmōn",
+  "pos": "adjective",
+  "strong": "G1655"
+ },
+ {
+  "id": "gr:lex:ἐν",
+  "lemma": "ἐν",
+  "translit": "en",
+  "pos": "preposition",
+  "strong": "G1722"
+ },
+ {
+  "id": "gr:lex:ἕνεκεν",
+  "lemma": "ἕνεκεν",
+  "translit": "heneken",
+  "pos": "preposition"
+ },
+ {
+  "id": "gr:lex:ἐπί",
+  "lemma": "ἐπί",
+  "translit": "epi",
+  "pos": "preposition",
+  "strong": "G1909"
+ },
+ {
+  "id": "gr:lex:ἐπιούσιος",
+  "lemma": "ἐπιούσιος",
+  "translit": "epiousios",
+  "pos": "adjective",
+  "strong": "G1967"
+ },
+ {
+  "id": "gr:lex:ἔρχομαι",
+  "lemma": "ἔρχομαι",
+  "translit": "erchomai",
+  "pos": "verb",
+  "strong": "G2064"
+ },
+ {
+  "id": "gr:lex:ζωή",
+  "lemma": "ζωή",
+  "translit": "zōē",
+  "pos": "noun",
+  "strong": "G2222"
+ },
+ {
+  "id": "gr:lex:θέλημα",
+  "lemma": "θέλημα",
+  "translit": "thelēma",
+  "pos": "noun",
+  "strong": "G2307"
+ },
+ {
+  "id": "gr:lex:θεός",
+  "lemma": "θεός",
+  "translit": "theos",
+  "pos": "noun",
+  "strong": "G2316"
+ },
+ {
+  "id": "gr:lex:Ἰησοῦς",
+  "lemma": "Ἰησοῦς",
+  "translit": "iēsous",
+  "pos": "noun",
+  "strong": "G2424"
+ },
+ {
+  "id": "gr:lex:καθαρός",
+  "lemma": "καθαρός",
+  "translit": "katharos",
+  "pos": "adjective",
+  "strong": "G2513"
+ },
+ {
+  "id": "gr:lex:καί",
+  "lemma": "καί",
+  "translit": "kai",
+  "pos": "conjunction",
+  "strong": "G2532"
+ },
+ {
+  "id": "gr:lex:καλέω",
+  "lemma": "καλέω",
+  "translit": "kaleō",
+  "pos": "verb",
+  "strong": "G2564"
+ },
+ {
+  "id": "gr:lex:καρδία",
+  "lemma": "καρδία",
+  "translit": "kardia",
+  "pos": "noun",
+  "strong": "G2588"
+ },
+ {
+  "id": "gr:lex:καταλαμβάνω",
+  "lemma": "καταλαμβάνω",
+  "translit": "katalambanō",
+  "pos": "verb",
+  "strong": "G2638"
+ },
+ {
+  "id": "gr:lex:κληρονομέω",
+  "lemma": "κληρονομέω",
+  "translit": "klēronomeō",
+  "pos": "verb",
+  "strong": "G2816"
+ },
+ {
+  "id": "gr:lex:κόσμος",
+  "lemma": "κόσμος",
+  "translit": "kosmos",
+  "pos": "noun",
+  "strong": "G2889"
+ },
+ {
+  "id": "gr:lex:κύριος",
+  "lemma": "κύριος",
+  "translit": "kyrios",
+  "pos": "noun",
+  "strong": "G2962"
+ },
+ {
+  "id": "gr:lex:λέγω",
+  "lemma": "λέγω",
+  "translit": "legō",
+  "pos": "verb",
+  "strong": "G3004"
+ },
+ {
+  "id": "gr:lex:λόγος",
+  "lemma": "λόγος",
+  "translit": "logos",
+  "pos": "noun",
+  "strong": "G3056"
+ },
+ {
+  "id": "gr:lex:μακάριος",
+  "lemma": "μακάριος",
+  "translit": "makarios",
+  "pos": "adjective",
+  "strong": "G3107"
+ },
+ {
+  "id": "gr:lex:μή",
+  "lemma": "μή",
+  "translit": "mē",
+  "pos": "adverb",
+  "strong": "G3361"
+ },
+ {
+  "id": "gr:lex:ὁ",
+  "lemma": "ὁ",
+  "translit": "ho",
+  "pos": "article",
+  "strong": "G3588"
+ },
+ {
+  "id": "gr:lex:ὄνομα",
+  "lemma": "ὄνομα",
+  "translit": "onoma",
+  "pos": "noun",
+  "strong": "G3686"
+ },
+ {
+  "id": "gr:lex:ὁράω",
+  "lemma": "ὁράω",
+  "translit": "horaō",
+  "pos": "verb",
+  "strong": "G3708"
+ },
+ {
+  "id": "gr:lex:ὅς",
+  "lemma": "ὅς",
+  "translit": "hos",
+  "pos": "pronoun",
+  "strong": "G3739"
+ },
+ {
+  "id": "gr:lex:ὅτι",
+  "lemma": "ὅτι",
+  "translit": "hoti",
+  "pos": "conjunction",
+  "strong": "G3754"
+ },
+ {
+  "id": "gr:lex:οὐ",
+  "lemma": "οὐ",
+  "translit": "ou",
+  "pos": "adverb",
+  "strong": "G3756"
+ },
+ {
+  "id": "gr:lex:οὐδέ",
+  "lemma": "οὐδέ",
+  "translit": "oude",
+  "pos": "adverb",
+  "strong": "G3761"
+ },
+ {
+  "id": "gr:lex:οὖν",
+  "lemma": "οὖν",
+  "translit": "oun",
+  "pos": "conjunction",
+  "strong": "G3767"
+ },
+ {
+  "id": "gr:lex:οὐρανός",
+  "lemma": "οὐρανός",
+  "translit": "ouranos",
+  "pos": "noun",
+  "strong": "G3772"
+ },
+ {
+  "id": "gr:lex:οὗτος",
+  "lemma": "οὗτος",
+  "translit": "houtos",
+  "pos": "pronoun",
+  "strong": "G3778"
+ },
+ {
+  "id": "gr:lex:οὕτως",
+  "lemma": "οὕτως",
+  "translit": "houtōs",
+  "pos": "adverb",
+  "strong": "G3779"
+ },
+ {
+  "id": "gr:lex:ὀφειλέτης",
+  "lemma": "ὀφειλέτης",
+  "translit": "opheiletēs",
+  "pos": "noun",
+  "strong": "G3781"
+ },
+ {
+  "id": "gr:lex:ὀφείλημα",
+  "lemma": "ὀφείλημα",
+  "translit": "opheilēma",
+  "pos": "noun",
+  "strong": "G3783"
+ },
+ {
+  "id": "gr:lex:παρακαλέω",
+  "lemma": "παρακαλέω",
+  "translit": "parakaleō",
+  "pos": "verb",
+  "strong": "G3870"
+ },
+ {
+  "id": "gr:lex:πᾶς",
+  "lemma": "πᾶς",
+  "translit": "pas",
+  "pos": "adjective",
+  "strong": "G3956"
+ },
+ {
+  "id": "gr:lex:πατήρ",
+  "lemma": "πατήρ",
+  "translit": "patēr",
+  "pos": "noun",
+  "strong": "G3962"
+ },
+ {
+  "id": "gr:lex:πεινάω",
+  "lemma": "πεινάω",
+  "translit": "peinaō",
+  "pos": "verb",
+  "strong": "G3983"
+ },
+ {
+  "id": "gr:lex:πειρασμός",
+  "lemma": "πειρασμός",
+  "translit": "peirasmos",
+  "pos": "noun",
+  "strong": "G3986"
+ },
+ {
+  "id": "gr:lex:πενθέω",
+  "lemma": "πενθέω",
+  "translit": "pentheō",
+  "pos": "verb",
+  "strong": "G3996"
+ },
+ {
+  "id": "gr:lex:πνεῦμα",
+  "lemma": "πνεῦμα",
+  "translit": "pneuma",
+  "pos": "noun",
+  "strong": "G4151"
+ },
+ {
+  "id": "gr:lex:πονηρός",
+  "lemma": "πονηρός",
+  "translit": "ponēros",
+  "pos": "adjective",
+  "strong": "G4190"
+ },
+ {
+  "id": "gr:lex:πραΰς",
+  "lemma": "πραΰς",
+  "translit": "praus",
+  "pos": "adjective",
+  "strong": "G4239"
+ },
+ {
+  "id": "gr:lex:πρός",
+  "lemma": "πρός",
+  "translit": "pros",
+  "pos": "preposition",
+  "strong": "G4314"
+ },
+ {
+  "id": "gr:lex:προσεύχομαι",
+  "lemma": "προσεύχομαι",
+  "translit": "proseuchomai",
+  "pos": "verb",
+  "strong": "G4336"
+ },
+ {
+  "id": "gr:lex:πτωχός",
+  "lemma": "πτωχός",
+  "translit": "ptōchos",
+  "pos": "adjective",
+  "strong": "G4434"
+ },
+ {
+  "id": "gr:lex:ῥύομαι",
+  "lemma": "ῥύομαι",
+  "translit": "rhyomai",
+  "pos": "verb",
+  "strong": "G4506"
+ },
+ {
+  "id": "gr:lex:σήμερον",
+  "lemma": "σήμερον",
+  "translit": "sēmeron",
+  "pos": "adverb",
+  "strong": "G4594"
+ },
+ {
+  "id": "gr:lex:σκοτία",
+  "lemma": "σκοτία",
+  "translit": "skotia",
+  "pos": "noun",
+  "strong": "G4653"
+ },
+ {
+  "id": "gr:lex:σύ",
+  "lemma": "σύ",
+  "translit": "sy",
+  "pos": "pronoun",
+  "strong": "G4771"
+ },
+ {
+  "id": "gr:lex:υἱός",
+  "lemma": "υἱός",
+  "translit": "hyios",
+  "pos": "noun",
+  "strong": "G5207"
+ },
+ {
+  "id": "gr:lex:φαίνω",
+  "lemma": "φαίνω",
+  "translit": "phainō",
+  "pos": "verb",
+  "strong": "G5316"
+ },
+ {
+  "id": "gr:lex:φιλέω",
+  "lemma": "φιλέω",
+  "translit": "phileō",
+  "pos": "verb",
+  "strong": "G5368"
+ },
+ {
+  "id": "gr:lex:φῶς",
+  "lemma": "φῶς",
+  "translit": "phōs",
+  "pos": "noun",
+  "strong": "G5457"
+ },
+ {
+  "id": "gr:lex:χορτάζω",
+  "lemma": "χορτάζω",
+  "translit": "chortazō",
+  "pos": "verb",
+  "strong": "G5526"
+ },
+ {
+  "id": "gr:lex:Χριστός",
+  "lemma": "Χριστός",
+  "translit": "christos",
+  "pos": "noun",
+  "strong": "G5547"
+ },
+ {
+  "id": "gr:lex:χωρίς",
+  "lemma": "χωρίς",
+  "translit": "chōris",
+  "pos": "preposition",
+  "strong": "G5565"
+ },
+ {
+  "id": "gr:lex:ὡς",
+  "lemma": "ὡς",
+  "translit": "hōs",
+  "pos": "conjunction",
+  "strong": "G5613"
+ }
+]

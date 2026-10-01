@@ -1,0 +1,1601 @@
+{
+ "id": "he-ps-23",
+ "languageId": "hebrew",
+ "ref": "Salmos 23:1–6",
+ "verses": [
+  {
+   "osis": "Ps.23.1",
+   "ref": "Salmos 23:1",
+   "words": [
+    {
+     "id": "he:w:19eip",
+     "surface": "מִזְמוֹר",
+     "plain": "מִזְמוֹר",
+     "translit": "mizmor",
+     "segments": [
+      {
+       "text": "מִזְמוֹר",
+       "lexemeId": "he:lex:H4210",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19jhu",
+     "surface": "לְדָוִד",
+     "plain": "לְדָוִד",
+     "translit": "lədavid",
+     "segments": [
+      {
+       "text": "לְ",
+       "lexemeId": "he:lex:l",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "דָוִד",
+       "lexemeId": "he:lex:H1732",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:192fr",
+     "surface": "יְהוָה",
+     "plain": "יְהוָה",
+     "translit": "YHWH",
+     "segments": [
+      {
+       "text": "יְהוָה",
+       "lexemeId": "he:lex:H3068",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:195Aa",
+     "surface": "רֹעִי",
+     "plain": "רֹעִי",
+     "translit": "roʿi",
+     "segments": [
+      {
+       "text": "רֹעִ",
+       "lexemeId": "he:lex:H7462b",
+       "role": "stem",
+       "morph": {
+        "code": "Vqrmsc",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "participle",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19zuz",
+     "surface": "לֹא",
+     "plain": "לֹא",
+     "translit": "lo",
+     "segments": [
+      {
+       "text": "לֹא",
+       "lexemeId": "he:lex:H3808",
+       "role": "stem",
+       "morph": {
+        "code": "Tn",
+        "source": "oshb",
+        "pos": "particle",
+        "subtype": "negative"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19BTS",
+     "surface": "אֶחְסָר",
+     "plain": "אֶחְסָר",
+     "translit": "ʾeḥsar",
+     "segments": [
+      {
+       "text": "אֶחְסָר",
+       "lexemeId": "he:lex:H2637",
+       "role": "stem",
+       "morph": {
+        "code": "Vqi1cs",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "yiqtol",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Ps.23.2",
+   "ref": "Salmos 23:2",
+   "words": [
+    {
+     "id": "he:w:19Hdk",
+     "surface": "בִּנְאוֹת",
+     "plain": "בִּנְאוֹת",
+     "translit": "binot",
+     "segments": [
+      {
+       "text": "בִּ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "נְאוֹת",
+       "lexemeId": "he:lex:H4999",
+       "role": "stem",
+       "morph": {
+        "code": "Ncfpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "f",
+        "number": "p",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19tbG",
+     "surface": "דֶּשֶׁא",
+     "plain": "דֶּשֶׁא",
+     "translit": "deshe",
+     "segments": [
+      {
+       "text": "דֶּשֶׁא",
+       "lexemeId": "he:lex:H1877",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:198hT",
+     "surface": "יַרְבִּיצֵנִי",
+     "plain": "יַרְבִּיצֵנִי",
+     "translit": "yarbitseni",
+     "segments": [
+      {
+       "text": "יַרְבִּיצֵ",
+       "lexemeId": "he:lex:H7257",
+       "role": "stem",
+       "morph": {
+        "code": "Vhi3ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "hifil",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "s"
+       }
+      },
+      {
+       "text": "נִי",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:191EK",
+     "surface": "עַל־",
+     "plain": "עַל",
+     "translit": "ʿal",
+     "segments": [
+      {
+       "text": "עַל",
+       "lexemeId": "he:lex:H5921a",
+       "role": "stem",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19UYd",
+     "surface": "מֵי",
+     "plain": "מֵי",
+     "translit": "me",
+     "segments": [
+      {
+       "text": "מֵי",
+       "lexemeId": "he:lex:H4325",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19w2J",
+     "surface": "מְנֻחוֹת",
+     "plain": "מְנֻחוֹת",
+     "translit": "mənuḥot",
+     "segments": [
+      {
+       "text": "מְנֻחוֹת",
+       "lexemeId": "he:lex:H4496",
+       "role": "stem",
+       "morph": {
+        "code": "Ncbpa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "c",
+        "number": "p",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19UcZ",
+     "surface": "יְנַהֲלֵנִי",
+     "plain": "יְנַהֲלֵנִי",
+     "translit": "yənahaleni",
+     "segments": [
+      {
+       "text": "יְנַהֲלֵ",
+       "lexemeId": "he:lex:H5095",
+       "role": "stem",
+       "morph": {
+        "code": "Vpi3ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "piel",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "s"
+       }
+      },
+      {
+       "text": "נִי",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Ps.23.3",
+   "ref": "Salmos 23:3",
+   "words": [
+    {
+     "id": "he:w:19SZA",
+     "surface": "נַפְשִׁי",
+     "plain": "נַפְשִׁי",
+     "translit": "nafshi",
+     "segments": [
+      {
+       "text": "נַפְשִׁ",
+       "lexemeId": "he:lex:H5315",
+       "role": "stem",
+       "morph": {
+        "code": "Ncbsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "c",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19WeX",
+     "surface": "יְשׁוֹבֵב",
+     "plain": "יְשׁוֹבֵב",
+     "translit": "yəshovev",
+     "segments": [
+      {
+       "text": "יְשׁוֹבֵב",
+       "lexemeId": "he:lex:H7725",
+       "role": "stem",
+       "morph": {
+        "code": "Voi3ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "polel",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19FoN",
+     "surface": "יַנְחֵנִי",
+     "plain": "יַנְחֵנִי",
+     "translit": "yanḥeni",
+     "segments": [
+      {
+       "text": "יַנְחֵ",
+       "lexemeId": "he:lex:H5148",
+       "role": "stem",
+       "morph": {
+        "code": "Vhi3ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "hifil",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "s"
+       }
+      },
+      {
+       "text": "נִי",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19BK2",
+     "surface": "בְמַעְגְּלֵי־",
+     "plain": "בְמַעְגְּלֵי",
+     "translit": "vəmaʿgəle",
+     "segments": [
+      {
+       "text": "בְ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "מַעְגְּלֵי",
+       "lexemeId": "he:lex:H4570",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19qoQ",
+     "surface": "צֶדֶק",
+     "plain": "צֶדֶק",
+     "translit": "tsedeq",
+     "segments": [
+      {
+       "text": "צֶדֶק",
+       "lexemeId": "he:lex:H6664",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19DV4",
+     "surface": "לְמַעַן",
+     "plain": "לְמַעַן",
+     "translit": "ləmaʿan",
+     "segments": [
+      {
+       "text": "לְמַעַן",
+       "lexemeId": "he:lex:H4616",
+       "role": "stem",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19iex",
+     "surface": "שְׁמוֹ",
+     "plain": "שְׁמוֹ",
+     "translit": "shəmo",
+     "segments": [
+      {
+       "text": "שְׁמ",
+       "lexemeId": "he:lex:H8034",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "וֹ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp3ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "3",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Ps.23.4",
+   "ref": "Salmos 23:4",
+   "words": [
+    {
+     "id": "he:w:19LMe",
+     "surface": "גַּם",
+     "plain": "גַּם",
+     "translit": "gam",
+     "segments": [
+      {
+       "text": "גַּם",
+       "lexemeId": "he:lex:H1571",
+       "role": "stem",
+       "morph": {
+        "code": "Ta",
+        "source": "oshb",
+        "pos": "particle",
+        "subtype": "affirmation"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19zuk",
+     "surface": "כִּי־",
+     "plain": "כִּי",
+     "translit": "ki",
+     "segments": [
+      {
+       "text": "כִּי",
+       "lexemeId": "he:lex:H3588a",
+       "role": "stem",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:195hm",
+     "surface": "אֵלֵךְ",
+     "plain": "אֵלֵךְ",
+     "translit": "ʾelekh",
+     "segments": [
+      {
+       "text": "אֵלֵךְ",
+       "lexemeId": "he:lex:H3212",
+       "role": "stem",
+       "morph": {
+        "code": "Vqi1cs",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "yiqtol",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19a8a",
+     "surface": "בְּגֵיא",
+     "plain": "בְּגֵיא",
+     "translit": "bəge",
+     "segments": [
+      {
+       "text": "בְּ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "גֵיא",
+       "lexemeId": "he:lex:H1516",
+       "role": "stem",
+       "morph": {
+        "code": "Ncbsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "c",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19Avd",
+     "surface": "צַלְמָוֶת",
+     "plain": "צַלְמָוֶת",
+     "translit": "tsalmavet",
+     "segments": [
+      {
+       "text": "צַלְמָוֶת",
+       "lexemeId": "he:lex:H6757",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:196nG",
+     "surface": "לֹא־",
+     "plain": "לֹא",
+     "translit": "lo",
+     "segments": [
+      {
+       "text": "לֹא",
+       "lexemeId": "he:lex:H3808",
+       "role": "stem",
+       "morph": {
+        "code": "Tn",
+        "source": "oshb",
+        "pos": "particle",
+        "subtype": "negative"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19p6C",
+     "surface": "אִירָא",
+     "plain": "אִירָא",
+     "translit": "ʾira",
+     "segments": [
+      {
+       "text": "אִירָא",
+       "lexemeId": "he:lex:H3372",
+       "role": "stem",
+       "morph": {
+        "code": "Vqi1cs",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "yiqtol",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19Dn5",
+     "surface": "רָע",
+     "plain": "רָע",
+     "translit": "raʿ",
+     "segments": [
+      {
+       "text": "רָע",
+       "lexemeId": "he:lex:H7451b",
+       "role": "stem",
+       "morph": {
+        "code": "Aamsa",
+        "source": "oshb",
+        "pos": "adjective",
+        "subtype": "adjective",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:197mc",
+     "surface": "כִּי־",
+     "plain": "כִּי",
+     "translit": "ki",
+     "segments": [
+      {
+       "text": "כִּי",
+       "lexemeId": "he:lex:H3588a",
+       "role": "stem",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19icW",
+     "surface": "אַתָּה",
+     "plain": "אַתָּה",
+     "translit": "ʾata",
+     "segments": [
+      {
+       "text": "אַתָּה",
+       "lexemeId": "he:lex:H0859a",
+       "role": "stem",
+       "morph": {
+        "code": "Pp2ms",
+        "source": "oshb",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19WQu",
+     "surface": "עִמָּדִי",
+     "plain": "עִמָּדִי",
+     "translit": "ʿimadi",
+     "segments": [
+      {
+       "text": "עִמָּדִ",
+       "lexemeId": "he:lex:H5978",
+       "role": "stem",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19rMa",
+     "surface": "שִׁבְטְךָ",
+     "plain": "שִׁבְטְךָ",
+     "translit": "shivṭəkha",
+     "segments": [
+      {
+       "text": "שִׁבְטְ",
+       "lexemeId": "he:lex:H7626",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19H5x",
+     "surface": "וּמִשְׁעַנְתֶּךָ",
+     "plain": "וּמִשְׁעַנְתֶּךָ",
+     "translit": "umishʿantekha",
+     "segments": [
+      {
+       "text": "וּ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "מִשְׁעַנְתֶּ",
+       "lexemeId": "he:lex:H4938b",
+       "role": "stem",
+       "morph": {
+        "code": "Ncfsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "f",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "ךָ",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp2ms",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19Lft",
+     "surface": "הֵמָּה",
+     "plain": "הֵמָּה",
+     "translit": "hema",
+     "segments": [
+      {
+       "text": "הֵמָּה",
+       "lexemeId": "he:lex:H1992",
+       "role": "stem",
+       "morph": {
+        "code": "Pp3mp",
+        "source": "oshb",
+        "pos": "pronoun",
+        "subtype": "personal",
+        "person": "3",
+        "gender": "m",
+        "number": "p"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19bTD",
+     "surface": "יְנַחֲמֻנִי",
+     "plain": "יְנַחֲמֻנִי",
+     "translit": "yənaḥamuni",
+     "segments": [
+      {
+       "text": "יְנַחֲמֻ",
+       "lexemeId": "he:lex:H5162",
+       "role": "stem",
+       "morph": {
+        "code": "Vpi3mp",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "piel",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "p"
+       }
+      },
+      {
+       "text": "נִי",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Ps.23.5",
+   "ref": "Salmos 23:5",
+   "words": [
+    {
+     "id": "he:w:19W19",
+     "surface": "תַּעֲרֹךְ",
+     "plain": "תַּעֲרֹךְ",
+     "translit": "taʿarokh",
+     "segments": [
+      {
+       "text": "תַּעֲרֹךְ",
+       "lexemeId": "he:lex:H6186a",
+       "role": "stem",
+       "morph": {
+        "code": "Vqi2ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "yiqtol",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19CUd",
+     "surface": "לְפָנַי",
+     "plain": "לְפָנַי",
+     "translit": "ləfanay",
+     "segments": [
+      {
+       "text": "לְ",
+       "lexemeId": "he:lex:l",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "פָנַ",
+       "lexemeId": "he:lex:H6440",
+       "role": "stem",
+       "morph": {
+        "code": "Ncbpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "c",
+        "number": "p",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19dBb",
+     "surface": "שֻׁלְחָן",
+     "plain": "שֻׁלְחָן",
+     "translit": "shulḥan",
+     "segments": [
+      {
+       "text": "שֻׁלְחָן",
+       "lexemeId": "he:lex:H7979",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19oQH",
+     "surface": "נֶגֶד",
+     "plain": "נֶגֶד",
+     "translit": "neged",
+     "segments": [
+      {
+       "text": "נֶגֶד",
+       "lexemeId": "he:lex:H5048",
+       "role": "stem",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19FgV",
+     "surface": "צֹרְרָי",
+     "plain": "צֹרְרָי",
+     "translit": "tsorray",
+     "segments": [
+      {
+       "text": "צֹרְרָ",
+       "lexemeId": "he:lex:H6887d",
+       "role": "stem",
+       "morph": {
+        "code": "Vqrmpc",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "participle",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19sAH",
+     "surface": "דִּשַּׁנְתָּ",
+     "plain": "דִּשַּׁנְתָּ",
+     "translit": "dishanta",
+     "segments": [
+      {
+       "text": "דִּשַּׁנְתָּ",
+       "lexemeId": "he:lex:H1878",
+       "role": "stem",
+       "morph": {
+        "code": "Vpp2ms",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "piel",
+        "tense": "qatal",
+        "person": "2",
+        "gender": "m",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19fPE",
+     "surface": "בַשֶּׁמֶן",
+     "plain": "בַשֶּׁמֶן",
+     "translit": "vashemen",
+     "segments": [
+      {
+       "text": "בַ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "Rd",
+        "source": "oshb",
+        "pos": "preposition",
+        "subtype": "with-article"
+       }
+      },
+      {
+       "text": "שֶּׁמֶן",
+       "lexemeId": "he:lex:H8081",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19kFY",
+     "surface": "רֹאשִׁי",
+     "plain": "רֹאשִׁי",
+     "translit": "roshi",
+     "segments": [
+      {
+       "text": "רֹאשִׁ",
+       "lexemeId": "he:lex:H7218a",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19oVM",
+     "surface": "כּוֹסִי",
+     "plain": "כּוֹסִי",
+     "translit": "kosi",
+     "segments": [
+      {
+       "text": "כּוֹסִ",
+       "lexemeId": "he:lex:H3563a",
+       "role": "stem",
+       "morph": {
+        "code": "Ncfsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "f",
+        "number": "s",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19DD6",
+     "surface": "רְוָיָה",
+     "plain": "רְוָיָה",
+     "translit": "rəvaya",
+     "segments": [
+      {
+       "text": "רְוָיָה",
+       "lexemeId": "he:lex:H7310",
+       "role": "stem",
+       "morph": {
+        "code": "Ncfsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "f",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "osis": "Ps.23.6",
+   "ref": "Salmos 23:6",
+   "words": [
+    {
+     "id": "he:w:19T6s",
+     "surface": "אַךְ",
+     "plain": "אַךְ",
+     "translit": "ʾakh",
+     "segments": [
+      {
+       "text": "אַךְ",
+       "lexemeId": "he:lex:H0389",
+       "role": "stem",
+       "morph": {
+        "code": "Ta",
+        "source": "oshb",
+        "pos": "particle",
+        "subtype": "affirmation"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19UTG",
+     "surface": "טוֹב",
+     "plain": "טוֹב",
+     "translit": "ṭov",
+     "segments": [
+      {
+       "text": "טוֹב",
+       "lexemeId": "he:lex:H2896b",
+       "role": "stem",
+       "morph": {
+        "code": "Aamsa",
+        "source": "oshb",
+        "pos": "adjective",
+        "subtype": "adjective",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19TjC",
+     "surface": "וָחֶסֶד",
+     "plain": "וָחֶסֶד",
+     "translit": "vaḥesed",
+     "segments": [
+      {
+       "text": "וָ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "חֶסֶד",
+       "lexemeId": "he:lex:H2617a",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "absolute"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19B7W",
+     "surface": "יִרְדְּפוּנִי",
+     "plain": "יִרְדְּפוּנִי",
+     "translit": "yirdəfuni",
+     "segments": [
+      {
+       "text": "יִרְדְּפוּ",
+       "lexemeId": "he:lex:H7291",
+       "role": "stem",
+       "morph": {
+        "code": "Vpi3mp",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "piel",
+        "tense": "yiqtol",
+        "person": "3",
+        "gender": "m",
+        "number": "p"
+       }
+      },
+      {
+       "text": "נִי",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19ggZ",
+     "surface": "כָּל־",
+     "plain": "כָּל",
+     "translit": "kol",
+     "segments": [
+      {
+       "text": "כָּל",
+       "lexemeId": "he:lex:H3605",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19sDo",
+     "surface": "יְמֵי",
+     "plain": "יְמֵי",
+     "translit": "yəme",
+     "segments": [
+      {
+       "text": "יְמֵי",
+       "lexemeId": "he:lex:H3117",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19hQe",
+     "surface": "חַיָּי",
+     "plain": "חַיָּי",
+     "translit": "ḥayay",
+     "segments": [
+      {
+       "text": "חַיָּ",
+       "lexemeId": "he:lex:H2416e",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "construct"
+       }
+      },
+      {
+       "text": "י",
+       "lexemeId": null,
+       "role": "suffix",
+       "morph": {
+        "code": "Sp1cs",
+        "source": "oshb",
+        "pos": "suffix",
+        "subtype": "pronominal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19Fmq",
+     "surface": "וְשַׁבְתִּי",
+     "plain": "וְשַׁבְתִּי",
+     "translit": "vəshavti",
+     "segments": [
+      {
+       "text": "וְ",
+       "lexemeId": "he:lex:c",
+       "role": "prefix",
+       "morph": {
+        "code": "C",
+        "source": "oshb",
+        "pos": "conjunction"
+       }
+      },
+      {
+       "text": "שַׁבְתִּי",
+       "lexemeId": "he:lex:H3427",
+       "role": "stem",
+       "morph": {
+        "code": "Vqq1cs",
+        "source": "oshb",
+        "pos": "verb",
+        "stem": "qal",
+        "tense": "weqatal",
+        "person": "1",
+        "gender": "c",
+        "number": "s"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:194ga",
+     "surface": "בְּבֵית־",
+     "plain": "בְּבֵית",
+     "translit": "bəvet",
+     "segments": [
+      {
+       "text": "בְּ",
+       "lexemeId": "he:lex:b",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "בֵית",
+       "lexemeId": "he:lex:H1004b",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19qZF",
+     "surface": "יְהוָה",
+     "plain": "יְהוָה",
+     "translit": "YHWH",
+     "segments": [
+      {
+       "text": "יְהוָה",
+       "lexemeId": "he:lex:H3068",
+       "role": "stem",
+       "morph": {
+        "code": "Np",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "proper"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19o7p",
+     "surface": "לְאֹרֶךְ",
+     "plain": "לְאֹרֶךְ",
+     "translit": "ləʾorekh",
+     "segments": [
+      {
+       "text": "לְ",
+       "lexemeId": "he:lex:l",
+       "role": "prefix",
+       "morph": {
+        "code": "R",
+        "source": "oshb",
+        "pos": "preposition"
+       }
+      },
+      {
+       "text": "אֹרֶךְ",
+       "lexemeId": "he:lex:H0753",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmsc",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "s",
+        "state": "construct"
+       }
+      }
+     ]
+    },
+    {
+     "id": "he:w:19BQB",
+     "surface": "יָמִים",
+     "plain": "יָמִים",
+     "translit": "yamim",
+     "segments": [
+      {
+       "text": "יָמִים",
+       "lexemeId": "he:lex:H3117",
+       "role": "stem",
+       "morph": {
+        "code": "Ncmpa",
+        "source": "oshb",
+        "pos": "noun",
+        "subtype": "common",
+        "gender": "m",
+        "number": "p",
+        "state": "absolute"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "A bênção sacerdotal",
+  "genre": "blessing",
+  "tier": 3,
+  "isPrayer": true,
+  "unlockAfterUnitId": "he-u5",
+  "intro": "Três linhas que crescem: três, cinco e sete palavras. É o texto bíblico mais antigo já encontrado em um objeto arqueológico.",
+  "sourceIds": ["oshb", "wlc"],
+  "secretIds": ["he-sec-priestly-growth"],
+  "windowIds": ["he-win-ketef-hinnom"],
+  "translations": [
+    "Que YHWH te abençoe e te guarde.",
+    "Que YHWH faça brilhar o seu rosto sobre ti e te mostre favor.",
+    "Que YHWH levante o seu rosto para ti e te dê paz."
+  ],
+  "glosses": [
+    ["que te abençoe", "YHWH", "e te guarde"],
+    ["faça brilhar", "YHWH", "o seu rosto", "para ti", "e te mostre favor"],
+    ["levante", "YHWH", "o seu rosto", "para ti", "e ponha", "para ti", "paz"]
+  ],
+  "notes": [
+    { "verse": "Num.6.24", "title": "Um desejo, não uma afirmação", "epistemic": "fact", "body": "Os verbos expressam desejo (\"que ele abençoe\"), não descrição (\"ele abençoa\"). O ךָ final é o sufixo \"te\"." },
+    { "verse": "Num.6.25", "title": "\"Fazer brilhar o rosto\"", "epistemic": "consensus", "body": "Expressão idiomática: um rosto que brilha para alguém indica favor e boa disposição. Traduzir palavra por palavra preserva a imagem; traduzir pelo sentido (\"seja bondoso contigo\") perde a imagem e ganha clareza." }
+  ]
+}

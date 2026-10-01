@@ -1,0 +1,116 @@
+[
+  {
+    "id": "he-world",
+    "file": "media/he-world.webp",
+    "commonsTitle": "File:Gezicht op Jeruzalem vanaf de Olijfberg Vue de Jérusalem, prise du Mt des Oliviers.- View of Jerusalem from the Mount of Olives. (titel op object), RP-F-F01089-AA.jpg",
+    "title": "Vista de Jerusalém a partir do Monte das Oliveiras",
+    "author": "Maison Bonfils",
+    "date": "c. 1867–1895",
+    "institution": "Rijksmuseum, Amsterdã",
+    "license": "CC0 1.0 (domínio público)",
+    "sourceUrl": "http://hdl.handle.net/10934/RM0001.COLLECT.276795",
+    "alt": "Fotografia do século XIX: a cidade murada de Jerusalém vista do alto do Monte das Oliveiras.",
+    "focal": {
+      "x": 0.72,
+      "y": 0.55
+    },
+    "textSide": "bottom",
+    "crop": {
+      "left": 0.045,
+      "top": 0.045,
+      "width": 0.91,
+      "height": 0.87
+    }
+  },
+  {
+    "id": "gr-world",
+    "file": "media/gr-world.webp",
+    "commonsTitle": "File:Parthénon. Côté ouest de la péristasis, vu du nord. - (Gl.I.A.b.65).jpg",
+    "title": "Partenon: lado oeste da colunata, visto do norte",
+    "author": "William James Stillman",
+    "date": "1882",
+    "institution": "Bibliothèque nationale et universitaire de Strasbourg (Numistral)",
+    "license": "Domínio público",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parth%C3%A9non._C%C3%B4t%C3%A9_ouest_de_la_p%C3%A9ristasis,_vu_du_nord._-_(Gl.I.A.b.65).jpg",
+    "alt": "Fotografia do século XIX: fileira de colunas dóricas do Partenon em perspectiva.",
+    "focal": {
+      "x": 0.5,
+      "y": 0.42
+    },
+    "textSide": "right",
+    "crop": {
+      "left": 0.128,
+      "top": 0.108,
+      "width": 0.745,
+      "height": 0.77
+    }
+  },
+  {
+    "id": "he-boss",
+    "file": "media/he-boss.webp",
+    "commonsTitle": "File:Rembrandt - Moses with the Ten Commandments - Google Art Project.jpg",
+    "title": "Moisés com as tábuas da Lei",
+    "author": "Rembrandt van Rijn",
+    "date": "1659",
+    "institution": "Gemäldegalerie, Berlim",
+    "license": "Domínio público",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+    "alt": "Pintura: Moisés ergue acima da cabeça as tábuas de pedra escritas em hebraico.",
+    "focal": {
+      "x": 0.47,
+      "y": 0.1
+    },
+    "textSide": "right"
+  },
+  {
+    "id": "gr-boss",
+    "file": "media/gr-boss.webp",
+    "commonsTitle": "File:Raphael - St Paul Preaching at Athens c.1515-6.jpg",
+    "title": "São Paulo pregando em Atenas",
+    "author": "Rafael",
+    "date": "c. 1515–1516",
+    "institution": "Royal Collection Trust (em depósito no Victoria and Albert Museum, Londres)",
+    "license": "Domínio público",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raphael_-_St_Paul_Preaching_at_Athens_c.1515-6.jpg",
+    "alt": "Cartão de tapeçaria: Paulo, de braços erguidos, fala a um grupo de atenienses diante de edifícios com colunas.",
+    "focal": {
+      "x": 0.3,
+      "y": 0.3
+    },
+    "textSide": "bottom"
+  },
+  {
+    "id": "sources",
+    "file": "media/sources.webp",
+    "commonsTitle": "File:Saint Augustine by Philippe de Champaigne.jpg",
+    "title": "Santo Agostinho",
+    "author": "Philippe de Champaigne",
+    "date": "c. 1645–1650",
+    "institution": "Los Angeles County Museum of Art (LACMA)",
+    "license": "Domínio público",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+    "alt": "Pintura: Agostinho em seu estúdio, com uma pena em uma das mãos e um coração em chamas na outra, olhando para a luz.",
+    "focal": {
+      "x": 0.62,
+      "y": 0.24
+    },
+    "textSide": "right"
+  },
+  {
+    "id": "reading",
+    "file": "media/reading.webp",
+    "commonsTitle": "File:Albrecht Dürer, Saint Jerome in His Study, 1514, NGA 6642.jpg",
+    "title": "São Jerônimo em seu estúdio",
+    "author": "Albrecht Dürer",
+    "date": "1514",
+    "institution": "National Gallery of Art, Washington",
+    "license": "CC0 1.0 (domínio público)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Saint_Jerome_in_His_Study,_1514,_NGA_6642.jpg",
+    "alt": "Gravura: Jerônimo escreve à mesa em um estúdio iluminado pela janela, com um leão e um cão deitados no chão.",
+    "focal": {
+      "x": 0.6,
+      "y": 0.4
+    },
+    "textSide": "right"
+  }
+]

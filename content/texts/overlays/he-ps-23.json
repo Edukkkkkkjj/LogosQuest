@@ -1,0 +1,32 @@
+{
+  "title": "Salmo 23",
+  "genre": "poetry",
+  "tier": 4,
+  "isPrayer": true,
+  "unlockAfterUnitId": "he-u6",
+  "intro": "Seis versículos de poesia. Há muitas palavras novas, mas você já reconhece os prefixos, os sufixos e boa parte do vocabulário.",
+  "sourceIds": ["oshb", "wlc"],
+  "secretIds": ["he-sec-ps23-shuv", "he-sec-ps23-person"],
+  "windowIds": ["he-win-pastor", "he-win-mesa"],
+  "translations": [
+    "Salmo de Davi. YHWH é o meu pastor: nada me faltará.",
+    "Em pastagens de relva ele me faz deitar; junto a águas de descanso ele me conduz.",
+    "Ele restaura a minha vida; guia-me por trilhas de justiça por causa do seu nome.",
+    "Ainda que eu ande por um vale de escuridão profunda, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado, eles me consolam.",
+    "Preparas uma mesa diante de mim, em frente aos meus adversários; unges com óleo a minha cabeça; o meu cálice transborda.",
+    "Certamente bondade e amor leal me seguirão todos os dias da minha vida, e voltarei à casa de YHWH por longos dias."
+  ],
+  "glosses": [
+    ["salmo", "de Davi", "YHWH", "é meu pastor", "não", "me faltará"],
+    ["em pastagens de", "relva", "me faz deitar", "junto a", "águas de", "descanso", "me conduz"],
+    ["minha vida", "restaura", "guia-me", "por trilhas de", "justiça", "por causa de", "o seu nome"],
+    ["ainda", "que", "eu ande", "por um vale de", "escuridão profunda", "não", "temerei", "mal", "porque", "tu", "estás comigo", "a tua vara", "e o teu cajado", "eles", "me consolam"],
+    ["preparas", "diante de mim", "uma mesa", "em frente a", "meus adversários", "unges", "com óleo", "minha cabeça", "meu cálice", "transbordante"],
+    ["certamente", "bondade", "e amor leal", "me seguirão", "todos", "os dias de", "minha vida", "e voltarei / habitarei", "na casa de", "YHWH", "por longos", "dias"]
+  ],
+  "notes": [
+    { "verse": "Ps.23.1", "title": "\"Meu pastor\" é um verbo", "epistemic": "fact", "body": "רֹעִי é o particípio de רָעָה (pastorear) com o sufixo \"meu\": literalmente \"o que me pastoreia\"." },
+    { "verse": "Ps.23.4", "title": "\"Sombra da morte\"?", "epistemic": "debated", "body": "צַלְמָוֶת foi lida tradicionalmente como composto de צֵל (sombra) + מָוֶת (morte). Muitos hebraístas hoje a entendem como um substantivo único que significa \"escuridão profunda\". Ambas as análises aparecem em léxicos de referência." },
+    { "verse": "Ps.23.6", "title": "Perseguido pela bondade", "epistemic": "fact", "body": "רָדַף é o verbo usual para \"perseguir\" um inimigo. Aqui quem persegue o salmista são a bondade e o amor leal." }
+  ]
+}

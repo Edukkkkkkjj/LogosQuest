@@ -1,0 +1,23 @@
+{
+  "title": "Shemá — Escuta, Israel",
+  "genre": "law",
+  "tier": 2,
+  "isPrayer": true,
+  "unlockAfterUnitId": "he-u5",
+  "intro": "A declaração central da fé de Israel, recitada diariamente desde a Antiguidade. Dois versículos, dezesseis palavras.",
+  "sourceIds": ["oshb", "wlc"],
+  "secretIds": ["he-sec-shema-large", "he-sec-shema-kol"],
+  "windowIds": ["he-win-shema", "he-win-levav", "he-win-nefesh"],
+  "translations": [
+    "Escuta, Israel: YHWH é o nosso Deus, YHWH é um.",
+    "E amarás YHWH, teu Deus, com todo o teu coração, com toda a tua vida e com toda a tua força."
+  ],
+  "glosses": [
+    ["escuta", "Israel", "YHWH", "nosso Deus", "YHWH", "um / único"],
+    ["e amarás", "(objeto)", "YHWH", "teu Deus", "com todo", "o teu coração", "e com toda", "a tua vida", "e com toda", "a tua força"]
+  ],
+  "notes": [
+    { "verse": "Deut.6.4", "title": "Quatro palavras, várias traduções", "epistemic": "debated", "body": "יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד não tem verbo: o hebraico dispensa o \"é\". Onde colocá-lo é a questão. Leituras defendidas: \"YHWH é o nosso Deus, YHWH é um\"; \"YHWH nosso Deus é um só YHWH\"; \"YHWH é o nosso Deus, somente YHWH\". A gramática permite todas." },
+    { "verse": "Deut.6.5", "title": "Um sufixo que diz \"teu\"", "epistemic": "fact", "body": "O ךָ no fim de לְבָבְךָ, נַפְשְׁךָ e מְאֹדֶךָ é um sufixo pronominal: \"teu\" (2ª pessoa, masculino, singular). Em hebraico o possessivo vem colado ao substantivo." }
+  ]
+}
